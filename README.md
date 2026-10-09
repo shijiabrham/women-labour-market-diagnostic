@@ -1,13 +1,13 @@
 ---
-title: Women’s Labour Market Diagnostic in India
-emoji: 🇮🇳
+title: Women Labour Market Diagnostic
+emoji: 📊
 colorFrom: blue
 colorTo: indigo
 sdk: gradio
 sdk_version: 4.44.1
 app_file: app.py
 pinned: false
-short_description: Understanding women’s labour-market outcomes across Indian states.
+short_description: Women labour market diagnostic across Indian states
 ---
 
 # Women’s Labour Market Diagnostic in India
