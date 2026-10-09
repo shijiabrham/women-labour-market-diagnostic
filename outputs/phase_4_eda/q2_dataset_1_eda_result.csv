@@ -1,0 +1,9 @@
+Question_ID,Dataset,Year,Filter,Aggregation_Level,Filtered_Row_Count,Valid_Observation_Count,Mean,Median,Minimum,Maximum,Population_Standard_Deviation,Missing_Count,Status
+Q2,Dataset 1,2017,Gender == Female,Year,7550,1080,23.945,19.35,0.0,100.0,17.993,0,OK
+Q2,Dataset 1,2018,Gender == Female,Year,7550,1080,25.659,22.15,0.0,100.0,18.22,0,OK
+Q2,Dataset 1,2019,Gender == Female,Year,7550,1080,30.295,26.175,0.0,100.0,19.066,0,OK
+Q2,Dataset 1,2020,Gender == Female,Year,7550,1080,31.454,27.1,0.0,100.0,19.362,0,OK
+Q2,Dataset 1,2021,Gender == Female,Year,7550,1080,31.306,28.55,0.0,100.0,18.87,0,OK
+Q2,Dataset 1,2022,Gender == Female,Year,7550,1070,35.576,32.6,0.0,100.0,20.514,0,OK
+Q2,Dataset 1,2023,Gender == Female,Year,7550,1070,39.328,36.35,0.0,100.0,20.249,10,OK
+Q2,Dataset 1,All,Gender == Female,All Years,7550,7540,31.063,27.1,0.0,100.0,19.818,10,OK

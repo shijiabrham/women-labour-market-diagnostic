@@ -1,0 +1,179 @@
+{
+  "zero_total": 3849,
+  "zero_percent_of_all": 16.99,
+  "distribution": {
+    "year": {
+      "counts": {
+        "PLFS Year (Jul - Jun), 2017": 389,
+        "PLFS Year (Jul - Jun), 2018": 480,
+        "PLFS Year (Jul - Jun), 2019": 552,
+        "PLFS Year (Jul - Jun), 2020": 585,
+        "PLFS Year (Jul - Jun), 2021": 545,
+        "PLFS Year (Jul - Jun), 2022": 659,
+        "PLFS Year (Jul - Jun), 2023": 639
+      },
+      "pct": {
+        "PLFS Year (Jul - Jun), 2017": 10.11,
+        "PLFS Year (Jul - Jun), 2018": 12.47,
+        "PLFS Year (Jul - Jun), 2019": 14.34,
+        "PLFS Year (Jul - Jun), 2020": 15.2,
+        "PLFS Year (Jul - Jun), 2021": 14.16,
+        "PLFS Year (Jul - Jun), 2022": 17.12,
+        "PLFS Year (Jul - Jun), 2023": 16.6
+      }
+    },
+    "state": {
+      "counts": {
+        "Andaman and Nicobar Islands": 132,
+        "Andhra Pradesh": 103,
+        "Arunachal Pradesh": 101,
+        "Assam": 70,
+        "Bihar": 81,
+        "Chandigarh": 204,
+        "Chhattisgarh": 78,
+        "Delhi": 233,
+        "Goa": 135,
+        "Gujarat": 64,
+        "Haryana": 45,
+        "Himachal Pradesh": 88,
+        "Jammu and Kashmir": 41,
+        "Jharkhand": 114,
+        "Karnataka": 74,
+        "Kerala": 46,
+        "Ladakh": 237,
+        "Lakshadweep": 213,
+        "Madhya Pradesh": 94,
+        "Maharashtra": 35,
+        "Manipur": 88,
+        "Meghalaya": 132,
+        "Mizoram": 182,
+        "Nagaland": 125,
+        "Odisha": 54,
+        "Puducherry": 189,
+        "Punjab": 28,
+        "Rajasthan": 56,
+        "Sikkim": 196,
+        "Tamil Nadu": 47,
+        "Telangana": 57,
+        "The Dadra and Nagar Haveli and Daman and Diu": 268,
+        "Tripura": 111,
+        "Uttar Pradesh": 45,
+        "Uttarakhand": 55,
+        "West Bengal": 28
+      },
+      "pct": {
+        "Andaman and Nicobar Islands": 3.43,
+        "Andhra Pradesh": 2.68,
+        "Arunachal Pradesh": 2.62,
+        "Assam": 1.82,
+        "Bihar": 2.1,
+        "Chandigarh": 5.3,
+        "Chhattisgarh": 2.03,
+        "Delhi": 6.05,
+        "Goa": 3.51,
+        "Gujarat": 1.66,
+        "Haryana": 1.17,
+        "Himachal Pradesh": 2.29,
+        "Jammu and Kashmir": 1.07,
+        "Jharkhand": 2.96,
+        "Karnataka": 1.92,
+        "Kerala": 1.2,
+        "Ladakh": 6.16,
+        "Lakshadweep": 5.53,
+        "Madhya Pradesh": 2.44,
+        "Maharashtra": 0.91,
+        "Manipur": 2.29,
+        "Meghalaya": 3.43,
+        "Mizoram": 4.73,
+        "Nagaland": 3.25,
+        "Odisha": 1.4,
+        "Puducherry": 4.91,
+        "Punjab": 0.73,
+        "Rajasthan": 1.45,
+        "Sikkim": 5.09,
+        "Tamil Nadu": 1.22,
+        "Telangana": 1.48,
+        "The Dadra and Nagar Haveli and Daman and Diu": 6.96,
+        "Tripura": 2.88,
+        "Uttar Pradesh": 1.17,
+        "Uttarakhand": 1.43,
+        "West Bengal": 0.73
+      }
+    },
+    "gender": {
+      "counts": {
+        "Female": 2023,
+        "Male": 1027,
+        "Persons": 799
+      },
+      "pct": {
+        "Female": 52.56,
+        "Male": 26.68,
+        "Persons": 20.76
+      }
+    },
+    "education": {
+      "counts": {
+        "All": 18,
+        "Diploma/ Certificate Course": 745,
+        "Graduate": 72,
+        "Higher Secondary": 156,
+        "Literate & Upto Primary": 763,
+        "Middle": 301,
+        "Not Literate": 1282,
+        "Post Graduate & Above": 228,
+        "Secondary": 265,
+        "Secondary & Above": 19
+      },
+      "pct": {
+        "All": 0.47,
+        "Diploma/ Certificate Course": 19.36,
+        "Graduate": 1.87,
+        "Higher Secondary": 4.05,
+        "Literate & Upto Primary": 19.82,
+        "Middle": 7.82,
+        "Not Literate": 33.31,
+        "Post Graduate & Above": 5.92,
+        "Secondary": 6.88,
+        "Secondary & Above": 0.49
+      }
+    },
+    "area": {
+      "counts": {
+        "Rural": 1727,
+        "Rural + Urban": 922,
+        "Urban": 1200
+      },
+      "pct": {
+        "Rural": 44.87,
+        "Rural + Urban": 23.95,
+        "Urban": 31.18
+      }
+    }
+  },
+  "aggregate_category_counts": {
+    "Gender Persons": 799,
+    "Education All": 18,
+    "Education Secondary & Above": 19,
+    "Area Rural + Urban": 922
+  },
+  "lfpr_stats_for_zero_ur": {
+    "mean": 48.6448,
+    "median": 48.7,
+    "min": 0.0,
+    "max": 100.0
+  },
+  "wpr_stats_for_zero_ur": {
+    "mean": 48.6702,
+    "median": 48.7,
+    "min": 0.0,
+    "max": 100.0
+  },
+  "top_concentrations": {
+    "year": "PLFS Year (Jul - Jun), 2022",
+    "state": "The Dadra and Nagar Haveli and Daman and Diu",
+    "gender": "Female",
+    "education": "Not Literate",
+    "area": "Rural"
+  }
+}

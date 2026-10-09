@@ -1,0 +1,60 @@
+Dimension,Category,Total_Records,Est_Missing_Count,Est_Missing_Pct,Samp_Missing_Count,Samp_Missing_Pct
+Year,"PLFS Year (Jul - Jun), 2017",5184,5184,100.0,5184,100.0
+Year,"PLFS Year (Jul - Jun), 2018",5184,0,0.0,0,0.0
+Year,"PLFS Year (Jul - Jun), 2019",5184,0,0.0,0,0.0
+Year,"PLFS Year (Jul - Jun), 2020",5184,0,0.0,0,0.0
+Year,"PLFS Year (Jul - Jun), 2021",5184,0,0.0,0,0.0
+Year,"PLFS Year (Jul - Jun), 2022",2592,2592,100.0,0,0.0
+Year,"PLFS Year (Jul - Jun), 2023",2568,2568,100.0,0,0.0
+State,Andaman and Nicobar Islands,864,288,33.33,144,16.67
+State,Andhra Pradesh,864,288,33.33,144,16.67
+State,Arunachal Pradesh,864,288,33.33,144,16.67
+State,Assam,864,288,33.33,144,16.67
+State,Bihar,864,288,33.33,144,16.67
+State,Chandigarh,840,264,31.43,144,17.14
+State,Chhattisgarh,864,288,33.33,144,16.67
+State,Delhi,864,288,33.33,144,16.67
+State,Goa,864,288,33.33,144,16.67
+State,Gujarat,864,288,33.33,144,16.67
+State,Haryana,864,288,33.33,144,16.67
+State,Himachal Pradesh,864,288,33.33,144,16.67
+State,Jammu and Kashmir,864,288,33.33,144,16.67
+State,Jharkhand,864,288,33.33,144,16.67
+State,Karnataka,864,288,33.33,144,16.67
+State,Kerala,864,288,33.33,144,16.67
+State,Ladakh,864,288,33.33,144,16.67
+State,Lakshadweep,864,288,33.33,144,16.67
+State,Madhya Pradesh,864,288,33.33,144,16.67
+State,Maharashtra,864,288,33.33,144,16.67
+State,Manipur,864,288,33.33,144,16.67
+State,Meghalaya,864,288,33.33,144,16.67
+State,Mizoram,864,288,33.33,144,16.67
+State,Nagaland,864,288,33.33,144,16.67
+State,Odisha,864,288,33.33,144,16.67
+State,Puducherry,864,288,33.33,144,16.67
+State,Punjab,864,288,33.33,144,16.67
+State,Rajasthan,864,288,33.33,144,16.67
+State,Sikkim,864,288,33.33,144,16.67
+State,Tamil Nadu,864,288,33.33,144,16.67
+State,Telangana,864,288,33.33,144,16.67
+State,The Dadra and Nagar Haveli and Daman and Diu,864,288,33.33,144,16.67
+State,Tripura,864,288,33.33,144,16.67
+State,Uttar Pradesh,864,288,33.33,144,16.67
+State,Uttarakhand,864,288,33.33,144,16.67
+State,West Bengal,864,288,33.33,144,16.67
+Type Of Areas,Rural,10344,3432,33.18,1728,16.71
+Type Of Areas,Rural + Urban,10368,3456,33.33,1728,16.67
+Type Of Areas,Urban,10368,3456,33.33,1728,16.67
+Industry Division Type,"(014, 016, 017 , 02-99)",12960,2592,20.0,2592,20.0
+Industry Division Type,(05-99),18120,7752,42.78,2592,14.3
+Gender,Female,10360,3448,33.28,1728,16.68
+Gender,Male,10360,3448,33.28,1728,16.68
+Gender,Persons,10360,3448,33.28,1728,16.68
+Enterprise Type,Autonomous Bodies,3885,1293,33.28,648,16.68
+Enterprise Type,Cooperative Societies,3885,1293,33.28,648,16.68
+Enterprise Type,Employer's Households,3885,1293,33.28,648,16.68
+Enterprise Type,Govt./ Local Body/ Public Sector Enterprises,3885,1293,33.28,648,16.68
+Enterprise Type,Others,3885,1293,33.28,648,16.68
+Enterprise Type,Proprietary and Partnership,3885,1293,33.28,648,16.68
+Enterprise Type,Public/ Private Limited Company,3885,1293,33.28,648,16.68
+Enterprise Type,Trust/ Other Non Profit inst,3885,1293,33.28,648,16.68

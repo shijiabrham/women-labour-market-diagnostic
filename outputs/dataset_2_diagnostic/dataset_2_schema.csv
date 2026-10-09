@@ -1,0 +1,11 @@
+column,dtype_raw,non_null,null
+Country,object,31080,0
+State,object,31080,0
+Year,object,31080,0
+Type Of Areas,object,31080,0
+Industry Division Type,object,31080,0
+Gender,object,31080,0
+Enterprise Type,object,31080,0
+"Persons Engaged In The Industry Groups By Enterprise Type (%) (UOM:%(Percentage)), Scaling Factor:1",object,31080,0
+"Estimated Persons (UOM:Number), Scaling Factor:100",object,20736,10344
+"Sample Number Of Workers In The Enterprise (UOM:Number), Scaling Factor:1",object,25896,5184

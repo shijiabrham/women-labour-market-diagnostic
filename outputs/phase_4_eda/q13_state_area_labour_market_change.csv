@@ -1,0 +1,325 @@
+Country,State,Area_Type,Indicator,Value_2017,Value_2023,Absolute_Change,Percentage_Change,Missing_Count_2017,Missing_Count_2023
+India,Andaman and Nicobar Islands,Rural,LFPR,38.120,61.360,23.240,60.965,0,0
+India,Andaman and Nicobar Islands,Rural + Urban,LFPR,42.740,52.770,10.030,23.467,0,0
+India,Andaman and Nicobar Islands,Urban,LFPR,43.930,41.850,-2.080,-4.735,0,0
+India,Andhra Pradesh,Rural,LFPR,48.270,45.740,-2.530,-5.241,0,0
+India,Andhra Pradesh,Rural + Urban,LFPR,41.330,43.460,2.130,5.154,0,0
+India,Andhra Pradesh,Urban,LFPR,33.810,37.680,3.870,11.446,0,0
+India,Arunachal Pradesh,Rural,LFPR,24.550,61.300,36.750,149.695,0,0
+India,Arunachal Pradesh,Rural + Urban,LFPR,33.040,69.110,36.070,109.171,0,0
+India,Arunachal Pradesh,Urban,LFPR,30.370,56.800,26.430,87.027,0,0
+India,Assam,Rural,LFPR,26.180,59.340,33.160,126.662,0,0
+India,Assam,Rural + Urban,LFPR,27.020,55.810,28.790,106.551,0,0
+India,Assam,Urban,LFPR,24.170,41.730,17.560,72.652,0,0
+India,Bihar,Rural,LFPR,5.370,33.660,28.290,526.816,0,0
+India,Bihar,Rural + Urban,LFPR,13.800,31.530,17.730,128.478,0,0
+India,Bihar,Urban,LFPR,15.340,22.210,6.870,44.785,0,0
+India,Chandigarh,Rural,LFPR,16.040,,,,0,10
+India,Chandigarh,Rural + Urban,LFPR,27.270,32.570,5.300,19.435,0,0
+India,Chandigarh,Urban,LFPR,27.780,32.570,4.790,17.243,0,0
+India,Chhattisgarh,Rural,LFPR,46.680,63.960,17.280,37.018,0,0
+India,Chhattisgarh,Rural + Urban,LFPR,45.240,56.670,11.430,25.265,0,0
+India,Chhattisgarh,Urban,LFPR,37.400,35.680,-1.720,-4.599,0,0
+India,Delhi,Rural,LFPR,2.290,11.790,9.500,414.847,0,0
+India,Delhi,Rural + Urban,LFPR,24.280,20.590,-3.690,-15.198,0,0
+India,Delhi,Urban,LFPR,24.450,22.240,-2.210,-9.039,0,0
+India,Goa,Rural,LFPR,39.980,34.420,-5.560,-13.907,0,0
+India,Goa,Rural + Urban,LFPR,37.140,35.190,-1.950,-5.250,0,0
+India,Goa,Urban,LFPR,33.660,36.120,2.460,7.308,0,0
+India,Gujarat,Rural,LFPR,23.810,52.580,28.770,120.832,0,0
+India,Gujarat,Rural + Urban,LFPR,21.710,44.200,22.490,103.593,0,0
+India,Gujarat,Urban,LFPR,20.160,33.040,12.880,63.889,0,0
+India,Haryana,Rural,LFPR,18.320,25.700,7.380,40.284,0,0
+India,Haryana,Rural + Urban,LFPR,16.840,24.980,8.140,48.337,0,0
+India,Haryana,Urban,LFPR,16.450,22.290,5.840,35.502,0,0
+India,Himachal Pradesh,Rural,LFPR,53.510,74.120,20.610,38.516,0,0
+India,Himachal Pradesh,Rural + Urban,LFPR,50.870,71.020,20.150,39.611,0,0
+India,Himachal Pradesh,Urban,LFPR,28.830,45.370,16.540,57.371,0,0
+India,Jammu and Kashmir,Rural,LFPR,39.400,61.720,22.320,56.650,0,0
+India,Jammu and Kashmir,Rural + Urban,LFPR,38.000,57.190,19.190,50.500,0,0
+India,Jammu and Kashmir,Urban,LFPR,31.520,40.690,9.170,29.093,0,0
+India,Jharkhand,Rural,LFPR,19.080,46.150,27.070,141.876,0,0
+India,Jharkhand,Rural + Urban,LFPR,21.830,39.360,17.530,80.302,0,0
+India,Jharkhand,Urban,LFPR,15.050,18.780,3.730,24.784,0,0
+India,Karnataka,Rural,LFPR,33.170,43.680,10.510,31.685,0,0
+India,Karnataka,Rural + Urban,LFPR,29.430,40.520,11.090,37.683,0,0
+India,Karnataka,Urban,LFPR,27.000,33.460,6.460,23.926,0,0
+India,Kerala,Rural,LFPR,33.300,47.360,14.060,42.222,0,0
+India,Kerala,Rural + Urban,LFPR,33.140,43.820,10.680,32.227,0,0
+India,Kerala,Urban,LFPR,32.710,39.480,6.770,20.697,0,0
+India,Ladakh,Rural,LFPR,39.400,53.390,13.990,35.508,0,0
+India,Ladakh,Rural + Urban,LFPR,38.000,51.410,13.410,35.289,0,0
+India,Ladakh,Urban,LFPR,31.520,38.870,7.350,23.319,0,0
+India,Lakshadweep,Rural,LFPR,23.230,31.090,7.860,33.836,0,0
+India,Lakshadweep,Rural + Urban,LFPR,38.060,27.920,-10.140,-26.642,0,0
+India,Lakshadweep,Urban,LFPR,42.010,26.500,-15.510,-36.920,0,0
+India,Madhya Pradesh,Rural,LFPR,29.860,53.700,23.840,79.839,0,0
+India,Madhya Pradesh,Rural + Urban,LFPR,30.070,45.480,15.410,51.247,0,0
+India,Madhya Pradesh,Urban,LFPR,26.390,30.830,4.440,16.825,0,0
+India,Maharashtra,Rural,LFPR,34.940,45.120,10.180,29.136,0,0
+India,Maharashtra,Rural + Urban,LFPR,30.950,40.090,9.140,29.532,0,0
+India,Maharashtra,Urban,LFPR,24.220,31.870,7.650,31.585,0,0
+India,Manipur,Rural,LFPR,31.490,59.460,27.970,88.822,0,0
+India,Manipur,Rural + Urban,LFPR,34.170,56.570,22.400,65.555,0,0
+India,Manipur,Urban,LFPR,36.190,53.220,17.030,47.057,0,0
+India,Meghalaya,Rural,LFPR,61.170,79.380,18.210,29.769,0,0
+India,Meghalaya,Rural + Urban,LFPR,56.720,73.180,16.460,29.020,0,0
+India,Meghalaya,Urban,LFPR,42.770,53.790,11.020,25.766,0,0
+India,Mizoram,Rural,LFPR,36.920,32.090,-4.830,-13.082,0,0
+India,Mizoram,Rural + Urban,LFPR,45.250,48.220,2.970,6.564,0,0
+India,Mizoram,Urban,LFPR,44.900,46.030,1.130,2.517,0,0
+India,Nagaland,Rural,LFPR,27.500,70.700,43.200,157.091,0,0
+India,Nagaland,Rural + Urban,LFPR,25.380,67.900,42.520,167.533,0,0
+India,Nagaland,Urban,LFPR,23.220,58.800,35.580,153.230,0,0
+India,Odisha,Rural,LFPR,28.390,53.350,24.960,87.918,0,0
+India,Odisha,Rural + Urban,LFPR,25.500,49.220,23.720,93.020,0,0
+India,Odisha,Urban,LFPR,22.790,34.810,12.020,52.742,0,0
+India,Puducherry,Rural,LFPR,14.270,47.300,33.030,231.465,0,0
+India,Puducherry,Rural + Urban,LFPR,20.790,36.540,15.750,75.758,0,0
+India,Puducherry,Urban,LFPR,24.690,30.370,5.680,23.005,0,0
+India,Punjab,Rural,LFPR,19.690,39.310,19.620,99.644,0,0
+India,Punjab,Rural + Urban,LFPR,20.970,34.890,13.920,66.381,0,0
+India,Punjab,Urban,LFPR,22.630,28.860,6.230,27.530,0,0
+India,Rajasthan,Rural,LFPR,29.950,54.280,24.330,81.235,0,0
+India,Rajasthan,Rural + Urban,LFPR,24.270,46.410,22.140,91.224,0,0
+India,Rajasthan,Urban,LFPR,16.800,29.980,13.180,78.452,0,0
+India,Sikkim,Rural,LFPR,49.040,79.700,30.660,62.520,0,0
+India,Sikkim,Rural + Urban,LFPR,45.360,68.670,23.310,51.389,0,0
+India,Sikkim,Urban,LFPR,44.360,39.890,-4.470,-10.077,0,0
+India,Tamil Nadu,Rural,LFPR,39.530,50.010,10.480,26.512,0,0
+India,Tamil Nadu,Rural + Urban,LFPR,34.640,41.610,6.970,20.121,0,0
+India,Tamil Nadu,Urban,LFPR,29.740,31.540,1.800,6.052,0,0
+India,Telangana,Rural,LFPR,36.690,57.860,21.170,57.700,0,0
+India,Telangana,Rural + Urban,LFPR,28.880,48.800,19.920,68.975,0,0
+India,Telangana,Urban,LFPR,22.570,36.820,14.250,63.137,0,0
+India,The Dadra and Nagar Haveli and Daman and Diu,Rural,LFPR,42.310,66.800,24.490,57.882,0,0
+India,The Dadra and Nagar Haveli and Daman and Diu,Rural + Urban,LFPR,34.470,48.640,14.170,41.108,0,0
+India,The Dadra and Nagar Haveli and Daman and Diu,Urban,LFPR,22.250,34.490,12.240,55.011,0,0
+India,Tripura,Rural,LFPR,17.320,45.990,28.670,165.531,0,0
+India,Tripura,Rural + Urban,LFPR,17.680,44.430,26.750,151.301,0,0
+India,Tripura,Urban,LFPR,20.680,39.680,19.000,91.876,0,0
+India,Uttar Pradesh,Rural,LFPR,16.920,41.480,24.560,145.154,0,0
+India,Uttar Pradesh,Rural + Urban,LFPR,17.480,35.050,17.570,100.515,0,0
+India,Uttar Pradesh,Urban,LFPR,17.040,23.070,6.030,35.387,0,0
+India,Uttarakhand,Rural,LFPR,20.860,49.650,28.790,138.015,0,0
+India,Uttarakhand,Rural + Urban,LFPR,23.200,50.540,27.340,117.845,0,0
+India,Uttarakhand,Urban,LFPR,23.050,30.910,7.860,34.100,0,0
+India,West Bengal,Rural,LFPR,24.720,46.920,22.200,89.806,0,0
+India,West Bengal,Rural + Urban,LFPR,23.900,42.620,18.720,78.326,0,0
+India,West Bengal,Urban,LFPR,23.600,35.670,12.070,51.144,0,0
+India,Andaman and Nicobar Islands,Rural,WPR,22.260,50.730,28.470,127.898,0,0
+India,Andaman and Nicobar Islands,Rural + Urban,WPR,21.980,40.610,18.630,84.759,0,0
+India,Andaman and Nicobar Islands,Urban,WPR,21.880,28.010,6.130,28.016,0,0
+India,Andhra Pradesh,Rural,WPR,37.360,39.610,2.250,6.022,0,0
+India,Andhra Pradesh,Rural + Urban,WPR,33.890,38.900,5.010,14.783,0,0
+India,Andhra Pradesh,Urban,WPR,27.660,34.560,6.900,24.946,0,0
+India,Arunachal Pradesh,Rural,WPR,19.430,51.650,32.220,165.826,0,0
+India,Arunachal Pradesh,Rural + Urban,WPR,24.840,58.700,33.860,136.312,0,0
+India,Arunachal Pradesh,Urban,WPR,22.050,44.070,22.020,99.864,0,0
+India,Assam,Rural,WPR,16.930,52.460,35.530,209.864,0,0
+India,Assam,Rural + Urban,WPR,18.180,49.340,31.160,171.397,0,0
+India,Assam,Urban,WPR,15.810,32.650,16.840,106.515,0,0
+India,Bihar,Rural,WPR,5.120,32.830,27.710,541.211,0,0
+India,Bihar,Rural + Urban,WPR,13.340,28.180,14.840,111.244,0,0
+India,Bihar,Urban,WPR,14.690,14.480,-0.210,-1.430,0,0
+India,Chandigarh,Rural,WPR,15.850,,,,0,10
+India,Chandigarh,Rural + Urban,WPR,22.630,28.200,5.570,24.613,0,0
+India,Chandigarh,Urban,WPR,22.990,28.200,5.210,22.662,0,0
+India,Chhattisgarh,Rural,WPR,38.890,60.180,21.290,54.744,0,0
+India,Chhattisgarh,Rural + Urban,WPR,39.200,52.890,13.690,34.923,0,0
+India,Chhattisgarh,Urban,WPR,31.750,31.150,-0.600,-1.890,0,0
+India,Delhi,Rural,WPR,2.290,8.100,5.810,253.712,0,0
+India,Delhi,Rural + Urban,WPR,22.670,20.240,-2.430,-10.719,0,0
+India,Delhi,Urban,WPR,22.800,21.930,-0.870,-3.816,0,0
+India,Goa,Rural,WPR,27.270,30.450,3.180,11.661,0,0
+India,Goa,Rural + Urban,WPR,25.960,30.520,4.560,17.565,0,0
+India,Goa,Urban,WPR,23.780,30.910,7.130,29.983,0,0
+India,Gujarat,Rural,WPR,18.440,51.630,33.190,179.989,0,0
+India,Gujarat,Rural + Urban,WPR,19.840,42.980,23.140,116.633,0,0
+India,Gujarat,Urban,WPR,19.050,31.670,12.620,66.247,0,0
+India,Haryana,Rural,WPR,14.920,24.390,9.470,63.472,0,0
+India,Haryana,Rural + Urban,WPR,14.270,24.000,9.730,68.185,0,0
+India,Haryana,Urban,WPR,14.490,21.610,7.120,49.137,0,0
+India,Himachal Pradesh,Rural,WPR,47.920,66.590,18.670,38.961,0,0
+India,Himachal Pradesh,Rural + Urban,WPR,45.940,63.450,17.510,38.115,0,0
+India,Himachal Pradesh,Urban,WPR,25.550,38.060,12.510,48.963,0,0
+India,Jammu and Kashmir,Rural,WPR,31.810,52.550,20.740,65.200,0,0
+India,Jammu and Kashmir,Rural + Urban,WPR,30.570,46.750,16.180,52.928,0,0
+India,Jammu and Kashmir,Urban,WPR,23.680,26.880,3.200,13.514,0,0
+India,Jharkhand,Rural,WPR,17.310,46.040,28.730,165.973,0,0
+India,Jharkhand,Rural + Urban,WPR,19.080,38.190,19.110,100.157,0,0
+India,Jharkhand,Urban,WPR,12.050,16.820,4.770,39.585,0,0
+India,Karnataka,Rural,WPR,24.970,42.070,17.100,68.482,0,0
+India,Karnataka,Rural + Urban,WPR,25.610,39.110,13.500,52.714,0,0
+India,Karnataka,Urban,WPR,24.530,32.110,7.580,30.901,0,0
+India,Kerala,Rural,WPR,24.420,39.620,15.200,62.244,0,0
+India,Kerala,Rural + Urban,WPR,24.000,37.500,13.500,56.250,0,0
+India,Kerala,Urban,WPR,22.820,34.510,11.690,51.227,0,0
+India,Ladakh,Rural,WPR,31.810,47.750,15.940,50.110,0,0
+India,Ladakh,Rural + Urban,WPR,30.570,43.760,13.190,43.147,0,0
+India,Ladakh,Urban,WPR,23.680,23.440,-0.240,-1.014,0,0
+India,Lakshadweep,Rural,WPR,16.910,12.250,-4.660,-27.558,0,0
+India,Lakshadweep,Rural + Urban,WPR,21.420,17.080,-4.340,-20.261,0,0
+India,Lakshadweep,Urban,WPR,18.860,18.140,-0.720,-3.818,0,0
+India,Madhya Pradesh,Rural,WPR,20.370,51.540,31.170,153.019,0,0
+India,Madhya Pradesh,Rural + Urban,WPR,27.380,44.380,17.000,62.089,0,0
+India,Madhya Pradesh,Urban,WPR,24.090,29.890,5.800,24.076,0,0
+India,Maharashtra,Rural,WPR,31.920,42.300,10.380,32.519,0,0
+India,Maharashtra,Rural + Urban,WPR,27.840,37.750,9.910,35.596,0,0
+India,Maharashtra,Urban,WPR,20.990,29.850,8.860,42.211,0,0
+India,Manipur,Rural,WPR,26.240,52.590,26.350,100.419,0,0
+India,Manipur,Rural + Urban,WPR,28.700,51.250,22.550,78.571,0,0
+India,Manipur,Urban,WPR,31.960,48.410,16.450,51.471,0,0
+India,Meghalaya,Rural,WPR,59.240,72.610,13.370,22.569,0,0
+India,Meghalaya,Rural + Urban,WPR,54.210,65.740,11.530,21.269,0,0
+India,Meghalaya,Urban,WPR,39.840,44.960,5.120,12.851,0,0
+India,Mizoram,Rural,WPR,32.590,31.010,-1.580,-4.848,0,0
+India,Mizoram,Rural + Urban,WPR,39.350,46.250,6.900,17.535,0,0
+India,Mizoram,Urban,WPR,38.640,43.840,5.200,13.458,0,0
+India,Nagaland,Rural,WPR,14.040,64.200,50.160,357.265,0,0
+India,Nagaland,Rural + Urban,WPR,14.200,60.040,45.840,322.817,0,0
+India,Nagaland,Urban,WPR,14.730,48.510,33.780,229.328,0,0
+India,Odisha,Rural,WPR,18.630,46.050,27.420,147.182,0,0
+India,Odisha,Rural + Urban,WPR,19.660,42.690,23.030,117.141,0,0
+India,Odisha,Urban,WPR,18.700,29.600,10.900,58.289,0,0
+India,Puducherry,Rural,WPR,6.440,44.110,37.670,584.938,0,0
+India,Puducherry,Rural + Urban,WPR,15.520,33.180,17.660,113.789,0,0
+India,Puducherry,Urban,WPR,20.040,27.720,7.680,38.323,0,0
+India,Punjab,Rural,WPR,14.440,34.070,19.630,135.942,0,0
+India,Punjab,Rural + Urban,WPR,16.640,30.920,14.280,85.817,0,0
+India,Punjab,Urban,WPR,18.950,25.450,6.500,34.301,0,0
+India,Rajasthan,Rural,WPR,21.190,48.090,26.900,126.947,0,0
+India,Rajasthan,Rural + Urban,WPR,18.670,41.590,22.920,122.764,0,0
+India,Rajasthan,Urban,WPR,12.810,25.260,12.450,97.190,0,0
+India,Sikkim,Rural,WPR,43.860,77.800,33.940,77.383,0,0
+India,Sikkim,Rural + Urban,WPR,40.630,66.610,25.980,63.943,0,0
+India,Sikkim,Urban,WPR,40.060,37.300,-2.760,-6.890,0,0
+India,Tamil Nadu,Rural,WPR,33.210,46.910,13.700,41.253,0,0
+India,Tamil Nadu,Rural + Urban,WPR,30.110,39.170,9.060,30.090,0,0
+India,Tamil Nadu,Urban,WPR,26.140,29.580,3.440,13.160,0,0
+India,Telangana,Rural,WPR,23.170,47.270,24.100,104.014,0,0
+India,Telangana,Rural + Urban,WPR,21.950,41.790,19.840,90.387,0,0
+India,Telangana,Urban,WPR,17.520,30.850,13.330,76.084,0,0
+India,The Dadra and Nagar Haveli and Daman and Diu,Rural,WPR,42.310,66.800,24.490,57.882,0,0
+India,The Dadra and Nagar Haveli and Daman and Diu,Rural + Urban,WPR,34.045,46.530,12.485,36.672,0,0
+India,The Dadra and Nagar Haveli and Daman and Diu,Urban,WPR,21.710,31.290,9.580,44.127,0,0
+India,Tripura,Rural,WPR,15.010,40.820,25.810,171.952,0,0
+India,Tripura,Rural + Urban,WPR,13.140,40.370,27.230,207.230,0,0
+India,Tripura,Urban,WPR,14.260,33.900,19.640,137.728,0,0
+India,Uttar Pradesh,Rural,WPR,16.070,28.940,12.870,80.087,0,0
+India,Uttar Pradesh,Rural + Urban,WPR,16.320,31.090,14.770,90.502,0,0
+India,Uttar Pradesh,Urban,WPR,15.450,19.680,4.230,27.379,0,0
+India,Uttarakhand,Rural,WPR,16.560,47.670,31.110,187.862,0,0
+India,Uttarakhand,Rural + Urban,WPR,19.220,48.040,28.820,149.948,0,0
+India,Uttarakhand,Urban,WPR,19.240,27.680,8.440,43.867,0,0
+India,West Bengal,Rural,WPR,20.390,42.660,22.270,109.220,0,0
+India,West Bengal,Rural + Urban,WPR,20.710,39.390,18.680,90.198,0,0
+India,West Bengal,Urban,WPR,20.900,33.610,12.710,60.813,0,0
+India,Andaman and Nicobar Islands,Rural,Unemployment_Rate,37.790,18.220,-19.570,-51.786,0,0
+India,Andaman and Nicobar Islands,Rural + Urban,Unemployment_Rate,42.440,23.020,-19.420,-45.759,0,0
+India,Andaman and Nicobar Islands,Urban,Unemployment_Rate,43.200,29.910,-13.290,-30.764,0,0
+India,Andhra Pradesh,Rural,Unemployment_Rate,17.760,13.940,-3.820,-21.509,0,0
+India,Andhra Pradesh,Rural + Urban,Unemployment_Rate,15.250,9.660,-5.590,-36.656,0,0
+India,Andhra Pradesh,Urban,Unemployment_Rate,14.000,8.300,-5.700,-40.714,0,0
+India,Arunachal Pradesh,Rural,Unemployment_Rate,20.320,13.350,-6.970,-34.301,0,0
+India,Arunachal Pradesh,Rural + Urban,Unemployment_Rate,21.240,14.330,-6.910,-32.533,0,0
+India,Arunachal Pradesh,Urban,Unemployment_Rate,19.030,18.950,-0.080,-0.420,0,0
+India,Assam,Rural,Unemployment_Rate,25.490,10.380,-15.110,-59.278,0,0
+India,Assam,Rural + Urban,Unemployment_Rate,21.290,10.500,-10.790,-50.681,0,0
+India,Assam,Urban,Unemployment_Rate,19.660,15.980,-3.680,-18.718,0,0
+India,Bihar,Rural,Unemployment_Rate,3.020,4.210,1.190,39.404,0,0
+India,Bihar,Rural + Urban,Unemployment_Rate,4.110,7.630,3.520,85.645,0,0
+India,Bihar,Urban,Unemployment_Rate,6.440,18.460,12.020,186.646,0,0
+India,Chandigarh,Rural,Unemployment_Rate,0.770,,,,0,10
+India,Chandigarh,Rural + Urban,Unemployment_Rate,15.370,13.070,-2.300,-14.964,0,0
+India,Chandigarh,Urban,Unemployment_Rate,15.620,13.070,-2.550,-16.325,0,0
+India,Chhattisgarh,Rural,Unemployment_Rate,14.620,5.260,-9.360,-64.022,0,0
+India,Chhattisgarh,Rural + Urban,Unemployment_Rate,12.930,6.550,-6.380,-49.343,0,0
+India,Chhattisgarh,Urban,Unemployment_Rate,13.490,11.440,-2.050,-15.196,0,0
+India,Delhi,Rural,Unemployment_Rate,0.000,20.640,20.640,,0,0
+India,Delhi,Rural + Urban,Unemployment_Rate,8.190,1.410,-6.780,-82.784,0,0
+India,Delhi,Urban,Unemployment_Rate,8.200,1.090,-7.110,-86.707,0,0
+India,Goa,Rural,Unemployment_Rate,21.060,13.360,-7.700,-36.562,0,0
+India,Goa,Rural + Urban,Unemployment_Rate,25.800,13.910,-11.890,-46.085,0,0
+India,Goa,Urban,Unemployment_Rate,25.910,13.620,-12.290,-47.433,0,0
+India,Gujarat,Rural,Unemployment_Rate,12.900,1.690,-11.210,-86.899,0,0
+India,Gujarat,Rural + Urban,Unemployment_Rate,6.800,2.880,-3.920,-57.647,0,0
+India,Gujarat,Urban,Unemployment_Rate,5.000,3.610,-1.390,-27.800,0,0
+India,Haryana,Rural,Unemployment_Rate,15.450,5.190,-10.260,-66.408,0,0
+India,Haryana,Rural + Urban,Unemployment_Rate,14.110,3.380,-10.730,-76.045,0,0
+India,Haryana,Urban,Unemployment_Rate,11.650,2.700,-8.950,-76.824,0,0
+India,Himachal Pradesh,Rural,Unemployment_Rate,10.380,9.660,-0.720,-6.936,0,0
+India,Himachal Pradesh,Rural + Urban,Unemployment_Rate,10.000,10.150,0.150,1.500,0,0
+India,Himachal Pradesh,Urban,Unemployment_Rate,11.890,13.560,1.670,14.045,0,0
+India,Jammu and Kashmir,Rural,Unemployment_Rate,15.760,14.440,-1.320,-8.376,0,0
+India,Jammu and Kashmir,Rural + Urban,Unemployment_Rate,16.260,17.210,0.950,5.843,0,0
+India,Jammu and Kashmir,Urban,Unemployment_Rate,20.620,28.810,8.190,39.719,0,0
+India,Jharkhand,Rural,Unemployment_Rate,12.630,0.250,-12.380,-98.021,0,0
+India,Jharkhand,Rural + Urban,Unemployment_Rate,12.680,3.080,-9.600,-75.710,0,0
+India,Jharkhand,Urban,Unemployment_Rate,13.440,6.820,-6.620,-49.256,0,0
+India,Karnataka,Rural,Unemployment_Rate,18.010,3.550,-14.460,-80.289,0,0
+India,Karnataka,Rural + Urban,Unemployment_Rate,10.520,3.430,-7.090,-67.395,0,0
+India,Karnataka,Urban,Unemployment_Rate,8.020,3.860,-4.160,-51.870,0,0
+India,Kerala,Rural,Unemployment_Rate,21.640,14.740,-6.900,-31.885,0,0
+India,Kerala,Rural + Urban,Unemployment_Rate,23.410,12.680,-10.730,-45.835,0,0
+India,Kerala,Urban,Unemployment_Rate,26.240,10.540,-15.700,-59.832,0,0
+India,Ladakh,Rural,Unemployment_Rate,15.760,7.560,-8.200,-52.030,0,0
+India,Ladakh,Rural + Urban,Unemployment_Rate,16.260,10.070,-6.190,-38.069,0,0
+India,Ladakh,Urban,Unemployment_Rate,20.620,22.540,1.920,9.311,0,0
+India,Lakshadweep,Rural,Unemployment_Rate,37.530,28.860,-8.670,-23.102,0,0
+India,Lakshadweep,Rural + Urban,Unemployment_Rate,43.620,21.360,-22.260,-51.032,0,0
+India,Lakshadweep,Urban,Unemployment_Rate,38.860,16.760,-22.100,-56.871,0,0
+India,Madhya Pradesh,Rural,Unemployment_Rate,20.560,5.210,-15.350,-74.660,0,0
+India,Madhya Pradesh,Rural + Urban,Unemployment_Rate,8.920,3.160,-5.760,-64.574,0,0
+India,Madhya Pradesh,Urban,Unemployment_Rate,7.840,3.190,-4.650,-59.311,0,0
+India,Maharashtra,Rural,Unemployment_Rate,9.680,7.120,-2.560,-26.446,0,0
+India,Maharashtra,Rural + Urban,Unemployment_Rate,10.320,5.570,-4.750,-46.027,0,0
+India,Maharashtra,Urban,Unemployment_Rate,13.080,5.370,-7.710,-58.945,0,0
+India,Manipur,Rural,Unemployment_Rate,15.570,9.900,-5.670,-36.416,0,0
+India,Manipur,Rural + Urban,Unemployment_Rate,14.850,9.140,-5.710,-38.451,0,0
+India,Manipur,Urban,Unemployment_Rate,10.780,9.360,-1.420,-13.173,0,0
+India,Meghalaya,Rural,Unemployment_Rate,3.020,8.710,5.690,188.411,0,0
+India,Meghalaya,Rural + Urban,Unemployment_Rate,4.330,10.750,6.420,148.268,0,0
+India,Meghalaya,Urban,Unemployment_Rate,6.060,17.780,11.720,193.399,0,0
+India,Mizoram,Rural,Unemployment_Rate,10.560,1.790,-8.770,-83.049,0,0
+India,Mizoram,Rural + Urban,Unemployment_Rate,12.810,3.530,-9.280,-72.443,0,0
+India,Mizoram,Urban,Unemployment_Rate,13.690,4.260,-9.430,-68.882,0,0
+India,Nagaland,Rural,Unemployment_Rate,31.810,9.530,-22.280,-70.041,0,0
+India,Nagaland,Rural + Urban,Unemployment_Rate,30.500,11.310,-19.190,-62.918,0,0
+India,Nagaland,Urban,Unemployment_Rate,27.500,13.830,-13.670,-49.709,0,0
+India,Odisha,Rural,Unemployment_Rate,23.360,11.310,-12.050,-51.584,0,0
+India,Odisha,Rural + Urban,Unemployment_Rate,18.350,11.360,-6.990,-38.093,0,0
+India,Odisha,Urban,Unemployment_Rate,15.700,12.130,-3.570,-22.739,0,0
+India,Puducherry,Rural,Unemployment_Rate,24.220,4.650,-19.570,-80.801,0,0
+India,Puducherry,Rural + Urban,Unemployment_Rate,17.970,6.500,-11.470,-63.829,0,0
+India,Puducherry,Urban,Unemployment_Rate,15.580,6.850,-8.730,-56.033,0,0
+India,Punjab,Rural,Unemployment_Rate,17.950,11.070,-6.880,-38.329,0,0
+India,Punjab,Rural + Urban,Unemployment_Rate,15.320,9.810,-5.510,-35.966,0,0
+India,Punjab,Urban,Unemployment_Rate,13.150,9.860,-3.290,-25.019,0,0
+India,Rajasthan,Rural,Unemployment_Rate,13.490,9.940,-3.550,-26.316,0,0
+India,Rajasthan,Rural + Urban,Unemployment_Rate,14.280,10.060,-4.220,-29.552,0,0
+India,Rajasthan,Urban,Unemployment_Rate,16.160,14.250,-1.910,-11.819,0,0
+India,Sikkim,Rural,Unemployment_Rate,7.440,2.420,-5.020,-67.473,0,0
+India,Sikkim,Rural + Urban,Unemployment_Rate,7.620,3.040,-4.580,-60.105,0,0
+India,Sikkim,Urban,Unemployment_Rate,8.310,6.450,-1.860,-22.383,0,0
+India,Tamil Nadu,Rural,Unemployment_Rate,14.700,6.900,-7.800,-53.061,0,0
+India,Tamil Nadu,Rural + Urban,Unemployment_Rate,12.310,6.220,-6.090,-49.472,0,0
+India,Tamil Nadu,Urban,Unemployment_Rate,11.160,5.930,-5.230,-46.864,0,0
+India,Telangana,Rural,Unemployment_Rate,32.220,16.820,-15.400,-47.796,0,0
+India,Telangana,Rural + Urban,Unemployment_Rate,25.020,12.300,-12.720,-50.839,0,0
+India,Telangana,Urban,Unemployment_Rate,23.670,11.880,-11.790,-49.810,0,0
+India,The Dadra and Nagar Haveli and Daman and Diu,Rural,Unemployment_Rate,0.000,0.000,0.000,,0,0
+India,The Dadra and Nagar Haveli and Daman and Diu,Rural + Urban,Unemployment_Rate,2.345,3.310,0.965,41.151,0,0
+India,The Dadra and Nagar Haveli and Daman and Diu,Urban,Unemployment_Rate,3.575,5.890,2.315,64.755,0,0
+India,Tripura,Rural,Unemployment_Rate,20.950,8.930,-12.020,-57.375,0,0
+India,Tripura,Rural + Urban,Unemployment_Rate,23.630,8.140,-15.490,-65.552,0,0
+India,Tripura,Urban,Unemployment_Rate,26.770,8.340,-18.430,-68.846,0,0
+India,Uttar Pradesh,Rural,Unemployment_Rate,4.300,16.650,12.350,287.209,0,0
+India,Uttar Pradesh,Rural + Urban,Unemployment_Rate,6.170,9.530,3.360,54.457,0,0
+India,Uttar Pradesh,Urban,Unemployment_Rate,9.910,11.320,1.410,14.228,0,0
+India,Uttarakhand,Rural,Unemployment_Rate,13.360,3.580,-9.780,-73.204,0,0
+India,Uttarakhand,Rural + Urban,Unemployment_Rate,13.920,5.030,-8.890,-63.865,0,0
+India,Uttarakhand,Urban,Unemployment_Rate,16.870,11.290,-5.580,-33.076,0,0
+India,West Bengal,Rural,Unemployment_Rate,11.110,7.840,-3.270,-29.433,0,0
+India,West Bengal,Rural + Urban,Unemployment_Rate,10.070,7.040,-3.030,-30.089,0,0
+India,West Bengal,Urban,Unemployment_Rate,10.230,6.090,-4.140,-40.469,0,0

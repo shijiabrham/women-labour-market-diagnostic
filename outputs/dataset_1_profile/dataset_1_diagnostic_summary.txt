@@ -1,0 +1,69 @@
+========================================================
+DATASET 1 DIAGNOSTIC SUMMARY — CORRECTED (Task 1A Re-audit)
+========================================================
+
+--- DIAGNOSTIC STATUS ---
+The previous diagnostic was PARTIALLY INCORRECT.
+  KEY CORRECTION: The Year field was misread as a single numeric
+  calendar year ('2021'). The correct values are PLFS-year labels
+  ('PLFS Year (Jul - Jun), YYYY') spanning 7 survey years: 2017–2023.
+  Minor corrections: Indicator field names reported correctly;
+  LFPR mean revised from 55.12 (placeholder) to actual computed value.
+
+--- CONFIRMED FINDINGS ---
+  File           : plfs_labour_market_outcomes_by_education_gender_area.csv
+  Rows           : 22,650
+  Columns        : 9
+  Complete-row duplicates : 0
+  Candidate key uniqueness: True (0 duplicate key combinations)
+  States/UTs     : 36 distinct values in 'State' field
+  PLFS years     : 7 (PLFS Year (Jul - Jun), 2017, PLFS Year (Jul - Jun), 2018, PLFS Year (Jul - Jun), 2019, PLFS Year (Jul - Jun), 2020, PLFS Year (Jul - Jun), 2021, PLFS Year (Jul - Jun), 2022, PLFS Year (Jul - Jun), 2023)
+  Gender values  : ['Female', 'Male', 'Persons']
+  Education cats : ['All', 'Diploma/ Certificate Course', 'Graduate', 'Higher Secondary', 'Literate & Upto Primary', 'Middle', 'Not Literate', 'Post Graduate & Above', 'Secondary', 'Secondary & Above']
+  Area values    : ['Rural', 'Rural + Urban', 'Urban']
+  LFPR field     : 'Labor Force Participation Rate According To Usual Status Bas...'
+    dtype=float64, min=0.0, max=100.0, mean=56.5707, missing=30
+  WPR field      : 'Working Population Rate According To Usual Status Based On D...'
+    dtype=float64, min=0.0, max=100.0, mean=51.2949, missing=30
+  UR field       : 'Unemployment Rate According To Usual Status Based On Differe...'
+    dtype=float64, min=0.0, max=100.0, mean=9.0593, missing=30
+  All three indicators are on a 0–100 % scale (confirmed from field name metadata).
+  No indicator values fall below 0 or above 100.
+
+--- POTENTIAL DATA-QUALITY ISSUES ---
+  1. Missing values: 30 records each missing for LFPR, WPR, and UR.
+     Missing values are confined to the three indicator columns.
+     Distribution of missingness by year or geography not yet confirmed.
+  2. WPR > LFPR: A number of rows show WPR > LFPR, which is
+     inconsistent with conventional labour-market definitions.
+     Likely affected by aggregate categories ('Persons', 'All',
+     'Rural + Urban') — requires definitional confirmation.
+     Rows where WPR > LFPR: 1
+  3. PLFS 2022 structural shortfall: Record counts for Female,
+     Persons, and Rural + Urban in 2022 are slightly lower than
+     other years (e.g., 1070 vs 1080). Cause unknown — may
+     reflect data availability or a reporting gap.
+  4. Unemployment Rate: 3,849 zero values. These may be valid
+     (genuinely zero unemployment in a cell) or may indicate
+     suppressed/missing data coded as zero.
+
+--- QUESTIONS REQUIRING FURTHER INVESTIGATION ---
+  Q1. Definition of 'Persons' gender category: aggregate or distinct?
+  Q2. Definition of 'All' education category: aggregate across all levels?
+  Q3. Definition of 'Secondary & Above': is this a summary aggregate?
+  Q4. Definition of 'Rural + Urban': combined national total?
+  Q5. Root cause of WPR > LFPR in some rows.
+  Q6. Source of the 30 missing indicator values — which states/years?
+  Q7. Whether PLFS 2022 record shortfall is a data issue or expected.
+  Q8. Whether zeros in Unemployment Rate represent true zero unemployment
+      or suppressed/unreliable estimates.
+
+--- CONFIRMATION ---
+  Dataset 2: NOT loaded or analysed.
+  Raw CSV  : NOT modified, cleaned, or transformed.
+
+--- OUTPUT LOCATIONS ---
+  Report : outputs/dataset_1_profile/dataset_1_diagnostic_report.md
+  Profile: outputs/dataset_1_profile/dataset_1_data_profile.csv
+  Summary: outputs/dataset_1_profile/dataset_1_diagnostic_summary.txt
+  Notebook: notebooks/01_dataset_1_diagnostic.ipynb

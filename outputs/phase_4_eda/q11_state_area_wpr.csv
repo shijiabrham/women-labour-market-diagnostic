@@ -1,0 +1,864 @@
+Country,State,Area_Type,Year,WPR,Missing_Count,All_Years
+India,Andaman and Nicobar Islands,Rural,2017,22.260,0,False
+India,Andaman and Nicobar Islands,Rural,2018,25.010,0,False
+India,Andaman and Nicobar Islands,Rural,2019,35.220,0,False
+India,Andaman and Nicobar Islands,Rural,2020,41.510,0,False
+India,Andaman and Nicobar Islands,Rural,2021,41.860,0,False
+India,Andaman and Nicobar Islands,Rural,2022,45.830,0,False
+India,Andaman and Nicobar Islands,Rural,2023,50.730,0,False
+India,Andaman and Nicobar Islands,Rural + Urban,2017,21.980,0,False
+India,Andaman and Nicobar Islands,Rural + Urban,2018,22.390,0,False
+India,Andaman and Nicobar Islands,Rural + Urban,2019,29.130,0,False
+India,Andaman and Nicobar Islands,Rural + Urban,2020,37.190,0,False
+India,Andaman and Nicobar Islands,Rural + Urban,2021,37.000,0,False
+India,Andaman and Nicobar Islands,Rural + Urban,2022,42.740,0,False
+India,Andaman and Nicobar Islands,Rural + Urban,2023,40.610,0,False
+India,Andaman and Nicobar Islands,Urban,2017,21.880,0,False
+India,Andaman and Nicobar Islands,Urban,2018,20.010,0,False
+India,Andaman and Nicobar Islands,Urban,2019,24.840,0,False
+India,Andaman and Nicobar Islands,Urban,2020,31.040,0,False
+India,Andaman and Nicobar Islands,Urban,2021,32.890,0,False
+India,Andaman and Nicobar Islands,Urban,2022,37.400,0,False
+India,Andaman and Nicobar Islands,Urban,2023,28.010,0,False
+India,Andhra Pradesh,Rural,2017,37.360,0,False
+India,Andhra Pradesh,Rural,2018,36.270,0,False
+India,Andhra Pradesh,Rural,2019,34.880,0,False
+India,Andhra Pradesh,Rural,2020,44.960,0,False
+India,Andhra Pradesh,Rural,2021,41.980,0,False
+India,Andhra Pradesh,Rural,2022,38.580,0,False
+India,Andhra Pradesh,Rural,2023,39.610,0,False
+India,Andhra Pradesh,Rural + Urban,2017,33.890,0,False
+India,Andhra Pradesh,Rural + Urban,2018,32.050,0,False
+India,Andhra Pradesh,Rural + Urban,2019,32.700,0,False
+India,Andhra Pradesh,Rural + Urban,2020,39.220,0,False
+India,Andhra Pradesh,Rural + Urban,2021,37.370,0,False
+India,Andhra Pradesh,Rural + Urban,2022,38.560,0,False
+India,Andhra Pradesh,Rural + Urban,2023,38.900,0,False
+India,Andhra Pradesh,Urban,2017,27.660,0,False
+India,Andhra Pradesh,Urban,2018,23.180,0,False
+India,Andhra Pradesh,Urban,2019,27.330,0,False
+India,Andhra Pradesh,Urban,2020,29.920,0,False
+India,Andhra Pradesh,Urban,2021,28.290,0,False
+India,Andhra Pradesh,Urban,2022,33.590,0,False
+India,Andhra Pradesh,Urban,2023,34.560,0,False
+India,Arunachal Pradesh,Rural,2017,19.430,0,False
+India,Arunachal Pradesh,Rural,2018,16.600,0,False
+India,Arunachal Pradesh,Rural,2019,33.460,0,False
+India,Arunachal Pradesh,Rural,2020,27.150,0,False
+India,Arunachal Pradesh,Rural,2021,22.160,0,False
+India,Arunachal Pradesh,Rural,2022,63.470,0,False
+India,Arunachal Pradesh,Rural,2023,51.650,0,False
+India,Arunachal Pradesh,Rural + Urban,2017,24.840,0,False
+India,Arunachal Pradesh,Rural + Urban,2018,14.650,0,False
+India,Arunachal Pradesh,Rural + Urban,2019,33.080,0,False
+India,Arunachal Pradesh,Rural + Urban,2020,29.880,0,False
+India,Arunachal Pradesh,Rural + Urban,2021,32.440,0,False
+India,Arunachal Pradesh,Rural + Urban,2022,57.850,0,False
+India,Arunachal Pradesh,Rural + Urban,2023,58.700,0,False
+India,Arunachal Pradesh,Urban,2017,22.050,0,False
+India,Arunachal Pradesh,Urban,2018,12.040,0,False
+India,Arunachal Pradesh,Urban,2019,29.440,0,False
+India,Arunachal Pradesh,Urban,2020,24.850,0,False
+India,Arunachal Pradesh,Urban,2021,29.300,0,False
+India,Arunachal Pradesh,Urban,2022,38.130,0,False
+India,Arunachal Pradesh,Urban,2023,44.070,0,False
+India,Assam,Rural,2017,16.930,0,False
+India,Assam,Rural,2018,18.960,0,False
+India,Assam,Rural,2019,25.830,0,False
+India,Assam,Rural,2020,29.410,0,False
+India,Assam,Rural,2021,36.970,0,False
+India,Assam,Rural,2022,27.560,0,False
+India,Assam,Rural,2023,52.460,0,False
+India,Assam,Rural + Urban,2017,18.180,0,False
+India,Assam,Rural + Urban,2018,20.760,0,False
+India,Assam,Rural + Urban,2019,24.580,0,False
+India,Assam,Rural + Urban,2020,29.460,0,False
+India,Assam,Rural + Urban,2021,37.060,0,False
+India,Assam,Rural + Urban,2022,30.700,0,False
+India,Assam,Rural + Urban,2023,49.340,0,False
+India,Assam,Urban,2017,15.810,0,False
+India,Assam,Urban,2018,22.850,0,False
+India,Assam,Urban,2019,17.760,0,False
+India,Assam,Urban,2020,24.260,0,False
+India,Assam,Urban,2021,31.050,0,False
+India,Assam,Urban,2022,29.040,0,False
+India,Assam,Urban,2023,32.650,0,False
+India,Bihar,Rural,2017,5.120,0,False
+India,Bihar,Rural,2018,2.910,0,False
+India,Bihar,Rural,2019,9.480,0,False
+India,Bihar,Rural,2020,20.070,0,False
+India,Bihar,Rural,2021,15.750,0,False
+India,Bihar,Rural,2022,18.330,0,False
+India,Bihar,Rural,2023,32.830,0,False
+India,Bihar,Rural + Urban,2017,13.340,0,False
+India,Bihar,Rural + Urban,2018,13.940,0,False
+India,Bihar,Rural + Urban,2019,9.030,0,False
+India,Bihar,Rural + Urban,2020,11.840,0,False
+India,Bihar,Rural + Urban,2021,13.680,0,False
+India,Bihar,Rural + Urban,2022,19.230,0,False
+India,Bihar,Rural + Urban,2023,28.180,0,False
+India,Bihar,Urban,2017,14.690,0,False
+India,Bihar,Urban,2018,14.950,0,False
+India,Bihar,Urban,2019,8.270,0,False
+India,Bihar,Urban,2020,6.350,0,False
+India,Bihar,Urban,2021,12.570,0,False
+India,Bihar,Urban,2022,16.870,0,False
+India,Bihar,Urban,2023,14.480,0,False
+India,Chandigarh,Rural,2017,15.850,0,False
+India,Chandigarh,Rural,2018,16.100,0,False
+India,Chandigarh,Rural,2019,13.920,0,False
+India,Chandigarh,Rural,2020,12.700,0,False
+India,Chandigarh,Rural,2021,8.820,0,False
+India,Chandigarh,Rural,2022,25.040,0,False
+India,Chandigarh,Rural,2023,,10,False
+India,Chandigarh,Rural + Urban,2017,22.630,0,False
+India,Chandigarh,Rural + Urban,2018,27.910,0,False
+India,Chandigarh,Rural + Urban,2019,26.470,0,False
+India,Chandigarh,Rural + Urban,2020,27.410,0,False
+India,Chandigarh,Rural + Urban,2021,17.070,0,False
+India,Chandigarh,Rural + Urban,2022,29.390,0,False
+India,Chandigarh,Rural + Urban,2023,28.200,0,False
+India,Chandigarh,Urban,2017,22.990,0,False
+India,Chandigarh,Urban,2018,28.320,0,False
+India,Chandigarh,Urban,2019,26.470,0,False
+India,Chandigarh,Urban,2020,27.690,0,False
+India,Chandigarh,Urban,2021,17.070,0,False
+India,Chandigarh,Urban,2022,29.130,0,False
+India,Chandigarh,Urban,2023,28.200,0,False
+India,Chhattisgarh,Rural,2017,38.890,0,False
+India,Chhattisgarh,Rural,2018,37.780,0,False
+India,Chhattisgarh,Rural,2019,44.570,0,False
+India,Chhattisgarh,Rural,2020,53.630,0,False
+India,Chhattisgarh,Rural,2021,50.160,0,False
+India,Chhattisgarh,Rural,2022,59.900,0,False
+India,Chhattisgarh,Rural,2023,60.180,0,False
+India,Chhattisgarh,Rural + Urban,2017,39.200,0,False
+India,Chhattisgarh,Rural + Urban,2018,37.420,0,False
+India,Chhattisgarh,Rural + Urban,2019,40.620,0,False
+India,Chhattisgarh,Rural + Urban,2020,43.420,0,False
+India,Chhattisgarh,Rural + Urban,2021,45.690,0,False
+India,Chhattisgarh,Rural + Urban,2022,52.960,0,False
+India,Chhattisgarh,Rural + Urban,2023,52.890,0,False
+India,Chhattisgarh,Urban,2017,31.750,0,False
+India,Chhattisgarh,Urban,2018,27.700,0,False
+India,Chhattisgarh,Urban,2019,24.810,0,False
+India,Chhattisgarh,Urban,2020,22.210,0,False
+India,Chhattisgarh,Urban,2021,31.480,0,False
+India,Chhattisgarh,Urban,2022,32.950,0,False
+India,Chhattisgarh,Urban,2023,31.150,0,False
+India,Delhi,Rural,2017,2.290,0,False
+India,Delhi,Rural,2018,16.370,0,False
+India,Delhi,Rural,2019,16.360,0,False
+India,Delhi,Rural,2020,10.250,0,False
+India,Delhi,Rural,2021,10.570,0,False
+India,Delhi,Rural,2022,2.110,0,False
+India,Delhi,Rural,2023,8.100,0,False
+India,Delhi,Rural + Urban,2017,22.670,0,False
+India,Delhi,Rural + Urban,2018,18.290,0,False
+India,Delhi,Rural + Urban,2019,15.640,0,False
+India,Delhi,Rural + Urban,2020,20.510,0,False
+India,Delhi,Rural + Urban,2021,12.440,0,False
+India,Delhi,Rural + Urban,2022,24.380,0,False
+India,Delhi,Rural + Urban,2023,20.240,0,False
+India,Delhi,Urban,2017,22.800,0,False
+India,Delhi,Urban,2018,18.220,0,False
+India,Delhi,Urban,2019,15.370,0,False
+India,Delhi,Urban,2020,20.520,0,False
+India,Delhi,Urban,2021,12.510,0,False
+India,Delhi,Urban,2022,24.630,0,False
+India,Delhi,Urban,2023,21.930,0,False
+India,Goa,Rural,2017,27.270,0,False
+India,Goa,Rural,2018,30.410,0,False
+India,Goa,Rural,2019,25.060,0,False
+India,Goa,Rural,2020,32.620,0,False
+India,Goa,Rural,2021,20.070,0,False
+India,Goa,Rural,2022,33.040,0,False
+India,Goa,Rural,2023,30.450,0,False
+India,Goa,Rural + Urban,2017,25.960,0,False
+India,Goa,Rural + Urban,2018,29.580,0,False
+India,Goa,Rural + Urban,2019,31.080,0,False
+India,Goa,Rural + Urban,2020,29.840,0,False
+India,Goa,Rural + Urban,2021,22.630,0,False
+India,Goa,Rural + Urban,2022,29.910,0,False
+India,Goa,Rural + Urban,2023,30.520,0,False
+India,Goa,Urban,2017,23.780,0,False
+India,Goa,Urban,2018,29.220,0,False
+India,Goa,Urban,2019,34.750,0,False
+India,Goa,Urban,2020,28.300,0,False
+India,Goa,Urban,2021,23.870,0,False
+India,Goa,Urban,2022,29.210,0,False
+India,Goa,Urban,2023,30.910,0,False
+India,Gujarat,Rural,2017,18.440,0,False
+India,Gujarat,Rural,2018,20.460,0,False
+India,Gujarat,Rural,2019,35.580,0,False
+India,Gujarat,Rural,2020,41.860,0,False
+India,Gujarat,Rural,2021,43.940,0,False
+India,Gujarat,Rural,2022,47.090,0,False
+India,Gujarat,Rural,2023,51.630,0,False
+India,Gujarat,Rural + Urban,2017,19.840,0,False
+India,Gujarat,Rural + Urban,2018,19.910,0,False
+India,Gujarat,Rural + Urban,2019,28.980,0,False
+India,Gujarat,Rural + Urban,2020,31.680,0,False
+India,Gujarat,Rural + Urban,2021,34.110,0,False
+India,Gujarat,Rural + Urban,2022,39.460,0,False
+India,Gujarat,Rural + Urban,2023,42.980,0,False
+India,Gujarat,Urban,2017,19.050,0,False
+India,Gujarat,Urban,2018,17.110,0,False
+India,Gujarat,Urban,2019,22.130,0,False
+India,Gujarat,Urban,2020,21.720,0,False
+India,Gujarat,Urban,2021,23.610,0,False
+India,Gujarat,Urban,2022,29.840,0,False
+India,Gujarat,Urban,2023,31.670,0,False
+India,Haryana,Rural,2017,14.920,0,False
+India,Haryana,Rural,2018,15.000,0,False
+India,Haryana,Rural,2019,15.540,0,False
+India,Haryana,Rural,2020,19.530,0,False
+India,Haryana,Rural,2021,18.130,0,False
+India,Haryana,Rural,2022,21.800,0,False
+India,Haryana,Rural,2023,24.390,0,False
+India,Haryana,Rural + Urban,2017,14.270,0,False
+India,Haryana,Rural + Urban,2018,17.430,0,False
+India,Haryana,Rural + Urban,2019,17.800,0,False
+India,Haryana,Rural + Urban,2020,19.470,0,False
+India,Haryana,Rural + Urban,2021,19.830,0,False
+India,Haryana,Rural + Urban,2022,20.430,0,False
+India,Haryana,Rural + Urban,2023,24.000,0,False
+India,Haryana,Urban,2017,14.490,0,False
+India,Haryana,Urban,2018,19.030,0,False
+India,Haryana,Urban,2019,19.990,0,False
+India,Haryana,Urban,2020,18.400,0,False
+India,Haryana,Urban,2021,21.270,0,False
+India,Haryana,Urban,2022,18.070,0,False
+India,Haryana,Urban,2023,21.610,0,False
+India,Himachal Pradesh,Rural,2017,47.920,0,False
+India,Himachal Pradesh,Rural,2018,59.200,0,False
+India,Himachal Pradesh,Rural,2019,67.340,0,False
+India,Himachal Pradesh,Rural,2020,65.890,0,False
+India,Himachal Pradesh,Rural,2021,67.870,0,False
+India,Himachal Pradesh,Rural,2022,71.960,0,False
+India,Himachal Pradesh,Rural,2023,66.590,0,False
+India,Himachal Pradesh,Rural + Urban,2017,45.940,0,False
+India,Himachal Pradesh,Rural + Urban,2018,55.520,0,False
+India,Himachal Pradesh,Rural + Urban,2019,63.120,0,False
+India,Himachal Pradesh,Rural + Urban,2020,62.170,0,False
+India,Himachal Pradesh,Rural + Urban,2021,64.310,0,False
+India,Himachal Pradesh,Rural + Urban,2022,67.110,0,False
+India,Himachal Pradesh,Rural + Urban,2023,63.450,0,False
+India,Himachal Pradesh,Urban,2017,25.550,0,False
+India,Himachal Pradesh,Urban,2018,28.240,0,False
+India,Himachal Pradesh,Urban,2019,36.330,0,False
+India,Himachal Pradesh,Urban,2020,33.450,0,False
+India,Himachal Pradesh,Urban,2021,32.680,0,False
+India,Himachal Pradesh,Urban,2022,28.720,0,False
+India,Himachal Pradesh,Urban,2023,38.060,0,False
+India,Jammu and Kashmir,Rural,2017,31.810,0,False
+India,Jammu and Kashmir,Rural,2018,35.250,0,False
+India,Jammu and Kashmir,Rural,2019,30.190,0,False
+India,Jammu and Kashmir,Rural,2020,39.840,0,False
+India,Jammu and Kashmir,Rural,2021,37.960,0,False
+India,Jammu and Kashmir,Rural,2022,44.620,0,False
+India,Jammu and Kashmir,Rural,2023,52.550,0,False
+India,Jammu and Kashmir,Rural + Urban,2017,30.570,0,False
+India,Jammu and Kashmir,Rural + Urban,2018,29.940,0,False
+India,Jammu and Kashmir,Rural + Urban,2019,29.080,0,False
+India,Jammu and Kashmir,Rural + Urban,2020,36.430,0,False
+India,Jammu and Kashmir,Rural + Urban,2021,35.970,0,False
+India,Jammu and Kashmir,Rural + Urban,2022,39.870,0,False
+India,Jammu and Kashmir,Rural + Urban,2023,46.750,0,False
+India,Jammu and Kashmir,Urban,2017,23.680,0,False
+India,Jammu and Kashmir,Urban,2018,15.450,0,False
+India,Jammu and Kashmir,Urban,2019,22.300,0,False
+India,Jammu and Kashmir,Urban,2020,23.900,0,False
+India,Jammu and Kashmir,Urban,2021,26.380,0,False
+India,Jammu and Kashmir,Urban,2022,22.440,0,False
+India,Jammu and Kashmir,Urban,2023,26.880,0,False
+India,Jharkhand,Rural,2017,17.310,0,False
+India,Jharkhand,Rural,2018,26.960,0,False
+India,Jharkhand,Rural,2019,34.110,0,False
+India,Jharkhand,Rural,2020,42.370,0,False
+India,Jharkhand,Rural,2021,49.040,0,False
+India,Jharkhand,Rural,2022,40.360,0,False
+India,Jharkhand,Rural,2023,46.040,0,False
+India,Jharkhand,Rural + Urban,2017,19.080,0,False
+India,Jharkhand,Rural + Urban,2018,22.780,0,False
+India,Jharkhand,Rural + Urban,2019,28.270,0,False
+India,Jharkhand,Rural + Urban,2020,34.240,0,False
+India,Jharkhand,Rural + Urban,2021,38.290,0,False
+India,Jharkhand,Rural + Urban,2022,34.310,0,False
+India,Jharkhand,Rural + Urban,2023,38.190,0,False
+India,Jharkhand,Urban,2017,12.050,0,False
+India,Jharkhand,Urban,2018,20.460,0,False
+India,Jharkhand,Urban,2019,15.660,0,False
+India,Jharkhand,Urban,2020,17.330,0,False
+India,Jharkhand,Urban,2021,17.650,0,False
+India,Jharkhand,Urban,2022,14.690,0,False
+India,Jharkhand,Urban,2023,16.820,0,False
+India,Karnataka,Rural,2017,24.970,0,False
+India,Karnataka,Rural,2018,20.290,0,False
+India,Karnataka,Rural,2019,36.880,0,False
+India,Karnataka,Rural,2020,35.750,0,False
+India,Karnataka,Rural,2021,28.190,0,False
+India,Karnataka,Rural,2022,35.420,0,False
+India,Karnataka,Rural,2023,42.070,0,False
+India,Karnataka,Rural + Urban,2017,25.610,0,False
+India,Karnataka,Rural + Urban,2018,24.260,0,False
+India,Karnataka,Rural + Urban,2019,31.860,0,False
+India,Karnataka,Rural + Urban,2020,33.210,0,False
+India,Karnataka,Rural + Urban,2021,29.820,0,False
+India,Karnataka,Rural + Urban,2022,35.120,0,False
+India,Karnataka,Rural + Urban,2023,39.110,0,False
+India,Karnataka,Urban,2017,24.530,0,False
+India,Karnataka,Urban,2018,22.110,0,False
+India,Karnataka,Urban,2019,25.920,0,False
+India,Karnataka,Urban,2020,27.380,0,False
+India,Karnataka,Urban,2021,26.120,0,False
+India,Karnataka,Urban,2022,30.890,0,False
+India,Karnataka,Urban,2023,32.110,0,False
+India,Kerala,Rural,2017,24.420,0,False
+India,Kerala,Rural,2018,28.040,0,False
+India,Kerala,Rural,2019,32.850,0,False
+India,Kerala,Rural,2020,31.550,0,False
+India,Kerala,Rural,2021,36.840,0,False
+India,Kerala,Rural,2022,38.260,0,False
+India,Kerala,Rural,2023,39.620,0,False
+India,Kerala,Rural + Urban,2017,24.000,0,False
+India,Kerala,Rural + Urban,2018,27.630,0,False
+India,Kerala,Rural + Urban,2019,29.390,0,False
+India,Kerala,Rural + Urban,2020,29.680,0,False
+India,Kerala,Rural + Urban,2021,33.690,0,False
+India,Kerala,Rural + Urban,2022,34.870,0,False
+India,Kerala,Rural + Urban,2023,37.500,0,False
+India,Kerala,Urban,2017,22.820,0,False
+India,Kerala,Urban,2018,26.650,0,False
+India,Kerala,Urban,2019,25.780,0,False
+India,Kerala,Urban,2020,27.480,0,False
+India,Kerala,Urban,2021,30.100,0,False
+India,Kerala,Urban,2022,30.690,0,False
+India,Kerala,Urban,2023,34.510,0,False
+India,Ladakh,Rural,2017,31.810,0,False
+India,Ladakh,Rural,2018,35.250,0,False
+India,Ladakh,Rural,2019,43.750,0,False
+India,Ladakh,Rural,2020,59.370,0,False
+India,Ladakh,Rural,2021,48.200,0,False
+India,Ladakh,Rural,2022,46.540,0,False
+India,Ladakh,Rural,2023,47.750,0,False
+India,Ladakh,Rural + Urban,2017,30.570,0,False
+India,Ladakh,Rural + Urban,2018,29.940,0,False
+India,Ladakh,Rural + Urban,2019,55.360,0,False
+India,Ladakh,Rural + Urban,2020,63.520,0,False
+India,Ladakh,Rural + Urban,2021,44.210,0,False
+India,Ladakh,Rural + Urban,2022,56.760,0,False
+India,Ladakh,Rural + Urban,2023,43.760,0,False
+India,Ladakh,Urban,2017,23.680,0,False
+India,Ladakh,Urban,2018,15.450,0,False
+India,Ladakh,Urban,2019,54.310,0,False
+India,Ladakh,Urban,2020,36.870,0,False
+India,Ladakh,Urban,2021,32.220,0,False
+India,Ladakh,Urban,2022,47.640,0,False
+India,Ladakh,Urban,2023,23.440,0,False
+India,Lakshadweep,Rural,2017,16.910,0,False
+India,Lakshadweep,Rural,2018,18.160,0,False
+India,Lakshadweep,Rural,2019,22.430,0,False
+India,Lakshadweep,Rural,2020,15.410,0,False
+India,Lakshadweep,Rural,2021,19.550,0,False
+India,Lakshadweep,Rural,2022,6.070,0,False
+India,Lakshadweep,Rural,2023,12.250,0,False
+India,Lakshadweep,Rural + Urban,2017,21.420,0,False
+India,Lakshadweep,Rural + Urban,2018,13.020,0,False
+India,Lakshadweep,Rural + Urban,2019,26.820,0,False
+India,Lakshadweep,Rural + Urban,2020,19.060,0,False
+India,Lakshadweep,Rural + Urban,2021,15.180,0,False
+India,Lakshadweep,Rural + Urban,2022,19.290,0,False
+India,Lakshadweep,Rural + Urban,2023,17.080,0,False
+India,Lakshadweep,Urban,2017,18.860,0,False
+India,Lakshadweep,Urban,2018,16.900,0,False
+India,Lakshadweep,Urban,2019,27.610,0,False
+India,Lakshadweep,Urban,2020,15.850,0,False
+India,Lakshadweep,Urban,2021,16.470,0,False
+India,Lakshadweep,Urban,2022,20.780,0,False
+India,Lakshadweep,Urban,2023,18.140,0,False
+India,Madhya Pradesh,Rural,2017,20.370,0,False
+India,Madhya Pradesh,Rural,2018,29.550,0,False
+India,Madhya Pradesh,Rural,2019,35.540,0,False
+India,Madhya Pradesh,Rural,2020,33.910,0,False
+India,Madhya Pradesh,Rural,2021,37.100,0,False
+India,Madhya Pradesh,Rural,2022,43.160,0,False
+India,Madhya Pradesh,Rural,2023,51.540,0,False
+India,Madhya Pradesh,Rural + Urban,2017,27.380,0,False
+India,Madhya Pradesh,Rural + Urban,2018,24.350,0,False
+India,Madhya Pradesh,Rural + Urban,2019,31.330,0,False
+India,Madhya Pradesh,Rural + Urban,2020,31.030,0,False
+India,Madhya Pradesh,Rural + Urban,2021,34.560,0,False
+India,Madhya Pradesh,Rural + Urban,2022,35.900,0,False
+India,Madhya Pradesh,Rural + Urban,2023,44.380,0,False
+India,Madhya Pradesh,Urban,2017,24.090,0,False
+India,Madhya Pradesh,Urban,2018,19.250,0,False
+India,Madhya Pradesh,Urban,2019,23.400,0,False
+India,Madhya Pradesh,Urban,2020,23.000,0,False
+India,Madhya Pradesh,Urban,2021,24.510,0,False
+India,Madhya Pradesh,Urban,2022,22.140,0,False
+India,Madhya Pradesh,Urban,2023,29.890,0,False
+India,Maharashtra,Rural,2017,31.920,0,False
+India,Maharashtra,Rural,2018,34.390,0,False
+India,Maharashtra,Rural,2019,41.330,0,False
+India,Maharashtra,Rural,2020,37.260,0,False
+India,Maharashtra,Rural,2021,40.930,0,False
+India,Maharashtra,Rural,2022,44.790,0,False
+India,Maharashtra,Rural,2023,42.300,0,False
+India,Maharashtra,Rural + Urban,2017,27.840,0,False
+India,Maharashtra,Rural + Urban,2018,30.430,0,False
+India,Maharashtra,Rural + Urban,2019,36.270,0,False
+India,Maharashtra,Rural + Urban,2020,33.970,0,False
+India,Maharashtra,Rural + Urban,2021,37.760,0,False
+India,Maharashtra,Rural + Urban,2022,38.510,0,False
+India,Maharashtra,Rural + Urban,2023,37.750,0,False
+India,Maharashtra,Urban,2017,20.990,0,False
+India,Maharashtra,Urban,2018,23.390,0,False
+India,Maharashtra,Urban,2019,27.230,0,False
+India,Maharashtra,Urban,2020,25.830,0,False
+India,Maharashtra,Urban,2021,30.310,0,False
+India,Maharashtra,Urban,2022,27.680,0,False
+India,Maharashtra,Urban,2023,29.850,0,False
+India,Manipur,Rural,2017,26.240,0,False
+India,Manipur,Rural,2018,29.470,0,False
+India,Manipur,Rural,2019,36.380,0,False
+India,Manipur,Rural,2020,29.370,0,False
+India,Manipur,Rural,2021,19.120,0,False
+India,Manipur,Rural,2022,27.480,0,False
+India,Manipur,Rural,2023,52.590,0,False
+India,Manipur,Rural + Urban,2017,28.700,0,False
+India,Manipur,Rural + Urban,2018,31.870,0,False
+India,Manipur,Rural + Urban,2019,34.800,0,False
+India,Manipur,Rural + Urban,2020,27.430,0,False
+India,Manipur,Rural + Urban,2021,23.860,0,False
+India,Manipur,Rural + Urban,2022,29.560,0,False
+India,Manipur,Rural + Urban,2023,51.250,0,False
+India,Manipur,Urban,2017,31.960,0,False
+India,Manipur,Urban,2018,35.790,0,False
+India,Manipur,Urban,2019,35.160,0,False
+India,Manipur,Urban,2020,26.610,0,False
+India,Manipur,Urban,2021,26.930,0,False
+India,Manipur,Urban,2022,32.190,0,False
+India,Manipur,Urban,2023,48.410,0,False
+India,Meghalaya,Rural,2017,59.240,0,False
+India,Meghalaya,Rural,2018,58.080,0,False
+India,Meghalaya,Rural,2019,56.320,0,False
+India,Meghalaya,Rural,2020,59.790,0,False
+India,Meghalaya,Rural,2021,56.050,0,False
+India,Meghalaya,Rural,2022,53.090,0,False
+India,Meghalaya,Rural,2023,72.610,0,False
+India,Meghalaya,Rural + Urban,2017,54.210,0,False
+India,Meghalaya,Rural + Urban,2018,51.280,0,False
+India,Meghalaya,Rural + Urban,2019,44.810,0,False
+India,Meghalaya,Rural + Urban,2020,53.630,0,False
+India,Meghalaya,Rural + Urban,2021,53.360,0,False
+India,Meghalaya,Rural + Urban,2022,48.420,0,False
+India,Meghalaya,Rural + Urban,2023,65.740,0,False
+India,Meghalaya,Urban,2017,39.840,0,False
+India,Meghalaya,Urban,2018,36.390,0,False
+India,Meghalaya,Urban,2019,27.990,0,False
+India,Meghalaya,Urban,2020,40.310,0,False
+India,Meghalaya,Urban,2021,31.860,0,False
+India,Meghalaya,Urban,2022,32.410,0,False
+India,Meghalaya,Urban,2023,44.960,0,False
+India,Mizoram,Rural,2017,32.590,0,False
+India,Mizoram,Rural,2018,18.800,0,False
+India,Mizoram,Rural,2019,27.100,0,False
+India,Mizoram,Rural,2020,35.150,0,False
+India,Mizoram,Rural,2021,27.460,0,False
+India,Mizoram,Rural,2022,31.390,0,False
+India,Mizoram,Rural,2023,31.010,0,False
+India,Mizoram,Rural + Urban,2017,39.350,0,False
+India,Mizoram,Rural + Urban,2018,29.080,0,False
+India,Mizoram,Rural + Urban,2019,40.150,0,False
+India,Mizoram,Rural + Urban,2020,47.880,0,False
+India,Mizoram,Rural + Urban,2021,27.840,0,False
+India,Mizoram,Rural + Urban,2022,34.980,0,False
+India,Mizoram,Rural + Urban,2023,46.250,0,False
+India,Mizoram,Urban,2017,38.640,0,False
+India,Mizoram,Urban,2018,28.390,0,False
+India,Mizoram,Urban,2019,39.420,0,False
+India,Mizoram,Urban,2020,39.270,0,False
+India,Mizoram,Urban,2021,26.130,0,False
+India,Mizoram,Urban,2022,32.220,0,False
+India,Mizoram,Urban,2023,43.840,0,False
+India,Nagaland,Rural,2017,14.040,0,False
+India,Nagaland,Rural,2018,27.680,0,False
+India,Nagaland,Rural,2019,31.730,0,False
+India,Nagaland,Rural,2020,41.870,0,False
+India,Nagaland,Rural,2021,48.570,0,False
+India,Nagaland,Rural,2022,56.610,0,False
+India,Nagaland,Rural,2023,64.200,0,False
+India,Nagaland,Rural + Urban,2017,14.200,0,False
+India,Nagaland,Rural + Urban,2018,26.440,0,False
+India,Nagaland,Rural + Urban,2019,38.900,0,False
+India,Nagaland,Rural + Urban,2020,34.860,0,False
+India,Nagaland,Rural + Urban,2021,53.150,0,False
+India,Nagaland,Rural + Urban,2022,54.680,0,False
+India,Nagaland,Rural + Urban,2023,60.040,0,False
+India,Nagaland,Urban,2017,14.730,0,False
+India,Nagaland,Urban,2018,19.050,0,False
+India,Nagaland,Urban,2019,34.150,0,False
+India,Nagaland,Urban,2020,18.220,0,False
+India,Nagaland,Urban,2021,39.000,0,False
+India,Nagaland,Urban,2022,42.940,0,False
+India,Nagaland,Urban,2023,48.510,0,False
+India,Odisha,Rural,2017,18.630,0,False
+India,Odisha,Rural,2018,29.250,0,False
+India,Odisha,Rural,2019,35.310,0,False
+India,Odisha,Rural,2020,28.300,0,False
+India,Odisha,Rural,2021,31.270,0,False
+India,Odisha,Rural,2022,45.160,0,False
+India,Odisha,Rural,2023,46.050,0,False
+India,Odisha,Rural + Urban,2017,19.660,0,False
+India,Odisha,Rural + Urban,2018,24.790,0,False
+India,Odisha,Rural + Urban,2019,30.950,0,False
+India,Odisha,Rural + Urban,2020,29.680,0,False
+India,Odisha,Rural + Urban,2021,30.330,0,False
+India,Odisha,Rural + Urban,2022,42.570,0,False
+India,Odisha,Rural + Urban,2023,42.690,0,False
+India,Odisha,Urban,2017,18.700,0,False
+India,Odisha,Urban,2018,19.630,0,False
+India,Odisha,Urban,2019,22.440,0,False
+India,Odisha,Urban,2020,27.430,0,False
+India,Odisha,Urban,2021,22.540,0,False
+India,Odisha,Urban,2022,31.350,0,False
+India,Odisha,Urban,2023,29.600,0,False
+India,Puducherry,Rural,2017,6.440,0,False
+India,Puducherry,Rural,2018,39.220,0,False
+India,Puducherry,Rural,2019,30.970,0,False
+India,Puducherry,Rural,2020,22.550,0,False
+India,Puducherry,Rural,2021,51.090,0,False
+India,Puducherry,Rural,2022,45.610,0,False
+India,Puducherry,Rural,2023,44.110,0,False
+India,Puducherry,Rural + Urban,2017,15.520,0,False
+India,Puducherry,Rural + Urban,2018,31.260,0,False
+India,Puducherry,Rural + Urban,2019,30.170,0,False
+India,Puducherry,Rural + Urban,2020,26.040,0,False
+India,Puducherry,Rural + Urban,2021,36.060,0,False
+India,Puducherry,Rural + Urban,2023,33.180,0,False
+India,Puducherry,Urban,2017,20.040,0,False
+India,Puducherry,Urban,2018,26.140,0,False
+India,Puducherry,Urban,2019,28.550,0,False
+India,Puducherry,Urban,2020,26.430,0,False
+India,Puducherry,Urban,2021,28.720,0,False
+India,Puducherry,Urban,2022,27.670,0,False
+India,Puducherry,Urban,2023,27.720,0,False
+India,Punjab,Rural,2017,14.440,0,False
+India,Punjab,Rural,2018,20.020,0,False
+India,Punjab,Rural,2019,24.620,0,False
+India,Punjab,Rural,2020,22.970,0,False
+India,Punjab,Rural,2021,24.630,0,False
+India,Punjab,Rural,2022,27.410,0,False
+India,Punjab,Rural,2023,34.070,0,False
+India,Punjab,Rural + Urban,2017,16.640,0,False
+India,Punjab,Rural + Urban,2018,20.220,0,False
+India,Punjab,Rural + Urban,2019,22.620,0,False
+India,Punjab,Rural + Urban,2020,22.700,0,False
+India,Punjab,Rural + Urban,2021,24.690,0,False
+India,Punjab,Rural + Urban,2022,26.580,0,False
+India,Punjab,Rural + Urban,2023,30.920,0,False
+India,Punjab,Urban,2017,18.950,0,False
+India,Punjab,Urban,2018,20.040,0,False
+India,Punjab,Urban,2019,20.520,0,False
+India,Punjab,Urban,2020,20.160,0,False
+India,Punjab,Urban,2021,23.730,0,False
+India,Punjab,Urban,2022,25.090,0,False
+India,Punjab,Urban,2023,25.450,0,False
+India,Rajasthan,Rural,2017,21.190,0,False
+India,Rajasthan,Rural,2018,33.500,0,False
+India,Rajasthan,Rural,2019,34.280,0,False
+India,Rajasthan,Rural,2020,33.830,0,False
+India,Rajasthan,Rural,2021,34.560,0,False
+India,Rajasthan,Rural,2022,42.810,0,False
+India,Rajasthan,Rural,2023,48.090,0,False
+India,Rajasthan,Rural + Urban,2017,18.670,0,False
+India,Rajasthan,Rural + Urban,2018,28.840,0,False
+India,Rajasthan,Rural + Urban,2019,28.710,0,False
+India,Rajasthan,Rural + Urban,2020,30.180,0,False
+India,Rajasthan,Rural + Urban,2021,29.380,0,False
+India,Rajasthan,Rural + Urban,2022,36.950,0,False
+India,Rajasthan,Rural + Urban,2023,41.590,0,False
+India,Rajasthan,Urban,2017,12.810,0,False
+India,Rajasthan,Urban,2018,17.430,0,False
+India,Rajasthan,Urban,2019,17.250,0,False
+India,Rajasthan,Urban,2020,18.140,0,False
+India,Rajasthan,Urban,2021,23.730,0,False
+India,Rajasthan,Urban,2022,21.310,0,False
+India,Rajasthan,Urban,2023,25.260,0,False
+India,Sikkim,Rural,2017,43.860,0,False
+India,Sikkim,Rural,2018,60.970,0,False
+India,Sikkim,Rural,2019,61.050,0,False
+India,Sikkim,Rural,2020,68.990,0,False
+India,Sikkim,Rural,2021,56.290,0,False
+India,Sikkim,Rural,2022,60.280,0,False
+India,Sikkim,Rural,2023,77.800,0,False
+India,Sikkim,Rural + Urban,2017,40.630,0,False
+India,Sikkim,Rural + Urban,2018,55.430,0,False
+India,Sikkim,Rural + Urban,2019,57.750,0,False
+India,Sikkim,Rural + Urban,2020,60.260,0,False
+India,Sikkim,Rural + Urban,2021,49.980,0,False
+India,Sikkim,Rural + Urban,2022,58.870,0,False
+India,Sikkim,Rural + Urban,2023,66.610,0,False
+India,Sikkim,Urban,2017,40.060,0,False
+India,Sikkim,Urban,2018,42.730,0,False
+India,Sikkim,Urban,2019,43.640,0,False
+India,Sikkim,Urban,2020,40.160,0,False
+India,Sikkim,Urban,2021,28.070,0,False
+India,Sikkim,Urban,2022,41.680,0,False
+India,Sikkim,Urban,2023,37.300,0,False
+India,Tamil Nadu,Rural,2017,33.210,0,False
+India,Tamil Nadu,Rural,2018,35.180,0,False
+India,Tamil Nadu,Rural,2019,38.640,0,False
+India,Tamil Nadu,Rural,2020,40.960,0,False
+India,Tamil Nadu,Rural,2021,43.650,0,False
+India,Tamil Nadu,Rural,2022,42.290,0,False
+India,Tamil Nadu,Rural,2023,46.910,0,False
+India,Tamil Nadu,Rural + Urban,2017,30.110,0,False
+India,Tamil Nadu,Rural + Urban,2018,32.170,0,False
+India,Tamil Nadu,Rural + Urban,2019,36.200,0,False
+India,Tamil Nadu,Rural + Urban,2020,36.350,0,False
+India,Tamil Nadu,Rural + Urban,2021,36.870,0,False
+India,Tamil Nadu,Rural + Urban,2022,36.180,0,False
+India,Tamil Nadu,Rural + Urban,2023,39.170,0,False
+India,Tamil Nadu,Urban,2017,26.140,0,False
+India,Tamil Nadu,Urban,2018,27.250,0,False
+India,Tamil Nadu,Urban,2019,30.980,0,False
+India,Tamil Nadu,Urban,2020,29.460,0,False
+India,Tamil Nadu,Urban,2021,27.870,0,False
+India,Tamil Nadu,Urban,2022,27.440,0,False
+India,Tamil Nadu,Urban,2023,29.580,0,False
+India,Telangana,Rural,2017,23.170,0,False
+India,Telangana,Rural,2018,30.330,0,False
+India,Telangana,Rural,2019,37.210,0,False
+India,Telangana,Rural,2020,44.560,0,False
+India,Telangana,Rural,2021,36.580,0,False
+India,Telangana,Rural,2022,38.150,0,False
+India,Telangana,Rural,2023,47.270,0,False
+India,Telangana,Rural + Urban,2017,21.950,0,False
+India,Telangana,Rural + Urban,2018,28.170,0,False
+India,Telangana,Rural + Urban,2019,34.180,0,False
+India,Telangana,Rural + Urban,2020,37.810,0,False
+India,Telangana,Rural + Urban,2021,37.610,0,False
+India,Telangana,Rural + Urban,2022,37.460,0,False
+India,Telangana,Rural + Urban,2023,41.790,0,False
+India,Telangana,Urban,2017,17.520,0,False
+India,Telangana,Urban,2018,21.000,0,False
+India,Telangana,Urban,2019,24.550,0,False
+India,Telangana,Urban,2020,26.140,0,False
+India,Telangana,Urban,2021,29.990,0,False
+India,Telangana,Urban,2022,26.450,0,False
+India,Telangana,Urban,2023,30.850,0,False
+India,The Dadra and Nagar Haveli and Daman and Diu,Rural,2017,42.310,0,False
+India,The Dadra and Nagar Haveli and Daman and Diu,Rural,2018,34.945,0,False
+India,The Dadra and Nagar Haveli and Daman and Diu,Rural,2019,46.745,0,False
+India,The Dadra and Nagar Haveli and Daman and Diu,Rural,2020,61.490,0,False
+India,The Dadra and Nagar Haveli and Daman and Diu,Rural,2021,54.470,0,False
+India,The Dadra and Nagar Haveli and Daman and Diu,Rural,2022,55.870,0,False
+India,The Dadra and Nagar Haveli and Daman and Diu,Rural,2023,66.800,0,False
+India,The Dadra and Nagar Haveli and Daman and Diu,Rural + Urban,2017,34.045,0,False
+India,The Dadra and Nagar Haveli and Daman and Diu,Rural + Urban,2018,28.800,0,False
+India,The Dadra and Nagar Haveli and Daman and Diu,Rural + Urban,2019,36.765,0,False
+India,The Dadra and Nagar Haveli and Daman and Diu,Rural + Urban,2020,31.910,0,False
+India,The Dadra and Nagar Haveli and Daman and Diu,Rural + Urban,2021,40.860,0,False
+India,The Dadra and Nagar Haveli and Daman and Diu,Rural + Urban,2022,39.420,0,False
+India,The Dadra and Nagar Haveli and Daman and Diu,Rural + Urban,2023,46.530,0,False
+India,The Dadra and Nagar Haveli and Daman and Diu,Urban,2017,21.710,0,False
+India,The Dadra and Nagar Haveli and Daman and Diu,Urban,2018,19.155,0,False
+India,The Dadra and Nagar Haveli and Daman and Diu,Urban,2019,27.420,0,False
+India,The Dadra and Nagar Haveli and Daman and Diu,Urban,2020,19.900,0,False
+India,The Dadra and Nagar Haveli and Daman and Diu,Urban,2021,28.930,0,False
+India,The Dadra and Nagar Haveli and Daman and Diu,Urban,2022,32.980,0,False
+India,The Dadra and Nagar Haveli and Daman and Diu,Urban,2023,31.290,0,False
+India,Tripura,Rural,2017,15.010,0,False
+India,Tripura,Rural,2018,17.220,0,False
+India,Tripura,Rural,2019,24.520,0,False
+India,Tripura,Rural,2020,30.430,0,False
+India,Tripura,Rural,2021,22.340,0,False
+India,Tripura,Rural,2022,42.970,0,False
+India,Tripura,Rural,2023,40.820,0,False
+India,Tripura,Rural + Urban,2017,13.140,0,False
+India,Tripura,Rural + Urban,2018,16.540,0,False
+India,Tripura,Rural + Urban,2019,25.140,0,False
+India,Tripura,Rural + Urban,2020,28.030,0,False
+India,Tripura,Rural + Urban,2021,24.830,0,False
+India,Tripura,Rural + Urban,2022,38.890,0,False
+India,Tripura,Rural + Urban,2023,40.370,0,False
+India,Tripura,Urban,2017,14.260,0,False
+India,Tripura,Urban,2018,16.690,0,False
+India,Tripura,Urban,2019,22.680,0,False
+India,Tripura,Urban,2020,22.380,0,False
+India,Tripura,Urban,2021,20.740,0,False
+India,Tripura,Urban,2022,34.250,0,False
+India,Tripura,Urban,2023,33.900,0,False
+India,Uttar Pradesh,Rural,2017,16.070,0,False
+India,Uttar Pradesh,Rural,2018,10.880,0,False
+India,Uttar Pradesh,Rural,2019,13.630,0,False
+India,Uttar Pradesh,Rural,2020,19.870,0,False
+India,Uttar Pradesh,Rural,2021,23.520,0,False
+India,Uttar Pradesh,Rural,2022,36.800,0,False
+India,Uttar Pradesh,Rural,2023,28.940,0,False
+India,Uttar Pradesh,Rural + Urban,2017,16.320,0,False
+India,Uttar Pradesh,Rural + Urban,2018,10.830,0,False
+India,Uttar Pradesh,Rural + Urban,2019,14.510,0,False
+India,Uttar Pradesh,Rural + Urban,2020,17.590,0,False
+India,Uttar Pradesh,Rural + Urban,2021,21.860,0,False
+India,Uttar Pradesh,Rural + Urban,2022,32.800,0,False
+India,Uttar Pradesh,Rural + Urban,2023,31.090,0,False
+India,Uttar Pradesh,Urban,2017,15.450,0,False
+India,Uttar Pradesh,Urban,2018,11.090,0,False
+India,Uttar Pradesh,Urban,2019,15.030,0,False
+India,Uttar Pradesh,Urban,2020,11.520,0,False
+India,Uttar Pradesh,Urban,2021,14.920,0,False
+India,Uttar Pradesh,Urban,2022,20.180,0,False
+India,Uttar Pradesh,Urban,2023,19.680,0,False
+India,Uttarakhand,Rural,2017,16.560,0,False
+India,Uttarakhand,Rural,2018,17.640,0,False
+India,Uttarakhand,Rural,2019,30.940,0,False
+India,Uttarakhand,Rural,2020,38.640,0,False
+India,Uttarakhand,Rural,2021,33.130,0,False
+India,Uttarakhand,Rural,2022,41.000,0,False
+India,Uttarakhand,Rural,2023,47.670,0,False
+India,Uttarakhand,Rural + Urban,2017,19.220,0,False
+India,Uttarakhand,Rural + Urban,2018,16.360,0,False
+India,Uttarakhand,Rural + Urban,2019,26.140,0,False
+India,Uttarakhand,Rural + Urban,2020,25.880,0,False
+India,Uttarakhand,Rural + Urban,2021,29.430,0,False
+India,Uttarakhand,Rural + Urban,2022,34.270,0,False
+India,Uttarakhand,Rural + Urban,2023,48.040,0,False
+India,Uttarakhand,Urban,2017,19.240,0,False
+India,Uttarakhand,Urban,2018,11.430,0,False
+India,Uttarakhand,Urban,2019,14.010,0,False
+India,Uttarakhand,Urban,2020,15.590,0,False
+India,Uttarakhand,Urban,2021,19.190,0,False
+India,Uttarakhand,Urban,2022,14.730,0,False
+India,Uttarakhand,Urban,2023,27.680,0,False
+India,West Bengal,Rural,2017,20.390,0,False
+India,West Bengal,Rural,2018,21.240,0,False
+India,West Bengal,Rural,2019,22.560,0,False
+India,West Bengal,Rural,2020,28.590,0,False
+India,West Bengal,Rural,2021,31.310,0,False
+India,West Bengal,Rural,2022,34.920,0,False
+India,West Bengal,Rural,2023,42.660,0,False
+India,West Bengal,Rural + Urban,2017,20.710,0,False
+India,West Bengal,Rural + Urban,2018,22.950,0,False
+India,West Bengal,Rural + Urban,2019,23.860,0,False
+India,West Bengal,Rural + Urban,2020,27.460,0,False
+India,West Bengal,Rural + Urban,2021,29.880,0,False
+India,West Bengal,Rural + Urban,2022,34.090,0,False
+India,West Bengal,Rural + Urban,2023,39.390,0,False
+India,West Bengal,Urban,2017,20.900,0,False
+India,West Bengal,Urban,2018,23.850,0,False
+India,West Bengal,Urban,2019,25.780,0,False
+India,West Bengal,Urban,2020,25.600,0,False
+India,West Bengal,Urban,2021,25.070,0,False
+India,West Bengal,Urban,2022,30.350,0,False
+India,West Bengal,Urban,2023,33.610,0,False
+India,Andaman and Nicobar Islands,Rural,All_Years,37.489,0,True
+India,Andaman and Nicobar Islands,Rural + Urban,All_Years,33.006,0,True
+India,Andaman and Nicobar Islands,Urban,All_Years,28.010,0,True
+India,Andhra Pradesh,Rural,All_Years,39.091,0,True
+India,Andhra Pradesh,Rural + Urban,All_Years,36.099,0,True
+India,Andhra Pradesh,Urban,All_Years,29.219,0,True
+India,Arunachal Pradesh,Rural,All_Years,33.417,0,True
+India,Arunachal Pradesh,Rural + Urban,All_Years,35.920,0,True
+India,Arunachal Pradesh,Urban,All_Years,28.554,0,True
+India,Assam,Rural,All_Years,29.731,0,True
+India,Assam,Rural + Urban,All_Years,30.011,0,True
+India,Assam,Urban,All_Years,24.774,0,True
+India,Bihar,Rural,All_Years,14.927,0,True
+India,Bihar,Rural + Urban,All_Years,15.606,0,True
+India,Bihar,Urban,All_Years,12.597,0,True
+India,Chandigarh,Rural,All_Years,15.405,10,True
+India,Chandigarh,Rural + Urban,All_Years,25.583,0,True
+India,Chandigarh,Urban,All_Years,25.696,0,True
+India,Chhattisgarh,Rural,All_Years,49.301,0,True
+India,Chhattisgarh,Rural + Urban,All_Years,44.600,0,True
+India,Chhattisgarh,Urban,All_Years,28.864,0,True
+India,Delhi,Rural,All_Years,9.436,0,True
+India,Delhi,Rural + Urban,All_Years,19.167,0,True
+India,Delhi,Urban,All_Years,19.426,0,True
+India,Goa,Rural,All_Years,28.417,0,True
+India,Goa,Rural + Urban,All_Years,28.503,0,True
+India,Goa,Urban,All_Years,28.577,0,True
+India,Gujarat,Rural,All_Years,37.000,0,True
+India,Gujarat,Rural + Urban,All_Years,30.994,0,True
+India,Gujarat,Urban,All_Years,23.590,0,True
+India,Haryana,Rural,All_Years,18.473,0,True
+India,Haryana,Rural + Urban,All_Years,19.033,0,True
+India,Haryana,Urban,All_Years,18.980,0,True
+India,Himachal Pradesh,Rural,All_Years,63.824,0,True
+India,Himachal Pradesh,Rural + Urban,All_Years,60.231,0,True
+India,Himachal Pradesh,Urban,All_Years,31.861,0,True
+India,Jammu and Kashmir,Rural,All_Years,38.889,0,True
+India,Jammu and Kashmir,Rural + Urban,All_Years,35.516,0,True
+India,Jammu and Kashmir,Urban,All_Years,23.004,0,True
+India,Jharkhand,Rural,All_Years,36.599,0,True
+India,Jharkhand,Rural + Urban,All_Years,30.737,0,True
+India,Jharkhand,Urban,All_Years,16.380,0,True
+India,Karnataka,Rural,All_Years,31.939,0,True
+India,Karnataka,Rural + Urban,All_Years,31.284,0,True
+India,Karnataka,Urban,All_Years,27.009,0,True
+India,Kerala,Rural,All_Years,33.083,0,True
+India,Kerala,Rural + Urban,All_Years,30.966,0,True
+India,Kerala,Urban,All_Years,28.290,0,True
+India,Ladakh,Rural,All_Years,44.667,0,True
+India,Ladakh,Rural + Urban,All_Years,46.303,0,True
+India,Ladakh,Urban,All_Years,33.373,0,True
+India,Lakshadweep,Rural,All_Years,15.826,0,True
+India,Lakshadweep,Rural + Urban,All_Years,18.839,0,True
+India,Lakshadweep,Urban,All_Years,19.230,0,True
+India,Madhya Pradesh,Rural,All_Years,35.881,0,True
+India,Madhya Pradesh,Rural + Urban,All_Years,32.704,0,True
+India,Madhya Pradesh,Urban,All_Years,23.754,0,True
+India,Maharashtra,Rural,All_Years,38.989,0,True
+India,Maharashtra,Rural + Urban,All_Years,34.647,0,True
+India,Maharashtra,Urban,All_Years,26.469,0,True
+India,Manipur,Rural,All_Years,31.521,0,True
+India,Manipur,Rural + Urban,All_Years,32.496,0,True
+India,Manipur,Urban,All_Years,33.864,0,True
+India,Meghalaya,Rural,All_Years,59.311,0,True
+India,Meghalaya,Rural + Urban,All_Years,53.064,0,True
+India,Meghalaya,Urban,All_Years,36.251,0,True
+India,Mizoram,Rural,All_Years,29.071,0,True
+India,Mizoram,Rural + Urban,All_Years,37.933,0,True
+India,Mizoram,Urban,All_Years,35.416,0,True
+India,Nagaland,Rural,All_Years,40.671,0,True
+India,Nagaland,Rural + Urban,All_Years,40.324,0,True
+India,Nagaland,Urban,All_Years,30.943,0,True
+India,Odisha,Rural,All_Years,33.424,0,True
+India,Odisha,Rural + Urban,All_Years,31.524,0,True
+India,Odisha,Urban,All_Years,24.527,0,True
+India,Puducherry,Rural,All_Years,34.284,0,True
+India,Puducherry,Rural + Urban,All_Years,28.705,0,True
+India,Puducherry,Urban,All_Years,26.467,0,True
+India,Punjab,Rural,All_Years,24.023,0,True
+India,Punjab,Rural + Urban,All_Years,23.481,0,True
+India,Punjab,Urban,All_Years,21.991,0,True
+India,Rajasthan,Rural,All_Years,35.466,0,True
+India,Rajasthan,Rural + Urban,All_Years,30.617,0,True
+India,Rajasthan,Urban,All_Years,19.419,0,True
+India,Sikkim,Rural,All_Years,61.320,0,True
+India,Sikkim,Rural + Urban,All_Years,55.647,0,True
+India,Sikkim,Urban,All_Years,39.091,0,True
+India,Tamil Nadu,Rural,All_Years,40.120,0,True
+India,Tamil Nadu,Rural + Urban,All_Years,35.293,0,True
+India,Tamil Nadu,Urban,All_Years,28.389,0,True
+India,Telangana,Rural,All_Years,36.753,0,True
+India,Telangana,Rural + Urban,All_Years,34.139,0,True
+India,Telangana,Urban,All_Years,25.214,0,True
+India,The Dadra and Nagar Haveli and Daman and Diu,Rural,All_Years,51.804,0,True
+India,The Dadra and Nagar Haveli and Daman and Diu,Rural + Urban,All_Years,36.904,0,True
+India,The Dadra and Nagar Haveli and Daman and Diu,Urban,All_Years,25.912,0,True
+India,Tripura,Rural,All_Years,27.616,0,True
+India,Tripura,Rural + Urban,All_Years,26.706,0,True
+India,Tripura,Urban,All_Years,23.557,0,True
+India,Uttar Pradesh,Rural,All_Years,21.387,0,True
+India,Uttar Pradesh,Rural + Urban,All_Years,20.714,0,True
+India,Uttar Pradesh,Urban,All_Years,15.410,0,True
+India,Uttarakhand,Rural,All_Years,32.226,0,True
+India,Uttarakhand,Rural + Urban,All_Years,28.477,0,True
+India,Uttarakhand,Urban,All_Years,17.410,0,True
+India,West Bengal,Rural,All_Years,28.810,0,True
+India,West Bengal,Rural + Urban,All_Years,28.334,0,True
+India,West Bengal,Urban,All_Years,26.451,0,True

@@ -1,0 +1,9 @@
+{
+  "valid_total": 22620,
+  "wpr_le_lfpr_count": 22619,
+  "wpr_gt_lfpr_count": 1,
+  "wpr_gt_lfpr_percent": 0.0,
+  "lfpr_mean": 56.5707,
+  "wpr_mean": 51.2949,
+  "total_rows": 22650
+}

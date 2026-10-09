@@ -1,0 +1,7 @@
+key_columns,n_unique_keys,n_rows,duplicate_key_count,max_rows_per_key,is_unique
+State,36,31080,31044,864,False
+State × Year,252,31080,30828,144,False
+State × Year × Gender,756,31080,30324,48,False
+State × Year × Gender × Type Of Areas,2265,31080,28815,16,False
+State × Year × Gender × Type Of Areas × Industry Division Type,3885,31080,27195,8,False
+State × Year × Gender × Type Of Areas × Industry Division Type × Enterprise Type,31080,31080,0,1,True

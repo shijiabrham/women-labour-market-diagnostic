@@ -1,0 +1,4 @@
+pattern,count,percentage,description
+000,20736,66.72,All three present
+011,5184,16.68,"Second and third missing, first present"
+010,5160,16.6,Only second missing

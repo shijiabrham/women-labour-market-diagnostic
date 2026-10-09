@@ -1,0 +1,11 @@
+column,unique_count,missing_count,missing_pct,top_values
+Country,1,0,0.0,{'India': 31080}
+State,36,0,0.0,"{'Andaman and Nicobar Islands': 864, 'Andhra Pradesh': 864, 'Manipur': 864, 'Meghalaya': 864, 'Mizoram': 864, 'Nagaland': 864, 'Odisha': 864, 'Puducherry': 864, 'Punjab': 864, 'Rajasthan': 864}"
+Year,7,0,0.0,"{'PLFS Year (Jul - Jun), 2021': 5184, 'PLFS Year (Jul - Jun), 2020': 5184, 'PLFS Year (Jul - Jun), 2019': 5184, 'PLFS Year (Jul - Jun), 2018': 5184, 'PLFS Year (Jul - Jun), 2017': 5184, 'PLFS Year (Jul - Jun), 2022': 2592, 'PLFS Year (Jul - Jun), 2023': 2568}"
+Type Of Areas,3,0,0.0,"{'Urban': 10368, 'Rural + Urban': 10368, 'Rural': 10344}"
+Industry Division Type,2,0,0.0,"{'(05-99)': 18120, '(014, 016, 017 , 02-99)': 12960}"
+Gender,3,0,0.0,"{'Male': 10360, 'Female': 10360, 'Persons': 10360}"
+Enterprise Type,8,0,0.0,"{'Proprietary and Partnership': 3885, 'Govt./ Local Body/ Public Sector Enterprises': 3885, 'Autonomous Bodies': 3885, 'Public/ Private Limited Company': 3885, 'Cooperative Societies': 3885, 'Trust/ Other Non Profit inst': 3885, ""Employer's Households"": 3885, 'Others': 3885}"
+"Persons Engaged In The Industry Groups By Enterprise Type (%) (UOM:%(Percentage)), Scaling Factor:1",1079,0,0.0,"{'0': 4950, '0.1': 1606, '0.2': 1350, '0.3': 1096, '0.4': 887, '0.5': 691, '0.6': 602, '0.7': 566, '0.8': 526, '0.9': 446}"
+"Estimated Persons (UOM:Number), Scaling Factor:100",1022,10344,33.282,"{'12170': 108, '948': 108, '28354': 99, '1860': 72, '3533': 72, '2832': 72, '11875': 72, '5426': 72, '57164': 72, '1979': 72}"
+"Sample Number Of Workers In The Enterprise (UOM:Number), Scaling Factor:1",1090,5184,16.68,"{'121': 178, '25': 144, '217': 142, '112': 141, '1632': 108, '402': 108, '63': 108, '80': 108, '184': 107, '29': 107}"

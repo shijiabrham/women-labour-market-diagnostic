@@ -1,0 +1,11 @@
+column,missing_count,missing_pct
+Country,0,0.0
+State,0,0.0
+Year,0,0.0
+Type Of Areas,0,0.0
+Industry Division Type,0,0.0
+Gender,0,0.0
+Enterprise Type,0,0.0
+"Persons Engaged In The Industry Groups By Enterprise Type (%) (UOM:%(Percentage)), Scaling Factor:1",0,0.0
+"Estimated Persons (UOM:Number), Scaling Factor:100",10344,33.282
+"Sample Number Of Workers In The Enterprise (UOM:Number), Scaling Factor:1",5184,16.68

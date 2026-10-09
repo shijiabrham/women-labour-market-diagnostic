@@ -1,0 +1,695 @@
+# Q7 Full Validation (tolerance ≤ 1e-6)
+
+**FAIL** – mismatches found:
+- Andaman and Nicobar Islands/PLFS Year (Jul - Jun), 2017 Mean: source 41.143333 vs result 41.143000
+- Andaman and Nicobar Islands/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 22.257833 vs result 22.258000
+- Andaman and Nicobar Islands/PLFS Year (Jul - Jun), 2017 Value: source 41.143333 vs result 41.143000
+- Andaman and Nicobar Islands/PLFS Year (Jul - Jun), 2018 Mean: source 30.123333 vs result 30.123000
+- Andaman and Nicobar Islands/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 24.794659 vs result 24.795000
+- Andaman and Nicobar Islands/PLFS Year (Jul - Jun), 2018 Value: source 30.123333 vs result 30.123000
+- Andaman and Nicobar Islands/PLFS Year (Jul - Jun), 2019 Mean: source 28.926667 vs result 28.927000
+- Andaman and Nicobar Islands/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 22.564189 vs result 22.564000
+- Andaman and Nicobar Islands/PLFS Year (Jul - Jun), 2019 Value: source 28.926667 vs result 28.927000
+- Andaman and Nicobar Islands/PLFS Year (Jul - Jun), 2020 Mean: source 21.936667 vs result 21.937000
+- Andaman and Nicobar Islands/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 16.469416 vs result 16.469000
+- Andaman and Nicobar Islands/PLFS Year (Jul - Jun), 2020 Value: source 21.936667 vs result 21.937000
+- Andaman and Nicobar Islands/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 21.442186 vs result 21.442000
+- Andaman and Nicobar Islands/PLFS Year (Jul - Jun), 2022 Mean: source 20.536667 vs result 20.537000
+- Andaman and Nicobar Islands/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 17.865600 vs result 17.866000
+- Andaman and Nicobar Islands/PLFS Year (Jul - Jun), 2022 Value: source 20.536667 vs result 20.537000
+- Andaman and Nicobar Islands/PLFS Year (Jul - Jun), 2023 Mean: source 23.716667 vs result 23.717000
+- Andaman and Nicobar Islands/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 18.500578 vs result 18.501000
+- Andaman and Nicobar Islands/PLFS Year (Jul - Jun), 2023 Value: source 23.716667 vs result 23.717000
+- Andaman and Nicobar Islands/All Mean: source 26.497619 vs result 26.498000
+- Andaman and Nicobar Islands/All Population_Standard_Deviation: source 21.922349 vs result 21.922000
+- Andaman and Nicobar Islands/All Value: source 26.497619 vs result 26.498000
+- Andhra Pradesh/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 17.110916 vs result 17.111000
+- Andhra Pradesh/PLFS Year (Jul - Jun), 2018 Mean: source 18.746667 vs result 18.747000
+- Andhra Pradesh/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 20.176566 vs result 20.177000
+- Andhra Pradesh/PLFS Year (Jul - Jun), 2018 Value: source 18.746667 vs result 18.747000
+- Andhra Pradesh/PLFS Year (Jul - Jun), 2019 Mean: source 12.816667 vs result 12.817000
+- Andhra Pradesh/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 15.198642 vs result 15.199000
+- Andhra Pradesh/PLFS Year (Jul - Jun), 2019 Value: source 12.816667 vs result 12.817000
+- Andhra Pradesh/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 10.449740 vs result 10.450000
+- Andhra Pradesh/PLFS Year (Jul - Jun), 2021 Mean: source 9.943333 vs result 9.943000
+- Andhra Pradesh/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 11.063745 vs result 11.064000
+- Andhra Pradesh/PLFS Year (Jul - Jun), 2021 Value: source 9.943333 vs result 9.943000
+- Andhra Pradesh/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 11.963816 vs result 11.964000
+- Andhra Pradesh/PLFS Year (Jul - Jun), 2023 Mean: source 10.633333 vs result 10.633000
+- Andhra Pradesh/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 13.194376 vs result 13.194000
+- Andhra Pradesh/PLFS Year (Jul - Jun), 2023 Value: source 10.633333 vs result 10.633000
+- Andhra Pradesh/All Mean: source 12.294286 vs result 12.294000
+- Andhra Pradesh/All Population_Standard_Deviation: source 14.939231 vs result 14.939000
+- Andhra Pradesh/All Value: source 12.294286 vs result 12.294000
+- Arunachal Pradesh/PLFS Year (Jul - Jun), 2017 Mean: source 20.196667 vs result 20.197000
+- Arunachal Pradesh/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 20.719725 vs result 20.720000
+- Arunachal Pradesh/PLFS Year (Jul - Jun), 2017 Value: source 20.196667 vs result 20.197000
+- Arunachal Pradesh/PLFS Year (Jul - Jun), 2018 Mean: source 23.966667 vs result 23.967000
+- Arunachal Pradesh/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 21.316478 vs result 21.316000
+- Arunachal Pradesh/PLFS Year (Jul - Jun), 2018 Value: source 23.966667 vs result 23.967000
+- Arunachal Pradesh/PLFS Year (Jul - Jun), 2019 Mean: source 12.663333 vs result 12.663000
+- Arunachal Pradesh/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 12.392834 vs result 12.393000
+- Arunachal Pradesh/PLFS Year (Jul - Jun), 2019 Value: source 12.663333 vs result 12.663000
+- Arunachal Pradesh/PLFS Year (Jul - Jun), 2020 Mean: source 15.293333 vs result 15.293000
+- Arunachal Pradesh/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 16.611501 vs result 16.612000
+- Arunachal Pradesh/PLFS Year (Jul - Jun), 2020 Value: source 15.293333 vs result 15.293000
+- Arunachal Pradesh/PLFS Year (Jul - Jun), 2021 Mean: source 20.686667 vs result 20.687000
+- Arunachal Pradesh/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 26.811064 vs result 26.811000
+- Arunachal Pradesh/PLFS Year (Jul - Jun), 2021 Value: source 20.686667 vs result 20.687000
+- Arunachal Pradesh/PLFS Year (Jul - Jun), 2022 Mean: source 12.683333 vs result 12.683000
+- Arunachal Pradesh/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 15.239140 vs result 15.239000
+- Arunachal Pradesh/PLFS Year (Jul - Jun), 2022 Value: source 12.683333 vs result 12.683000
+- Arunachal Pradesh/PLFS Year (Jul - Jun), 2023 Mean: source 15.543333 vs result 15.543000
+- Arunachal Pradesh/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 19.556886 vs result 19.557000
+- Arunachal Pradesh/PLFS Year (Jul - Jun), 2023 Value: source 15.543333 vs result 15.543000
+- Arunachal Pradesh/All Mean: source 17.290476 vs result 17.290000
+- Arunachal Pradesh/All Population_Standard_Deviation: source 19.860185 vs result 19.860000
+- Arunachal Pradesh/All Value: source 17.290476 vs result 17.290000
+- Assam/PLFS Year (Jul - Jun), 2017 Mean: source 22.146667 vs result 22.147000
+- Assam/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 22.062649 vs result 22.063000
+- Assam/PLFS Year (Jul - Jun), 2017 Value: source 22.146667 vs result 22.147000
+- Assam/PLFS Year (Jul - Jun), 2018 Mean: source 12.916667 vs result 12.917000
+- Assam/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 11.561548 vs result 11.562000
+- Assam/PLFS Year (Jul - Jun), 2018 Value: source 12.916667 vs result 12.917000
+- Assam/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 11.617986 vs result 11.618000
+- Assam/PLFS Year (Jul - Jun), 2020 Mean: source 12.573333 vs result 12.573000
+- Assam/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 12.406126 vs result 12.406000
+- Assam/PLFS Year (Jul - Jun), 2020 Value: source 12.573333 vs result 12.573000
+- Assam/PLFS Year (Jul - Jun), 2021 Mean: source 11.783333 vs result 11.783000
+- Assam/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 10.364461 vs result 10.364000
+- Assam/PLFS Year (Jul - Jun), 2021 Value: source 11.783333 vs result 11.783000
+- Assam/PLFS Year (Jul - Jun), 2022 Mean: source 8.653333 vs result 8.653000
+- Assam/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 8.920640 vs result 8.921000
+- Assam/PLFS Year (Jul - Jun), 2022 Value: source 8.653333 vs result 8.653000
+- Assam/PLFS Year (Jul - Jun), 2023 Mean: source 12.286667 vs result 12.287000
+- Assam/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 12.919126 vs result 12.919000
+- Assam/PLFS Year (Jul - Jun), 2023 Value: source 12.286667 vs result 12.287000
+- Assam/All Mean: source 13.634286 vs result 13.634000
+- Assam/All Population_Standard_Deviation: source 13.987068 vs result 13.987000
+- Assam/All Value: source 13.634286 vs result 13.634000
+- Bihar/PLFS Year (Jul - Jun), 2017 Mean: source 4.523333 vs result 4.523000
+- Bihar/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 5.231041 vs result 5.231000
+- Bihar/PLFS Year (Jul - Jun), 2017 Value: source 4.523333 vs result 4.523000
+- Bihar/PLFS Year (Jul - Jun), 2018 Mean: source 5.746667 vs result 5.747000
+- Bihar/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 8.887884 vs result 8.888000
+- Bihar/PLFS Year (Jul - Jun), 2018 Value: source 5.746667 vs result 5.747000
+- Bihar/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 24.936658 vs result 24.937000
+- Bihar/PLFS Year (Jul - Jun), 2020 Mean: source 8.713333 vs result 8.713000
+- Bihar/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 12.481526 vs result 12.482000
+- Bihar/PLFS Year (Jul - Jun), 2020 Value: source 8.713333 vs result 8.713000
+- Bihar/PLFS Year (Jul - Jun), 2021 Mean: source 8.686667 vs result 8.687000
+- Bihar/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 12.503912 vs result 12.504000
+- Bihar/PLFS Year (Jul - Jun), 2021 Value: source 8.686667 vs result 8.687000
+- Bihar/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 14.589475 vs result 14.589000
+- Bihar/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 19.803905 vs result 19.804000
+- Bihar/All Mean: source 8.631429 vs result 8.631000
+- Bihar/All Population_Standard_Deviation: source 15.556976 vs result 15.557000
+- Bihar/All Value: source 8.631429 vs result 8.631000
+- Chandigarh/PLFS Year (Jul - Jun), 2017 Mean: source 10.586667 vs result 10.587000
+- Chandigarh/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 12.873299 vs result 12.873000
+- Chandigarh/PLFS Year (Jul - Jun), 2017 Value: source 10.586667 vs result 10.587000
+- Chandigarh/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 21.181948 vs result 21.182000
+- Chandigarh/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 20.985410 vs result 20.985000
+- Chandigarh/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 4.023133 vs result 4.023000
+- Chandigarh/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 9.712046 vs result 9.712000
+- Chandigarh/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 13.484920 vs result 13.485000
+- Chandigarh/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 10.741513 vs result 10.742000
+- Chandigarh/All Population_Standard_Deviation: source 15.139987 vs result 15.140000
+- Chhattisgarh/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 18.239360 vs result 18.239000
+- Chhattisgarh/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 18.988799 vs result 18.989000
+- Chhattisgarh/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 8.426759 vs result 8.427000
+- Chhattisgarh/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 8.928621 vs result 8.929000
+- Chhattisgarh/PLFS Year (Jul - Jun), 2021 Mean: source 6.493333 vs result 6.493000
+- Chhattisgarh/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 9.273185 vs result 9.273000
+- Chhattisgarh/PLFS Year (Jul - Jun), 2021 Value: source 6.493333 vs result 6.493000
+- Chhattisgarh/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 9.173089 vs result 9.173000
+- Chhattisgarh/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 10.403133 vs result 10.403000
+- Chhattisgarh/All Mean: source 8.477619 vs result 8.478000
+- Chhattisgarh/All Population_Standard_Deviation: source 12.943501 vs result 12.944000
+- Chhattisgarh/All Value: source 8.477619 vs result 8.478000
+- Delhi/PLFS Year (Jul - Jun), 2017 Mean: source 5.463333 vs result 5.463000
+- Delhi/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 7.266154 vs result 7.266000
+- Delhi/PLFS Year (Jul - Jun), 2017 Value: source 5.463333 vs result 5.463000
+- Delhi/PLFS Year (Jul - Jun), 2018 Mean: source 5.746667 vs result 5.747000
+- Delhi/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 7.940938 vs result 7.941000
+- Delhi/PLFS Year (Jul - Jun), 2018 Value: source 5.746667 vs result 5.747000
+- Delhi/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 8.350263 vs result 8.350000
+- Delhi/PLFS Year (Jul - Jun), 2020 Mean: source 7.776667 vs result 7.777000
+- Delhi/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 18.157857 vs result 18.158000
+- Delhi/PLFS Year (Jul - Jun), 2020 Value: source 7.776667 vs result 7.777000
+- Delhi/PLFS Year (Jul - Jun), 2021 Mean: source 9.743333 vs result 9.743000
+- Delhi/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 24.429609 vs result 24.430000
+- Delhi/PLFS Year (Jul - Jun), 2021 Value: source 9.743333 vs result 9.743000
+- Delhi/PLFS Year (Jul - Jun), 2022 Mean: source 1.406667 vs result 1.407000
+- Delhi/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 2.535999 vs result 2.536000
+- Delhi/PLFS Year (Jul - Jun), 2022 Value: source 1.406667 vs result 1.407000
+- Delhi/PLFS Year (Jul - Jun), 2023 Mean: source 7.713333 vs result 7.713000
+- Delhi/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 23.203746 vs result 23.204000
+- Delhi/PLFS Year (Jul - Jun), 2023 Value: source 7.713333 vs result 7.713000
+- Delhi/All Population_Standard_Deviation: source 15.574392 vs result 15.574000
+- Goa/PLFS Year (Jul - Jun), 2017 Mean: source 24.256667 vs result 24.257000
+- Goa/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 14.949664 vs result 14.950000
+- Goa/PLFS Year (Jul - Jun), 2017 Value: source 24.256667 vs result 24.257000
+- Goa/PLFS Year (Jul - Jun), 2018 Mean: source 18.916667 vs result 18.917000
+- Goa/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 14.830803 vs result 14.831000
+- Goa/PLFS Year (Jul - Jun), 2018 Value: source 18.916667 vs result 18.917000
+- Goa/PLFS Year (Jul - Jun), 2019 Mean: source 14.213333 vs result 14.213000
+- Goa/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 13.798810 vs result 13.799000
+- Goa/PLFS Year (Jul - Jun), 2019 Value: source 14.213333 vs result 14.213000
+- Goa/PLFS Year (Jul - Jun), 2020 Mean: source 15.463333 vs result 15.463000
+- Goa/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 14.108496 vs result 14.108000
+- Goa/PLFS Year (Jul - Jun), 2020 Value: source 15.463333 vs result 15.463000
+- Goa/PLFS Year (Jul - Jun), 2021 Mean: source 19.256667 vs result 19.257000
+- Goa/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 21.544817 vs result 21.545000
+- Goa/PLFS Year (Jul - Jun), 2021 Value: source 19.256667 vs result 19.257000
+- Goa/PLFS Year (Jul - Jun), 2022 Mean: source 13.026667 vs result 13.027000
+- Goa/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 15.805377 vs result 15.805000
+- Goa/PLFS Year (Jul - Jun), 2022 Value: source 13.026667 vs result 13.027000
+- Goa/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 10.558193 vs result 10.558000
+- Goa/All Mean: source 16.966190 vs result 16.966000
+- Goa/All Population_Standard_Deviation: source 15.843227 vs result 15.843000
+- Goa/All Value: source 16.966190 vs result 16.966000
+- Gujarat/PLFS Year (Jul - Jun), 2017 Mean: source 8.233333 vs result 8.233000
+- Gujarat/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 12.457537 vs result 12.458000
+- Gujarat/PLFS Year (Jul - Jun), 2017 Value: source 8.233333 vs result 8.233000
+- Gujarat/PLFS Year (Jul - Jun), 2018 Mean: source 5.903333 vs result 5.903000
+- Gujarat/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 11.204775 vs result 11.205000
+- Gujarat/PLFS Year (Jul - Jun), 2018 Value: source 5.903333 vs result 5.903000
+- Gujarat/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 4.192978 vs result 4.193000
+- Gujarat/PLFS Year (Jul - Jun), 2020 Mean: source 5.453333 vs result 5.453000
+- Gujarat/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 6.810322 vs result 6.810000
+- Gujarat/PLFS Year (Jul - Jun), 2020 Value: source 5.453333 vs result 5.453000
+- Gujarat/PLFS Year (Jul - Jun), 2021 Mean: source 3.683333 vs result 3.683000
+- Gujarat/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 4.204687 vs result 4.205000
+- Gujarat/PLFS Year (Jul - Jun), 2021 Value: source 3.683333 vs result 3.683000
+- Gujarat/PLFS Year (Jul - Jun), 2022 Mean: source 4.973333 vs result 4.973000
+- Gujarat/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 9.192640 vs result 9.193000
+- Gujarat/PLFS Year (Jul - Jun), 2022 Value: source 4.973333 vs result 4.973000
+- Gujarat/PLFS Year (Jul - Jun), 2023 Mean: source 2.726667 vs result 2.727000
+- Gujarat/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 3.599068 vs result 3.599000
+- Gujarat/PLFS Year (Jul - Jun), 2023 Value: source 2.726667 vs result 2.727000
+- Gujarat/All Mean: source 4.830476 vs result 4.830000
+- Gujarat/All Population_Standard_Deviation: source 8.303862 vs result 8.304000
+- Gujarat/All Value: source 4.830476 vs result 4.830000
+- Haryana/PLFS Year (Jul - Jun), 2017 Mean: source 13.736667 vs result 13.737000
+- Haryana/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 15.601271 vs result 15.601000
+- Haryana/PLFS Year (Jul - Jun), 2017 Value: source 13.736667 vs result 13.737000
+- Haryana/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 12.523864 vs result 12.524000
+- Haryana/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 7.869841 vs result 7.870000
+- Haryana/PLFS Year (Jul - Jun), 2020 Mean: source 8.056667 vs result 8.057000
+- Haryana/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 8.541455 vs result 8.541000
+- Haryana/PLFS Year (Jul - Jun), 2020 Value: source 8.056667 vs result 8.057000
+- Haryana/PLFS Year (Jul - Jun), 2021 Mean: source 14.293333 vs result 14.293000
+- Haryana/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 13.737514 vs result 13.738000
+- Haryana/PLFS Year (Jul - Jun), 2021 Value: source 14.293333 vs result 14.293000
+- Haryana/PLFS Year (Jul - Jun), 2022 Mean: source 8.736667 vs result 8.737000
+- Haryana/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 9.246711 vs result 9.247000
+- Haryana/PLFS Year (Jul - Jun), 2022 Value: source 8.736667 vs result 8.737000
+- Haryana/PLFS Year (Jul - Jun), 2023 Mean: source 3.756667 vs result 3.757000
+- Haryana/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 4.854186 vs result 4.854000
+- Haryana/PLFS Year (Jul - Jun), 2023 Value: source 3.756667 vs result 3.757000
+- Haryana/All Mean: source 9.755714 vs result 9.756000
+- Haryana/All Population_Standard_Deviation: source 11.463154 vs result 11.463000
+- Haryana/All Value: source 9.755714 vs result 9.756000
+- Himachal Pradesh/PLFS Year (Jul - Jun), 2017 Mean: source 10.756667 vs result 10.757000
+- Himachal Pradesh/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 14.548234 vs result 14.548000
+- Himachal Pradesh/PLFS Year (Jul - Jun), 2017 Value: source 10.756667 vs result 10.757000
+- Himachal Pradesh/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 11.470089 vs result 11.470000
+- Himachal Pradesh/PLFS Year (Jul - Jun), 2019 Mean: source 6.403333 vs result 6.403000
+- Himachal Pradesh/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 7.782608 vs result 7.783000
+- Himachal Pradesh/PLFS Year (Jul - Jun), 2019 Value: source 6.403333 vs result 6.403000
+- Himachal Pradesh/PLFS Year (Jul - Jun), 2020 Mean: source 5.166667 vs result 5.167000
+- Himachal Pradesh/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 7.225849 vs result 7.226000
+- Himachal Pradesh/PLFS Year (Jul - Jun), 2020 Value: source 5.166667 vs result 5.167000
+- Himachal Pradesh/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 9.567528 vs result 9.568000
+- Himachal Pradesh/PLFS Year (Jul - Jun), 2022 Mean: source 12.786667 vs result 12.787000
+- Himachal Pradesh/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 13.125058 vs result 13.125000
+- Himachal Pradesh/PLFS Year (Jul - Jun), 2022 Value: source 12.786667 vs result 12.787000
+- Himachal Pradesh/PLFS Year (Jul - Jun), 2023 Mean: source 11.123333 vs result 11.123000
+- Himachal Pradesh/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 11.213792 vs result 11.214000
+- Himachal Pradesh/PLFS Year (Jul - Jun), 2023 Value: source 11.123333 vs result 11.123000
+- Himachal Pradesh/All Mean: source 9.482381 vs result 9.482000
+- Himachal Pradesh/All Population_Standard_Deviation: source 11.296182 vs result 11.296000
+- Himachal Pradesh/All Value: source 9.482381 vs result 9.482000
+- Jammu and Kashmir/PLFS Year (Jul - Jun), 2017 Mean: source 17.546667 vs result 17.547000
+- Jammu and Kashmir/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 14.374392 vs result 14.374000
+- Jammu and Kashmir/PLFS Year (Jul - Jun), 2017 Value: source 17.546667 vs result 17.547000
+- Jammu and Kashmir/PLFS Year (Jul - Jun), 2018 Mean: source 20.003333 vs result 20.003000
+- Jammu and Kashmir/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 21.787695 vs result 21.788000
+- Jammu and Kashmir/PLFS Year (Jul - Jun), 2018 Value: source 20.003333 vs result 20.003000
+- Jammu and Kashmir/PLFS Year (Jul - Jun), 2019 Mean: source 26.156667 vs result 26.157000
+- Jammu and Kashmir/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 21.751072 vs result 21.751000
+- Jammu and Kashmir/PLFS Year (Jul - Jun), 2019 Value: source 26.156667 vs result 26.157000
+- Jammu and Kashmir/PLFS Year (Jul - Jun), 2020 Mean: source 17.953333 vs result 17.953000
+- Jammu and Kashmir/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 17.628986 vs result 17.629000
+- Jammu and Kashmir/PLFS Year (Jul - Jun), 2020 Value: source 17.953333 vs result 17.953000
+- Jammu and Kashmir/PLFS Year (Jul - Jun), 2021 Mean: source 22.973333 vs result 22.973000
+- Jammu and Kashmir/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 21.853282 vs result 21.853000
+- Jammu and Kashmir/PLFS Year (Jul - Jun), 2021 Value: source 22.973333 vs result 22.973000
+- Jammu and Kashmir/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 15.641188 vs result 15.641000
+- Jammu and Kashmir/PLFS Year (Jul - Jun), 2023 Mean: source 20.153333 vs result 20.153000
+- Jammu and Kashmir/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 17.799246 vs result 17.799000
+- Jammu and Kashmir/PLFS Year (Jul - Jun), 2023 Value: source 20.153333 vs result 20.153000
+- Jammu and Kashmir/All Mean: source 19.888095 vs result 19.888000
+- Jammu and Kashmir/All Population_Standard_Deviation: source 19.243391 vs result 19.243000
+- Jammu and Kashmir/All Value: source 19.888095 vs result 19.888000
+- Jharkhand/PLFS Year (Jul - Jun), 2017 Mean: source 12.916667 vs result 12.917000
+- Jharkhand/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 12.426104 vs result 12.426000
+- Jharkhand/PLFS Year (Jul - Jun), 2017 Value: source 12.916667 vs result 12.917000
+- Jharkhand/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 6.595612 vs result 6.596000
+- Jharkhand/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 8.313146 vs result 8.313000
+- Jharkhand/PLFS Year (Jul - Jun), 2020 Mean: source 3.716667 vs result 3.717000
+- Jharkhand/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 5.780086 vs result 5.780000
+- Jharkhand/PLFS Year (Jul - Jun), 2020 Value: source 3.716667 vs result 3.717000
+- Jharkhand/PLFS Year (Jul - Jun), 2021 Mean: source 8.996667 vs result 8.997000
+- Jharkhand/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 20.419802 vs result 20.420000
+- Jharkhand/PLFS Year (Jul - Jun), 2021 Value: source 8.996667 vs result 8.997000
+- Jharkhand/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 6.469196 vs result 6.469000
+- Jharkhand/PLFS Year (Jul - Jun), 2023 Mean: source 3.383333 vs result 3.383000
+- Jharkhand/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 7.329033 vs result 7.329000
+- Jharkhand/PLFS Year (Jul - Jun), 2023 Value: source 3.383333 vs result 3.383000
+- Jharkhand/All Mean: source 6.070476 vs result 6.070000
+- Jharkhand/All Population_Standard_Deviation: source 11.278859 vs result 11.279000
+- Jharkhand/All Value: source 6.070476 vs result 6.070000
+- Karnataka/PLFS Year (Jul - Jun), 2017 Mean: source 12.183333 vs result 12.183000
+- Karnataka/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 14.789773 vs result 14.790000
+- Karnataka/PLFS Year (Jul - Jun), 2017 Value: source 12.183333 vs result 12.183000
+- Karnataka/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 16.404723 vs result 16.405000
+- Karnataka/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 12.119169 vs result 12.119000
+- Karnataka/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 13.619021 vs result 13.619000
+- Karnataka/PLFS Year (Jul - Jun), 2021 Mean: source 7.703333 vs result 7.703000
+- Karnataka/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 14.251187 vs result 14.251000
+- Karnataka/PLFS Year (Jul - Jun), 2021 Value: source 7.703333 vs result 7.703000
+- Karnataka/PLFS Year (Jul - Jun), 2022 Mean: source 7.703333 vs result 7.703000
+- Karnataka/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 12.227714 vs result 12.228000
+- Karnataka/PLFS Year (Jul - Jun), 2022 Value: source 7.703333 vs result 7.703000
+- Karnataka/PLFS Year (Jul - Jun), 2023 Mean: source 3.613333 vs result 3.613000
+- Karnataka/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 3.873133 vs result 3.873000
+- Karnataka/PLFS Year (Jul - Jun), 2023 Value: source 3.613333 vs result 3.613000
+- Karnataka/All Mean: source 8.651905 vs result 8.652000
+- Karnataka/All Population_Standard_Deviation: source 13.271481 vs result 13.271000
+- Karnataka/All Value: source 8.651905 vs result 8.652000
+- Kerala/PLFS Year (Jul - Jun), 2017 Mean: source 23.763333 vs result 23.763000
+- Kerala/PLFS Year (Jul - Jun), 2017 Value: source 23.763333 vs result 23.763000
+- Kerala/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 14.535629 vs result 14.536000
+- Kerala/PLFS Year (Jul - Jun), 2019 Mean: source 16.506667 vs result 16.507000
+- Kerala/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 13.361735 vs result 13.362000
+- Kerala/PLFS Year (Jul - Jun), 2019 Value: source 16.506667 vs result 16.507000
+- Kerala/PLFS Year (Jul - Jun), 2020 Mean: source 15.963333 vs result 15.963000
+- Kerala/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 12.876011 vs result 12.876000
+- Kerala/PLFS Year (Jul - Jun), 2020 Value: source 15.963333 vs result 15.963000
+- Kerala/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 11.334814 vs result 11.335000
+- Kerala/PLFS Year (Jul - Jun), 2022 Mean: source 12.326667 vs result 12.327000
+- Kerala/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 10.700434 vs result 10.700000
+- Kerala/PLFS Year (Jul - Jun), 2022 Value: source 12.326667 vs result 12.327000
+- Kerala/PLFS Year (Jul - Jun), 2023 Mean: source 12.653333 vs result 12.653000
+- Kerala/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 10.144481 vs result 10.144000
+- Kerala/PLFS Year (Jul - Jun), 2023 Value: source 12.653333 vs result 12.653000
+- Kerala/All Mean: source 16.394762 vs result 16.395000
+- Kerala/All Population_Standard_Deviation: source 13.590866 vs result 13.591000
+- Kerala/All Value: source 16.394762 vs result 16.395000
+- Ladakh/PLFS Year (Jul - Jun), 2017 Mean: source 17.546667 vs result 17.547000
+- Ladakh/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 14.374392 vs result 14.374000
+- Ladakh/PLFS Year (Jul - Jun), 2017 Value: source 17.546667 vs result 17.547000
+- Ladakh/PLFS Year (Jul - Jun), 2018 Mean: source 20.003333 vs result 20.003000
+- Ladakh/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 21.787695 vs result 21.788000
+- Ladakh/PLFS Year (Jul - Jun), 2018 Value: source 20.003333 vs result 20.003000
+- Ladakh/PLFS Year (Jul - Jun), 2020 Mean: source 5.186667 vs result 5.187000
+- Ladakh/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 9.647961 vs result 9.648000
+- Ladakh/PLFS Year (Jul - Jun), 2020 Value: source 5.186667 vs result 5.187000
+- Ladakh/PLFS Year (Jul - Jun), 2021 Mean: source 12.353333 vs result 12.353000
+- Ladakh/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 24.524134 vs result 24.524000
+- Ladakh/PLFS Year (Jul - Jun), 2021 Value: source 12.353333 vs result 12.353000
+- Ladakh/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 14.001542 vs result 14.002000
+- Ladakh/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 20.471270 vs result 20.471000
+- Ladakh/All Mean: source 11.375714 vs result 11.376000
+- Ladakh/All Population_Standard_Deviation: source 18.032712 vs result 18.033000
+- Ladakh/All Value: source 11.375714 vs result 11.376000
+- Lakshadweep/PLFS Year (Jul - Jun), 2017 Mean: source 40.003333 vs result 40.003000
+- Lakshadweep/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 31.219550 vs result 31.220000
+- Lakshadweep/PLFS Year (Jul - Jun), 2017 Value: source 40.003333 vs result 40.003000
+- Lakshadweep/PLFS Year (Jul - Jun), 2018 Mean: source 32.796667 vs result 32.797000
+- Lakshadweep/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 31.851284 vs result 31.851000
+- Lakshadweep/PLFS Year (Jul - Jun), 2018 Value: source 32.796667 vs result 32.797000
+- Lakshadweep/PLFS Year (Jul - Jun), 2019 Mean: source 20.756667 vs result 20.757000
+- Lakshadweep/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 26.498751 vs result 26.499000
+- Lakshadweep/PLFS Year (Jul - Jun), 2019 Value: source 20.756667 vs result 20.757000
+- Lakshadweep/PLFS Year (Jul - Jun), 2020 Mean: source 23.433333 vs result 23.433000
+- Lakshadweep/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 27.766663 vs result 27.767000
+- Lakshadweep/PLFS Year (Jul - Jun), 2020 Value: source 23.433333 vs result 23.433000
+- Lakshadweep/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 27.932480 vs result 27.932000
+- Lakshadweep/PLFS Year (Jul - Jun), 2022 Mean: source 16.886667 vs result 16.887000
+- Lakshadweep/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 23.008792 vs result 23.009000
+- Lakshadweep/PLFS Year (Jul - Jun), 2022 Value: source 16.886667 vs result 16.887000
+- Lakshadweep/PLFS Year (Jul - Jun), 2023 Mean: source 22.326667 vs result 22.327000
+- Lakshadweep/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 26.962603 vs result 26.963000
+- Lakshadweep/PLFS Year (Jul - Jun), 2023 Value: source 22.326667 vs result 22.327000
+- Lakshadweep/All Mean: source 25.276190 vs result 25.276000
+- Lakshadweep/All Population_Standard_Deviation: source 29.022075 vs result 29.022000
+- Lakshadweep/All Value: source 25.276190 vs result 25.276000
+- Madhya Pradesh/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 18.959845 vs result 18.960000
+- Madhya Pradesh/PLFS Year (Jul - Jun), 2018 Mean: source 4.386667 vs result 4.387000
+- Madhya Pradesh/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 4.776521 vs result 4.777000
+- Madhya Pradesh/PLFS Year (Jul - Jun), 2018 Value: source 4.386667 vs result 4.387000
+- Madhya Pradesh/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 10.339781 vs result 10.340000
+- Madhya Pradesh/PLFS Year (Jul - Jun), 2020 Mean: source 5.133333 vs result 5.133000
+- Madhya Pradesh/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 7.913968 vs result 7.914000
+- Madhya Pradesh/PLFS Year (Jul - Jun), 2020 Value: source 5.133333 vs result 5.133000
+- Madhya Pradesh/PLFS Year (Jul - Jun), 2021 Mean: source 4.873333 vs result 4.873000
+- Madhya Pradesh/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 8.783694 vs result 8.784000
+- Madhya Pradesh/PLFS Year (Jul - Jun), 2021 Value: source 4.873333 vs result 4.873000
+- Madhya Pradesh/PLFS Year (Jul - Jun), 2022 Mean: source 5.316667 vs result 5.317000
+- Madhya Pradesh/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 7.624832 vs result 7.625000
+- Madhya Pradesh/PLFS Year (Jul - Jun), 2022 Value: source 5.316667 vs result 5.317000
+- Madhya Pradesh/PLFS Year (Jul - Jun), 2023 Mean: source 3.853333 vs result 3.853000
+- Madhya Pradesh/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 8.084996 vs result 8.085000
+- Madhya Pradesh/PLFS Year (Jul - Jun), 2023 Value: source 3.853333 vs result 3.853000
+- Madhya Pradesh/All Mean: source 6.151905 vs result 6.152000
+- Madhya Pradesh/All Population_Standard_Deviation: source 10.721310 vs result 10.721000
+- Madhya Pradesh/All Value: source 6.151905 vs result 6.152000
+- Maharashtra/PLFS Year (Jul - Jun), 2017 Mean: source 11.026667 vs result 11.027000
+- Maharashtra/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 7.602979 vs result 7.603000
+- Maharashtra/PLFS Year (Jul - Jun), 2017 Value: source 11.026667 vs result 11.027000
+- Maharashtra/PLFS Year (Jul - Jun), 2018 Mean: source 9.856667 vs result 9.857000
+- Maharashtra/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 8.346803 vs result 8.347000
+- Maharashtra/PLFS Year (Jul - Jun), 2018 Value: source 9.856667 vs result 9.857000
+- Maharashtra/PLFS Year (Jul - Jun), 2019 Mean: source 6.096667 vs result 6.097000
+- Maharashtra/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 7.515029 vs result 7.515000
+- Maharashtra/PLFS Year (Jul - Jun), 2019 Value: source 6.096667 vs result 6.097000
+- Maharashtra/PLFS Year (Jul - Jun), 2020 Mean: source 6.876667 vs result 6.877000
+- Maharashtra/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 8.751750 vs result 8.752000
+- Maharashtra/PLFS Year (Jul - Jun), 2020 Value: source 6.876667 vs result 6.877000
+- Maharashtra/PLFS Year (Jul - Jun), 2021 Mean: source 6.073333 vs result 6.073000
+- Maharashtra/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 6.624094 vs result 6.624000
+- Maharashtra/PLFS Year (Jul - Jun), 2021 Value: source 6.073333 vs result 6.073000
+- Maharashtra/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 7.009727 vs result 7.010000
+- Maharashtra/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 7.866401 vs result 7.866000
+- Maharashtra/All Population_Standard_Deviation: source 7.954217 vs result 7.954000
+- Manipur/PLFS Year (Jul - Jun), 2017 Mean: source 13.733333 vs result 13.733000
+- Manipur/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 10.789604 vs result 10.790000
+- Manipur/PLFS Year (Jul - Jun), 2017 Value: source 13.733333 vs result 13.733000
+- Manipur/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 10.228965 vs result 10.229000
+- Manipur/PLFS Year (Jul - Jun), 2019 Mean: source 10.133333 vs result 10.133000
+- Manipur/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 7.778789 vs result 7.779000
+- Manipur/PLFS Year (Jul - Jun), 2019 Value: source 10.133333 vs result 10.133000
+- Manipur/PLFS Year (Jul - Jun), 2020 Mean: source 7.593333 vs result 7.593000
+- Manipur/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 7.769853 vs result 7.770000
+- Manipur/PLFS Year (Jul - Jun), 2020 Value: source 7.593333 vs result 7.593000
+- Manipur/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 12.110227 vs result 12.110000
+- Manipur/PLFS Year (Jul - Jun), 2022 Mean: source 5.456667 vs result 5.457000
+- Manipur/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 6.225361 vs result 6.225000
+- Manipur/PLFS Year (Jul - Jun), 2022 Value: source 5.456667 vs result 5.457000
+- Manipur/PLFS Year (Jul - Jun), 2023 Mean: source 9.466667 vs result 9.467000
+- Manipur/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 8.669346 vs result 8.669000
+- Manipur/PLFS Year (Jul - Jun), 2023 Value: source 9.466667 vs result 9.467000
+- Manipur/All Mean: source 9.929048 vs result 9.929000
+- Manipur/All Population_Standard_Deviation: source 9.622952 vs result 9.623000
+- Manipur/All Value: source 9.929048 vs result 9.929000
+- Meghalaya/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 5.374641 vs result 5.375000
+- Meghalaya/PLFS Year (Jul - Jun), 2018 Mean: source 6.636667 vs result 6.637000
+- Meghalaya/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 6.766608 vs result 6.767000
+- Meghalaya/PLFS Year (Jul - Jun), 2018 Value: source 6.636667 vs result 6.637000
+- Meghalaya/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 12.114416 vs result 12.114000
+- Meghalaya/PLFS Year (Jul - Jun), 2020 Mean: source 6.736667 vs result 6.737000
+- Meghalaya/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 7.644409 vs result 7.644000
+- Meghalaya/PLFS Year (Jul - Jun), 2020 Value: source 6.736667 vs result 6.737000
+- Meghalaya/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 10.135364 vs result 10.135000
+- Meghalaya/PLFS Year (Jul - Jun), 2022 Mean: source 12.976667 vs result 12.977000
+- Meghalaya/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 12.762332 vs result 12.762000
+- Meghalaya/PLFS Year (Jul - Jun), 2022 Value: source 12.976667 vs result 12.977000
+- Meghalaya/PLFS Year (Jul - Jun), 2023 Mean: source 12.413333 vs result 12.413000
+- Meghalaya/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 9.467796 vs result 9.468000
+- Meghalaya/PLFS Year (Jul - Jun), 2023 Value: source 12.413333 vs result 12.413000
+- Meghalaya/All Mean: source 9.039048 vs result 9.039000
+- Meghalaya/All Population_Standard_Deviation: source 10.000162 vs result 10.000000
+- Meghalaya/All Value: source 9.039048 vs result 9.039000
+- Mizoram/PLFS Year (Jul - Jun), 2017 Mean: source 12.353333 vs result 12.353000
+- Mizoram/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 10.707341 vs result 10.707000
+- Mizoram/PLFS Year (Jul - Jun), 2017 Value: source 12.353333 vs result 12.353000
+- Mizoram/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 7.695843 vs result 7.696000
+- Mizoram/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 7.953647 vs result 7.954000
+- Mizoram/PLFS Year (Jul - Jun), 2020 Mean: source 4.563333 vs result 4.563000
+- Mizoram/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 6.542807 vs result 6.543000
+- Mizoram/PLFS Year (Jul - Jun), 2020 Value: source 4.563333 vs result 4.563000
+- Mizoram/PLFS Year (Jul - Jun), 2021 Mean: source 8.843333 vs result 8.843000
+- Mizoram/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 9.092329 vs result 9.092000
+- Mizoram/PLFS Year (Jul - Jun), 2021 Value: source 8.843333 vs result 8.843000
+- Mizoram/PLFS Year (Jul - Jun), 2022 Mean: source 5.366667 vs result 5.367000
+- Mizoram/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 9.849343 vs result 9.849000
+- Mizoram/PLFS Year (Jul - Jun), 2022 Value: source 5.366667 vs result 5.367000
+- Mizoram/PLFS Year (Jul - Jun), 2023 Mean: source 3.193333 vs result 3.193000
+- Mizoram/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 4.058812 vs result 4.059000
+- Mizoram/PLFS Year (Jul - Jun), 2023 Value: source 3.193333 vs result 3.193000
+- Mizoram/All Mean: source 7.295714 vs result 7.296000
+- Mizoram/All Population_Standard_Deviation: source 8.762079 vs result 8.762000
+- Mizoram/All Value: source 7.295714 vs result 7.296000
+- Nagaland/PLFS Year (Jul - Jun), 2017 Mean: source 29.936667 vs result 29.937000
+- Nagaland/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 21.200354 vs result 21.200000
+- Nagaland/PLFS Year (Jul - Jun), 2017 Value: source 29.936667 vs result 29.937000
+- Nagaland/PLFS Year (Jul - Jun), 2018 Mean: source 29.153333 vs result 29.153000
+- Nagaland/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 23.189347 vs result 23.189000
+- Nagaland/PLFS Year (Jul - Jun), 2018 Value: source 29.153333 vs result 29.153000
+- Nagaland/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 21.332754 vs result 21.333000
+- Nagaland/PLFS Year (Jul - Jun), 2020 Mean: source 21.306667 vs result 21.307000
+- Nagaland/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 18.794785 vs result 18.795000
+- Nagaland/PLFS Year (Jul - Jun), 2020 Value: source 21.306667 vs result 21.307000
+- Nagaland/PLFS Year (Jul - Jun), 2021 Mean: source 14.193333 vs result 14.193000
+- Nagaland/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 14.584031 vs result 14.584000
+- Nagaland/PLFS Year (Jul - Jun), 2021 Value: source 14.193333 vs result 14.193000
+- Nagaland/PLFS Year (Jul - Jun), 2022 Mean: source 14.276667 vs result 14.277000
+- Nagaland/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 25.541217 vs result 25.541000
+- Nagaland/PLFS Year (Jul - Jun), 2022 Value: source 14.276667 vs result 14.277000
+- Nagaland/PLFS Year (Jul - Jun), 2023 Mean: source 11.556667 vs result 11.557000
+- Nagaland/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 14.328077 vs result 14.328000
+- Nagaland/PLFS Year (Jul - Jun), 2023 Value: source 11.556667 vs result 11.557000
+- Nagaland/All Mean: source 21.326190 vs result 21.326000
+- Nagaland/All Population_Standard_Deviation: source 21.560721 vs result 21.561000
+- Nagaland/All Value: source 21.326190 vs result 21.326000
+- Odisha/PLFS Year (Jul - Jun), 2017 Mean: source 19.136667 vs result 19.137000
+- Odisha/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 16.557687 vs result 16.558000
+- Odisha/PLFS Year (Jul - Jun), 2017 Value: source 19.136667 vs result 19.137000
+- Odisha/PLFS Year (Jul - Jun), 2018 Mean: source 18.716667 vs result 18.717000
+- Odisha/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 15.495076 vs result 15.495000
+- Odisha/PLFS Year (Jul - Jun), 2018 Value: source 18.716667 vs result 18.717000
+- Odisha/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 13.006024 vs result 13.006000
+- Odisha/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 12.776291 vs result 12.776000
+- Odisha/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 14.339506 vs result 14.340000
+- Odisha/PLFS Year (Jul - Jun), 2022 Mean: source 7.816667 vs result 7.817000
+- Odisha/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 9.878161 vs result 9.878000
+- Odisha/PLFS Year (Jul - Jun), 2022 Value: source 7.816667 vs result 7.817000
+- Odisha/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 12.938186 vs result 12.938000
+- Odisha/All Mean: source 13.588571 vs result 13.589000
+- Odisha/All Population_Standard_Deviation: source 14.224150 vs result 14.224000
+- Odisha/All Value: source 13.588571 vs result 13.589000
+- Puducherry/PLFS Year (Jul - Jun), 2017 Mean: source 19.256667 vs result 19.257000
+- Puducherry/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 20.362133 vs result 20.362000
+- Puducherry/PLFS Year (Jul - Jun), 2017 Value: source 19.256667 vs result 19.257000
+- Puducherry/PLFS Year (Jul - Jun), 2018 Mean: source 9.203333 vs result 9.203000
+- Puducherry/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 13.724443 vs result 13.724000
+- Puducherry/PLFS Year (Jul - Jun), 2018 Value: source 9.203333 vs result 9.203000
+- Puducherry/PLFS Year (Jul - Jun), 2019 Mean: source 12.776667 vs result 12.777000
+- Puducherry/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 16.516975 vs result 16.517000
+- Puducherry/PLFS Year (Jul - Jun), 2019 Value: source 12.776667 vs result 12.777000
+- Puducherry/PLFS Year (Jul - Jun), 2020 Mean: source 10.686667 vs result 10.687000
+- Puducherry/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 17.461782 vs result 17.462000
+- Puducherry/PLFS Year (Jul - Jun), 2020 Value: source 10.686667 vs result 10.687000
+- Puducherry/PLFS Year (Jul - Jun), 2021 Mean: source 2.906667 vs result 2.907000
+- Puducherry/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 4.132871 vs result 4.133000
+- Puducherry/PLFS Year (Jul - Jun), 2021 Value: source 2.906667 vs result 2.907000
+- Puducherry/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 11.009037 vs result 11.009000
+- Puducherry/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 8.425002 vs result 8.425000
+- Puducherry/All Mean: source 9.875500 vs result 9.876000
+- Puducherry/All Population_Standard_Deviation: source 15.071873 vs result 15.072000
+- Puducherry/All Value: source 9.875500 vs result 9.876000
+- Punjab/PLFS Year (Jul - Jun), 2017 Mean: source 15.473333 vs result 15.473000
+- Punjab/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 12.709863 vs result 12.710000
+- Punjab/PLFS Year (Jul - Jun), 2017 Value: source 15.473333 vs result 15.473000
+- Punjab/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 12.504782 vs result 12.505000
+- Punjab/PLFS Year (Jul - Jun), 2019 Mean: source 9.973333 vs result 9.973000
+- Punjab/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 9.131372 vs result 9.131000
+- Punjab/PLFS Year (Jul - Jun), 2019 Value: source 9.973333 vs result 9.973000
+- Punjab/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 12.426826 vs result 12.427000
+- Punjab/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 10.828707 vs result 10.829000
+- Punjab/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 11.531273 vs result 11.531000
+- Punjab/PLFS Year (Jul - Jun), 2023 Mean: source 10.246667 vs result 10.247000
+- Punjab/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 11.097289 vs result 11.097000
+- Punjab/PLFS Year (Jul - Jun), 2023 Value: source 10.246667 vs result 10.247000
+- Punjab/All Mean: source 12.167619 vs result 12.168000
+- Punjab/All Population_Standard_Deviation: source 11.647567 vs result 11.648000
+- Punjab/All Value: source 12.167619 vs result 12.168000
+- Rajasthan/PLFS Year (Jul - Jun), 2017 Mean: source 14.643333 vs result 14.643000
+- Rajasthan/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 20.021516 vs result 20.022000
+- Rajasthan/PLFS Year (Jul - Jun), 2017 Value: source 14.643333 vs result 14.643000
+- Rajasthan/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 14.506577 vs result 14.507000
+- Rajasthan/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 11.826794 vs result 11.827000
+- Rajasthan/PLFS Year (Jul - Jun), 2020 Mean: source 10.613333 vs result 10.613000
+- Rajasthan/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 13.954921 vs result 13.955000
+- Rajasthan/PLFS Year (Jul - Jun), 2020 Value: source 10.613333 vs result 10.613000
+- Rajasthan/PLFS Year (Jul - Jun), 2021 Mean: source 12.013333 vs result 12.013000
+- Rajasthan/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 15.916443 vs result 15.916000
+- Rajasthan/PLFS Year (Jul - Jun), 2021 Value: source 12.013333 vs result 12.013000
+- Rajasthan/PLFS Year (Jul - Jun), 2022 Mean: source 9.576667 vs result 9.577000
+- Rajasthan/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 13.036812 vs result 13.037000
+- Rajasthan/PLFS Year (Jul - Jun), 2022 Value: source 9.576667 vs result 9.577000
+- Rajasthan/PLFS Year (Jul - Jun), 2023 Mean: source 11.416667 vs result 11.417000
+- Rajasthan/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 14.991889 vs result 14.992000
+- Rajasthan/PLFS Year (Jul - Jun), 2023 Value: source 11.416667 vs result 11.417000
+- Rajasthan/All Mean: source 11.207619 vs result 11.208000
+- Rajasthan/All Population_Standard_Deviation: source 15.189280 vs result 15.189000
+- Rajasthan/All Value: source 11.207619 vs result 11.208000
+- Sikkim/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 8.750861 vs result 8.751000
+- Sikkim/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 5.608526 vs result 5.609000
+- Sikkim/PLFS Year (Jul - Jun), 2019 Mean: source 5.556667 vs result 5.557000
+- Sikkim/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 15.161677 vs result 15.162000
+- Sikkim/PLFS Year (Jul - Jun), 2019 Value: source 5.556667 vs result 5.557000
+- Sikkim/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 3.585805 vs result 3.586000
+- Sikkim/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 12.658182 vs result 12.658000
+- Sikkim/PLFS Year (Jul - Jun), 2022 Mean: source 11.993333 vs result 11.993000
+- Sikkim/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 22.855487 vs result 22.855000
+- Sikkim/PLFS Year (Jul - Jun), 2022 Value: source 11.993333 vs result 11.993000
+- Sikkim/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 5.075112 vs result 5.075000
+- Sikkim/All Mean: source 6.201429 vs result 6.201000
+- Sikkim/All Population_Standard_Deviation: source 12.632096 vs result 12.632000
+- Sikkim/All Value: source 6.201429 vs result 6.201000
+- Tamil Nadu/PLFS Year (Jul - Jun), 2017 Mean: source 12.723333 vs result 12.723000
+- Tamil Nadu/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 10.968187 vs result 10.968000
+- Tamil Nadu/PLFS Year (Jul - Jun), 2017 Value: source 12.723333 vs result 12.723000
+- Tamil Nadu/PLFS Year (Jul - Jun), 2018 Mean: source 12.873333 vs result 12.873000
+- Tamil Nadu/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 13.041036 vs result 13.041000
+- Tamil Nadu/PLFS Year (Jul - Jun), 2018 Value: source 12.873333 vs result 12.873000
+- Tamil Nadu/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 11.449371 vs result 11.449000
+- Tamil Nadu/PLFS Year (Jul - Jun), 2020 Mean: source 10.086667 vs result 10.087000
+- Tamil Nadu/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 11.535734 vs result 11.536000
+- Tamil Nadu/PLFS Year (Jul - Jun), 2020 Value: source 10.086667 vs result 10.087000
+- Tamil Nadu/PLFS Year (Jul - Jun), 2021 Mean: source 7.243333 vs result 7.243000
+- Tamil Nadu/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 9.147156 vs result 9.147000
+- Tamil Nadu/PLFS Year (Jul - Jun), 2021 Value: source 7.243333 vs result 7.243000
+- Tamil Nadu/PLFS Year (Jul - Jun), 2022 Mean: source 8.923333 vs result 8.923000
+- Tamil Nadu/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 8.848867 vs result 8.849000
+- Tamil Nadu/PLFS Year (Jul - Jun), 2022 Value: source 8.923333 vs result 8.923000
+- Tamil Nadu/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 7.561382 vs result 7.561000
+- Tamil Nadu/All Mean: source 9.732857 vs result 9.733000
+- Tamil Nadu/All Population_Standard_Deviation: source 10.763329 vs result 10.763000
+- Tamil Nadu/All Value: source 9.732857 vs result 9.733000
+- Telangana/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 31.896783 vs result 31.897000
+- Telangana/PLFS Year (Jul - Jun), 2018 Mean: source 19.273333 vs result 19.273000
+- Telangana/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 18.978478 vs result 18.978000
+- Telangana/PLFS Year (Jul - Jun), 2018 Value: source 19.273333 vs result 19.273000
+- Telangana/PLFS Year (Jul - Jun), 2019 Mean: source 15.903333 vs result 15.903000
+- Telangana/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 18.300610 vs result 18.301000
+- Telangana/PLFS Year (Jul - Jun), 2019 Value: source 15.903333 vs result 15.903000
+- Telangana/PLFS Year (Jul - Jun), 2020 Mean: source 11.513333 vs result 11.513000
+- Telangana/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 10.524534 vs result 10.525000
+- Telangana/PLFS Year (Jul - Jun), 2020 Value: source 11.513333 vs result 11.513000
+- Telangana/PLFS Year (Jul - Jun), 2021 Mean: source 11.943333 vs result 11.943000
+- Telangana/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 18.374506 vs result 18.375000
+- Telangana/PLFS Year (Jul - Jun), 2021 Value: source 11.943333 vs result 11.943000
+- Telangana/PLFS Year (Jul - Jun), 2022 Mean: source 10.396667 vs result 10.397000
+- Telangana/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 19.722347 vs result 19.722000
+- Telangana/PLFS Year (Jul - Jun), 2022 Value: source 10.396667 vs result 10.397000
+- Telangana/PLFS Year (Jul - Jun), 2023 Mean: source 13.666667 vs result 13.667000
+- Telangana/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 18.183075 vs result 18.183000
+- Telangana/PLFS Year (Jul - Jun), 2023 Value: source 13.666667 vs result 13.667000
+- Telangana/All Mean: source 15.666667 vs result 15.667000
+- Telangana/All Population_Standard_Deviation: source 20.990470 vs result 20.990000
+- Telangana/All Value: source 15.666667 vs result 15.667000
+- The Dadra and Nagar Haveli and Daman and Diu/PLFS Year (Jul - Jun), 2017 Mean: source 1.973333 vs result 1.973000
+- The Dadra and Nagar Haveli and Daman and Diu/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 5.346926 vs result 5.347000
+- The Dadra and Nagar Haveli and Daman and Diu/PLFS Year (Jul - Jun), 2017 Value: source 1.973333 vs result 1.973000
+- The Dadra and Nagar Haveli and Daman and Diu/PLFS Year (Jul - Jun), 2018 Mean: source 1.178333 vs result 1.178000
+- The Dadra and Nagar Haveli and Daman and Diu/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 2.418563 vs result 2.419000
+- The Dadra and Nagar Haveli and Daman and Diu/PLFS Year (Jul - Jun), 2018 Value: source 1.178333 vs result 1.178000
+- The Dadra and Nagar Haveli and Daman and Diu/PLFS Year (Jul - Jun), 2019 Mean: source 1.243333 vs result 1.243000
+- The Dadra and Nagar Haveli and Daman and Diu/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 2.551886 vs result 2.552000
+- The Dadra and Nagar Haveli and Daman and Diu/PLFS Year (Jul - Jun), 2019 Value: source 1.243333 vs result 1.243000
+- The Dadra and Nagar Haveli and Daman and Diu/PLFS Year (Jul - Jun), 2020 Mean: source 5.886667 vs result 5.887000
+- The Dadra and Nagar Haveli and Daman and Diu/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 12.802571 vs result 12.803000
+- The Dadra and Nagar Haveli and Daman and Diu/PLFS Year (Jul - Jun), 2020 Value: source 5.886667 vs result 5.887000
+- The Dadra and Nagar Haveli and Daman and Diu/PLFS Year (Jul - Jun), 2021 Mean: source 11.643333 vs result 11.643000
+- The Dadra and Nagar Haveli and Daman and Diu/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 15.707486 vs result 15.707000
+- The Dadra and Nagar Haveli and Daman and Diu/PLFS Year (Jul - Jun), 2021 Value: source 11.643333 vs result 11.643000
+- The Dadra and Nagar Haveli and Daman and Diu/PLFS Year (Jul - Jun), 2022 Mean: source 11.386667 vs result 11.387000
+- The Dadra and Nagar Haveli and Daman and Diu/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 19.053639 vs result 19.054000
+- The Dadra and Nagar Haveli and Daman and Diu/PLFS Year (Jul - Jun), 2022 Value: source 11.386667 vs result 11.387000
+- The Dadra and Nagar Haveli and Daman and Diu/PLFS Year (Jul - Jun), 2023 Mean: source 3.066667 vs result 3.067000
+- The Dadra and Nagar Haveli and Daman and Diu/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 5.383204 vs result 5.383000
+- The Dadra and Nagar Haveli and Daman and Diu/PLFS Year (Jul - Jun), 2023 Value: source 3.066667 vs result 3.067000
+- The Dadra and Nagar Haveli and Daman and Diu/All Mean: source 5.196905 vs result 5.197000
+- The Dadra and Nagar Haveli and Daman and Diu/All Population_Standard_Deviation: source 11.775620 vs result 11.776000
+- The Dadra and Nagar Haveli and Daman and Diu/All Value: source 5.196905 vs result 5.197000
+- Tripura/PLFS Year (Jul - Jun), 2017 Mean: source 23.783333 vs result 23.783000
+- Tripura/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 22.051562 vs result 22.052000
+- Tripura/PLFS Year (Jul - Jun), 2017 Value: source 23.783333 vs result 23.783000
+- Tripura/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 24.920262 vs result 24.920000
+- Tripura/PLFS Year (Jul - Jun), 2019 Mean: source 8.826667 vs result 8.827000
+- Tripura/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 17.908302 vs result 17.908000
+- Tripura/PLFS Year (Jul - Jun), 2019 Value: source 8.826667 vs result 8.827000
+- Tripura/PLFS Year (Jul - Jun), 2020 Mean: source 12.476667 vs result 12.477000
+- Tripura/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 20.030322 vs result 20.030000
+- Tripura/PLFS Year (Jul - Jun), 2020 Value: source 12.476667 vs result 12.477000
+- Tripura/PLFS Year (Jul - Jun), 2021 Mean: source 9.633333 vs result 9.633000
+- Tripura/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 12.034737 vs result 12.035000
+- Tripura/PLFS Year (Jul - Jun), 2021 Value: source 9.633333 vs result 9.633000
+- Tripura/PLFS Year (Jul - Jun), 2022 Mean: source 3.353333 vs result 3.353000
+- Tripura/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 5.623091 vs result 5.623000
+- Tripura/PLFS Year (Jul - Jun), 2022 Value: source 3.353333 vs result 3.353000
+- Tripura/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 11.684381 vs result 11.684000
+- Tripura/All Mean: source 14.310476 vs result 14.310000
+- Tripura/All Population_Standard_Deviation: source 20.052255 vs result 20.052000
+- Tripura/All Value: source 14.310476 vs result 14.310000
+- Uttar Pradesh/PLFS Year (Jul - Jun), 2017 Mean: source 6.793333 vs result 6.793000
+- Uttar Pradesh/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 8.152543 vs result 8.153000
+- Uttar Pradesh/PLFS Year (Jul - Jun), 2017 Value: source 6.793333 vs result 6.793000
+- Uttar Pradesh/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 7.145738 vs result 7.146000
+- Uttar Pradesh/PLFS Year (Jul - Jun), 2019 Mean: source 12.213333 vs result 12.213000
+- Uttar Pradesh/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 20.660473 vs result 20.660000
+- Uttar Pradesh/PLFS Year (Jul - Jun), 2019 Value: source 12.213333 vs result 12.213000
+- Uttar Pradesh/PLFS Year (Jul - Jun), 2020 Mean: source 14.563333 vs result 14.563000
+- Uttar Pradesh/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 22.589370 vs result 22.589000
+- Uttar Pradesh/PLFS Year (Jul - Jun), 2020 Value: source 14.563333 vs result 14.563000
+- Uttar Pradesh/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 8.937173 vs result 8.937000
+- Uttar Pradesh/PLFS Year (Jul - Jun), 2022 Mean: source 6.446667 vs result 6.447000
+- Uttar Pradesh/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 8.517775 vs result 8.518000
+- Uttar Pradesh/PLFS Year (Jul - Jun), 2022 Value: source 6.446667 vs result 6.447000
+- Uttar Pradesh/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 20.235942 vs result 20.236000
+- Uttar Pradesh/All Mean: source 9.349524 vs result 9.350000
+- Uttar Pradesh/All Population_Standard_Deviation: source 15.558199 vs result 15.558000
+- Uttar Pradesh/All Value: source 9.349524 vs result 9.350000
+- Uttarakhand/PLFS Year (Jul - Jun), 2017 Mean: source 14.716667 vs result 14.717000
+- Uttarakhand/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 16.875803 vs result 16.876000
+- Uttarakhand/PLFS Year (Jul - Jun), 2017 Value: source 14.716667 vs result 14.717000
+- Uttarakhand/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 15.045933 vs result 15.046000
+- Uttarakhand/PLFS Year (Jul - Jun), 2019 Mean: source 18.823333 vs result 18.823000
+- Uttarakhand/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 28.577248 vs result 28.577000
+- Uttarakhand/PLFS Year (Jul - Jun), 2019 Value: source 18.823333 vs result 18.823000
+- Uttarakhand/PLFS Year (Jul - Jun), 2020 Mean: source 8.106667 vs result 8.107000
+- Uttarakhand/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 9.860288 vs result 9.860000
+- Uttarakhand/PLFS Year (Jul - Jun), 2020 Value: source 8.106667 vs result 8.107000
+- Uttarakhand/PLFS Year (Jul - Jun), 2021 Mean: source 12.296667 vs result 12.297000
+- Uttarakhand/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 18.242048 vs result 18.242000
+- Uttarakhand/PLFS Year (Jul - Jun), 2021 Value: source 12.296667 vs result 12.297000
+- Uttarakhand/PLFS Year (Jul - Jun), 2022 Mean: source 6.573333 vs result 6.573000
+- Uttarakhand/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 7.337299 vs result 7.337000
+- Uttarakhand/PLFS Year (Jul - Jun), 2022 Value: source 6.573333 vs result 6.573000
+- Uttarakhand/PLFS Year (Jul - Jun), 2023 Mean: source 6.633333 vs result 6.633000
+- Uttarakhand/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 7.962844 vs result 7.963000
+- Uttarakhand/PLFS Year (Jul - Jun), 2023 Value: source 6.633333 vs result 6.633000
+- Uttarakhand/All Population_Standard_Deviation: source 17.129632 vs result 17.130000
+- West Bengal/PLFS Year (Jul - Jun), 2017 Population_Standard_Deviation: source 11.577655 vs result 11.578000
+- West Bengal/PLFS Year (Jul - Jun), 2018 Mean: source 7.833333 vs result 7.833000
+- West Bengal/PLFS Year (Jul - Jun), 2018 Population_Standard_Deviation: source 11.862471 vs result 11.862000
+- West Bengal/PLFS Year (Jul - Jun), 2018 Value: source 7.833333 vs result 7.833000
+- West Bengal/PLFS Year (Jul - Jun), 2019 Mean: source 7.836667 vs result 7.837000
+- West Bengal/PLFS Year (Jul - Jun), 2019 Population_Standard_Deviation: source 6.983527 vs result 6.984000
+- West Bengal/PLFS Year (Jul - Jun), 2019 Value: source 7.836667 vs result 7.837000
+- West Bengal/PLFS Year (Jul - Jun), 2020 Mean: source 5.476667 vs result 5.477000
+- West Bengal/PLFS Year (Jul - Jun), 2020 Population_Standard_Deviation: source 7.103505 vs result 7.104000
+- West Bengal/PLFS Year (Jul - Jun), 2020 Value: source 5.476667 vs result 5.477000
+- West Bengal/PLFS Year (Jul - Jun), 2021 Population_Standard_Deviation: source 5.529340 vs result 5.529000
+- West Bengal/PLFS Year (Jul - Jun), 2022 Mean: source 4.533333 vs result 4.533000
+- West Bengal/PLFS Year (Jul - Jun), 2022 Population_Standard_Deviation: source 4.666214 vs result 4.666000
+- West Bengal/PLFS Year (Jul - Jun), 2022 Value: source 4.533333 vs result 4.533000
+- West Bengal/PLFS Year (Jul - Jun), 2023 Population_Standard_Deviation: source 5.849350 vs result 5.849000
+- West Bengal/All Mean: source 6.874286 vs result 6.874000
+- West Bengal/All Population_Standard_Deviation: source 8.335484 vs result 8.335000
+- West Bengal/All Value: source 6.874286 vs result 6.874000

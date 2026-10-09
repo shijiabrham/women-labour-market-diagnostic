@@ -1,0 +1,6 @@
+key,present,theoretical_max,missing,coverage_pct
+State × Year,252,252,0,100.0
+State × Year × Gender,756,756,0,100.0
+State × Year × Gender × Type Of Areas,2265,2268,3,99.87
+State × Year × Gender × Type Of Areas × Enterprise Type,18120,18144,24,99.87
+State × Year × Gender × Type Of Areas × Industry Division Type,3885,4536,651,85.65

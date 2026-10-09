@@ -1,0 +1,10 @@
+field_name,pandas_dtype,role,non_null_count,missing_count,missing_pct,unique_count,example_values
+Country,object,identifier/dimension,22650,0,0.0,1,India
+State,object,identifier/dimension,22650,0,0.0,36,Andaman and Nicobar Islands; Andhra Pradesh; Arunachal Pradesh; Assam; Bihar
+Year,object,identifier/dimension,22650,0,0.0,7,"PLFS Year (Jul - Jun), 2023; PLFS Year (Jul - Jun), 2022; PLFS Year (Jul - Jun), 2021; PLFS Year (Jul - Jun), 2020; PLFS Year (Jul - Jun), 2019"
+Type Of Areas,object,identifier/dimension,22650,0,0.0,3,Rural; Urban; Rural + Urban
+Gender,object,identifier/dimension,22650,0,0.0,3,Male; Female; Persons
+Education Level,object,identifier/dimension,22650,0,0.0,10,Not Literate; Literate & Upto Primary; Middle; Secondary; Higher Secondary
+"Labor Force Participation Rate According To Usual Status Based On Different General Education Level (UOM:%(Percentage)), Scaling Factor:1",float64,indicator/measure (numerical),22620,30,0.1325,1101,76.7; 87.0; 89.7; 58.8; 78.3
+"Working Population Rate According To Usual Status Based On Different General Education Level (UOM:%(Percentage)), Scaling Factor:1",float64,indicator/measure (numerical),22620,30,0.1325,1100,76.7; 87.0; 88.0; 58.8; 71.3
+"Unemployment Rate According To Usual Status Based On Different General Education Level (UOM:%(Percentage)), Scaling Factor:1",float64,indicator/measure (numerical),22620,30,0.1325,731,0.0; 1.9; 9.0; 0.7; 35.7

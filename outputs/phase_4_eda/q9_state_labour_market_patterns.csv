@@ -1,0 +1,37 @@
+State,LFPR_All_Years,WPR_All_Years,Unemployment_Rate_All_Years,LFPR_2017_Mean,LFPR_2023_Mean,Absolute_Change,Percentage_Change,Valid_2017_Observation_Count,Valid_2023_Observation_Count,Missing_2017_Count,Missing_2023_Count,LFPR_WPR_Pattern_Group,LFPR_Unemployment_Pattern_Group,LFPR_Change_Pattern_Group
+Andaman and Nicobar Islands,47.020,32.835,26.498,41.597,51.993,10.397,24.994,30,30,0,0,Above-median LFPR / Above-median WPR,Above-median LFPR / Above-median Unemployment,Increase
+Andhra Pradesh,40.468,34.803,12.294,41.137,42.293,1.157,2.812,30,30,0,0,Above-median LFPR / Above-median WPR,Above-median LFPR / Above-median Unemployment,Increase
+Arunachal Pradesh,41.600,32.630,17.290,29.320,62.403,33.083,112.835,30,30,0,0,Above-median LFPR / Above-median WPR,Above-median LFPR / Above-median Unemployment,Increase
+Assam,33.103,28.172,13.634,25.790,52.293,26.503,102.766,30,30,0,0,Below-median LFPR / Below-median WPR,Below-median LFPR / Above-median Unemployment,Increase
+Bihar,17.200,14.377,8.631,11.503,29.133,17.630,153.260,30,30,0,0,Below-median LFPR / Below-median WPR,Below-median LFPR / Below-median Unemployment,Increase
+Chandigarh,25.260,22.569,8.748,23.697,32.570,8.873,37.445,30,20,0,10,Below-median LFPR / Below-median WPR,Below-median LFPR / Below-median Unemployment,Increase
+Chhattisgarh,44.571,40.922,8.478,43.107,52.103,8.997,20.871,30,30,0,0,Above-median LFPR / Above-median WPR,Above-median LFPR / Below-median Unemployment,Increase
+Delhi,17.004,16.010,6.320,17.007,18.207,1.200,7.056,30,30,0,0,Below-median LFPR / Below-median WPR,Below-median LFPR / Below-median Unemployment,Increase
+Goa,35.947,28.499,16.966,36.927,35.243,-1.683,-4.559,30,30,0,0,Above-median LFPR / Below-median WPR,Above-median LFPR / Above-median Unemployment,Decrease
+Gujarat,32.459,30.528,4.830,21.893,43.273,21.380,97.655,30,30,0,0,Below-median LFPR / Below-median WPR,Below-median LFPR / Below-median Unemployment,Increase
+Haryana,21.192,18.829,9.756,17.203,24.323,7.120,41.387,30,30,0,0,Below-median LFPR / Below-median WPR,Below-median LFPR / Below-median Unemployment,Increase
+Himachal Pradesh,57.236,51.972,9.482,44.403,63.503,19.100,43.015,30,30,0,0,Above-median LFPR / Above-median WPR,Above-median LFPR / Below-median Unemployment,Increase
+Jammu and Kashmir,42.291,32.470,19.888,36.307,53.200,16.893,46.530,30,30,0,0,Above-median LFPR / Above-median WPR,Above-median LFPR / Above-median Unemployment,Increase
+Jharkhand,29.577,27.905,6.070,18.653,34.763,16.110,86.365,30,30,0,0,Below-median LFPR / Below-median WPR,Below-median LFPR / Below-median Unemployment,Increase
+Karnataka,33.477,30.077,8.652,29.867,39.220,9.353,31.317,30,30,0,0,Below-median LFPR / Below-median WPR,Below-median LFPR / Below-median Unemployment,Increase
+Kerala,38.238,30.780,16.395,33.050,43.553,10.503,31.780,30,30,0,0,Above-median LFPR / Above-median WPR,Above-median LFPR / Above-median Unemployment,Increase
+Ladakh,48.281,41.448,11.376,36.307,47.890,11.583,31.904,30,30,0,0,Above-median LFPR / Above-median WPR,Above-median LFPR / Above-median Unemployment,Increase
+Lakshadweep,28.924,17.965,25.276,34.433,28.503,-5.930,-17.222,30,30,0,0,Below-median LFPR / Below-median WPR,Below-median LFPR / Above-median Unemployment,Decrease
+Madhya Pradesh,32.941,30.780,6.152,28.773,43.337,14.563,50.614,30,30,0,0,Below-median LFPR / Above-median WPR,Below-median LFPR / Below-median Unemployment,Increase
+Maharashtra,35.931,33.368,7.390,30.037,39.027,8.990,29.930,30,30,0,0,Above-median LFPR / Above-median WPR,Above-median LFPR / Below-median Unemployment,Increase
+Manipur,36.742,32.627,9.929,33.950,56.417,22.467,66.176,30,30,0,0,Above-median LFPR / Above-median WPR,Above-median LFPR / Above-median Unemployment,Increase
+Meghalaya,54.732,49.542,9.039,53.553,68.783,15.230,28.439,30,30,0,0,Above-median LFPR / Above-median WPR,Above-median LFPR / Below-median Unemployment,Increase
+Mizoram,37.740,34.140,7.296,42.357,42.113,-0.243,-0.574,30,30,0,0,Above-median LFPR / Above-median WPR,Above-median LFPR / Below-median Unemployment,Decrease
+Nagaland,48.456,37.313,21.326,25.367,65.800,40.433,159.396,30,30,0,0,Above-median LFPR / Above-median WPR,Above-median LFPR / Above-median Unemployment,Increase
+Odisha,34.915,29.825,13.589,25.560,45.793,20.233,79.160,30,30,0,0,Below-median LFPR / Below-median WPR,Below-median LFPR / Above-median Unemployment,Increase
+Puducherry,33.772,29.875,9.876,19.917,38.070,18.153,91.146,30,30,0,0,Below-median LFPR / Below-median WPR,Below-median LFPR / Above-median Unemployment,Increase
+Punjab,27.117,23.165,12.168,21.097,34.353,13.257,62.838,30,30,0,0,Below-median LFPR / Below-median WPR,Below-median LFPR / Above-median Unemployment,Increase
+Rajasthan,32.474,28.500,11.208,23.673,43.557,19.883,83.990,30,30,0,0,Below-median LFPR / Below-median WPR,Below-median LFPR / Above-median Unemployment,Increase
+Sikkim,56.134,52.020,6.201,46.253,62.753,16.500,35.673,30,30,0,0,Above-median LFPR / Above-median WPR,Above-median LFPR / Below-median Unemployment,Increase
+Tamil Nadu,38.450,34.600,9.733,34.637,41.053,6.417,18.526,30,30,0,0,Above-median LFPR / Above-median WPR,Above-median LFPR / Below-median Unemployment,Increase
+Telangana,38.088,32.035,15.667,29.380,47.827,18.447,62.786,30,30,0,0,Above-median LFPR / Above-median WPR,Above-median LFPR / Above-median Unemployment,Increase
+The Dadra and Nagar Haveli and Daman and Diu,40.628,38.207,5.197,33.010,49.977,16.967,51.399,30,30,0,0,Above-median LFPR / Above-median WPR,Above-median LFPR / Below-median Unemployment,Increase
+Tripura,31.541,25.960,14.310,18.560,43.367,24.807,133.657,30,30,0,0,Below-median LFPR / Below-median WPR,Below-median LFPR / Above-median Unemployment,Increase
+Uttar Pradesh,21.755,19.170,9.350,17.147,33.200,16.053,93.624,30,30,0,0,Below-median LFPR / Below-median WPR,Below-median LFPR / Below-median Unemployment,Increase
+Uttarakhand,30.985,26.038,12.340,22.370,43.700,21.330,95.351,30,30,0,0,Below-median LFPR / Below-median WPR,Below-median LFPR / Above-median Unemployment,Increase
+West Bengal,30.253,27.865,6.874,24.073,41.737,17.663,73.373,30,30,0,0,Below-median LFPR / Below-median WPR,Below-median LFPR / Below-median Unemployment,Increase
