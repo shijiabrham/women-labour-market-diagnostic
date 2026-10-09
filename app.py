@@ -6,6 +6,15 @@ Hugging Face Spaces compatible.
 Consumes authoritative analytical engines, Phase 1-8 outputs, and Phase 7 forecasting results.
 """
 
+# Conditional ZeroGPU startup probe for Hugging Face Spaces
+try:
+    import spaces
+    @spaces.GPU
+    def _zerogpu_probe():
+        pass
+except ImportError:
+    pass
+
 import sys
 import os
 
