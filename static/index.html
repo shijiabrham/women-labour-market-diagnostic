@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Women's Labour Market Diagnostic in India</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Plotly.js CDN for interactive charts -->
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header mirroring app.py -->
+    <header class="app-header">
+      <h1 class="main-title">🇮🇳 Women’s Labour Market Diagnostic in India</h1>
+      <p class="sub-title">Understanding women’s labour-market outcomes across States, education levels, and rural-urban contexts.</p>
+    </header>
+
+    <!-- Global Loading / Error State -->
+    <div id="global-loading" class="loading-state">
+      <div class="spinner"></div>
+      <p>Loading authoritative diagnostic data...</p>
+    </div>
+    <div id="global-error" class="error-banner" style="display: none;"></div>
+
+    <!-- Navigation Tabs -->
+    <nav class="tab-nav">
+      <button class="tab-btn active" data-tab="tab1">1. National Overview</button>
+      <button class="tab-btn" data-tab="tab2">2. State Explorer</button>
+      <button class="tab-btn" data-tab="tab3">3. Structural Fault Lines</button>
+      <button class="tab-btn" data-tab="tab4">4. Enterprise Structure</button>
+      <button class="tab-btn" data-tab="tab5">5. Statistical Evidence & Methodology</button>
+      <button class="tab-btn" data-tab="tab6">6. Forecasting Outlook</button>
+    </nav>
+
+    <!-- TAB 1: National Diagnostic Overview -->
+    <section id="tab1" class="tab-pane active">
+      <div class="pane-header">
+        <h2>National Labour Market Overview (2017–2023)</h2>
+        <p class="pane-desc">An executive summary of macro-level trends in labour force participation, workforce engagement, and unemployment across 36 Indian States and Union Territories (unweighted analytical means across States/UTs, distinct from official population-weighted national estimates).</p>
+      </div>
+
+      <div class="controls-card">
+        <div class="control-group">
+          <label class="control-label">Primary Indicator <span class="info-tag">Dataset 1 Core Measures</span></label>
+          <div class="radio-pill-group" id="tab1-indicator-radios">
+            <label class="pill-option active"><input type="radio" name="tab1_ind" value="LFPR" checked> LFPR</label>
+            <label class="pill-option"><input type="radio" name="tab1_ind" value="WPR"> WPR</label>
+            <label class="pill-option"><input type="radio" name="tab1_ind" value="Unemployment_Rate"> Unemployment Rate</label>
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label">Gender Trajectory View <span class="info-tag">Compare temporal paths</span></label>
+          <div class="radio-pill-group" id="tab1-gender-radios">
+            <label class="pill-option active"><input type="radio" name="tab1_gview" value="Both" checked> Both</label>
+            <label class="pill-option"><input type="radio" name="tab1_gview" value="Female Only"> Female Only</label>
+            <label class="pill-option"><input type="radio" name="tab1_gview" value="Male Only"> Male Only</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- KPI Ribbon -->
+      <div id="tab1-kpi-ribbon" class="kpi-grid"></div>
+
+      <!-- Main Visual & Narrative Grid -->
+      <div class="two-column-layout">
+        <div class="column-primary">
+          <div id="tab1-chart" class="chart-container"></div>
+        </div>
+        <div class="column-secondary">
+          <div class="narrative-card" id="tab1-narrative"></div>
+        </div>
+      </div>
+
+      <!-- Phase 8 Themes Accordions -->
+      <div class="accordion-section">
+        <h3>Core Diagnostic Themes (Phase 8 Synthesis)</h3>
+        <div id="tab1-themes-container" class="accordion-list"></div>
+      </div>
+    </section>
+
+    <!-- TAB 2: State Diagnostic Explorer & Context Profiles -->
+    <section id="tab2" class="tab-pane">
+      <div class="pane-header">
+        <h2>State Diagnostic Explorer & Context Profiles</h2>
+        <p class="pane-desc">Examine state-level labour market dossiers, sub-national gender gaps, and pairwise comparative trajectories across 36 States/UTs.</p>
+      </div>
+
+      <div class="controls-card">
+        <div class="control-row">
+          <div class="control-group">
+            <label class="control-label" for="tab2-state-a">Primary State (State A)</label>
+            <select id="tab2-state-a" class="form-select"></select>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="tab2-year">Survey Wave (Year)</label>
+            <select id="tab2-year" class="form-select"></select>
+          </div>
+          <div class="control-group">
+            <label class="control-label">Primary Indicator</label>
+            <div class="radio-pill-group" id="tab2-indicator-radios">
+              <label class="pill-option active"><input type="radio" name="tab2_ind" value="LFPR" checked> LFPR</label>
+              <label class="pill-option"><input type="radio" name="tab2_ind" value="WPR"> WPR</label>
+              <label class="pill-option"><input type="radio" name="tab2_ind" value="Unemployment_Rate"> Unemployment Rate</label>
+            </div>
+          </div>
+        </div>
+        <div class="control-row secondary-row">
+          <div class="control-group">
+            <label class="control-label">Comparative Mode</label>
+            <div class="radio-pill-group" id="tab2-view-mode">
+              <label class="pill-option active"><input type="radio" name="tab2_mode" value="Single State Trajectory" checked> Single State Trajectory</label>
+              <label class="pill-option"><input type="radio" name="tab2_mode" value="Dual State Comparison"> Dual State Comparison</label>
+            </div>
+          </div>
+          <div class="control-group" id="tab2-state-b-group" style="display: none;">
+            <label class="control-label" for="tab2-state-b">Comparative State (State B)</label>
+            <select id="tab2-state-b" class="form-select"></select>
+          </div>
+        </div>
+      </div>
+
+      <!-- State Archetype Badge -->
+      <div id="tab2-archetype-badge"></div>
+
+      <!-- State KPI Cards -->
+      <div id="tab2-kpis" class="kpi-grid"></div>
+
+      <!-- Main Chart & Dossier Layout -->
+      <div class="two-column-layout">
+        <div class="column-primary">
+          <div id="tab2-chart" class="chart-container"></div>
+        </div>
+        <div class="column-secondary">
+          <div class="narrative-card" id="tab2-dossier"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 3: Structural Fault Lines -->
+    <section id="tab3" class="tab-pane">
+      <div class="pane-header">
+        <h2>Structural Fault Lines in Female Labour Force Dynamics</h2>
+        <p class="pane-desc">Empirical investigation of educational gradients, educated female unemployment, and rural-urban divergence across All-India and individual States/UTs.</p>
+      </div>
+
+      <!-- Global Geography Selector for Tab 3 -->
+      <div class="controls-card" style="margin-bottom: 16px;">
+        <div class="control-group">
+          <label class="control-label" for="tab3-geography">Geographic Level / State <span class="info-tag">Benchmark or individual State/UT</span></label>
+          <select id="tab3-geography" class="form-select" style="max-width: 420px;"></select>
+        </div>
+      </div>
+
+      <!-- Sub-section A: Education U-Curve -->
+      <div class="card-section">
+        <div class="section-title-bar">
+          <h3>A. Education and Female Participation (The Non-Monotone U-Curve)</h3>
+          <span class="badge-tag">Finding F5</span>
+        </div>
+        <div class="controls-card inline-controls">
+          <div class="control-group">
+            <label class="control-label">Area Context</label>
+            <div class="radio-pill-group" id="tab3-ucurve-area">
+              <label class="pill-option active"><input type="radio" name="tab3_uc_area" value="Rural + Urban" checked> Rural + Urban</label>
+              <label class="pill-option"><input type="radio" name="tab3_uc_area" value="Rural"> Rural</label>
+              <label class="pill-option"><input type="radio" name="tab3_uc_area" value="Urban"> Urban</label>
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="tab3-ucurve-year">Survey Year</label>
+            <select id="tab3-ucurve-year" class="form-select small-select"></select>
+          </div>
+        </div>
+        <div id="tab3-ucurve-notice" style="display: none;"></div>
+        <div id="tab3-ucurve-chart" class="chart-container"></div>
+        <div class="methodology-banner" id="tab3-ucurve-method-banner">
+          <strong>Non-Monotone Education Gradient (All-India Benchmark):</strong> Across the 2017–2023 survey waves, the pooled analytical means show female labour-force participation dipping at middle schooling (30.2%) and secondary schooling (23.7%), before rising at technical diploma (56.6%) and postgraduate levels (59.1%) (Friedman $\chi^2 = 958.79, p < 0.001, \epsilon^2 = 0.542$). In the 2023 single-year view, the secondary-schooling trough persisted at 31.3%. These figures refer to different temporal scopes: the first set comprises pooled multi-year means, while the latter is a single-year observation.
+        </div>
+      </div>
+
+      <!-- Sub-section B: Higher Educated Women's Unemployment -->
+      <div class="card-section">
+        <div class="section-title-bar">
+          <h3>B. Higher Educated Women's Unemployment Friction</h3>
+          <span class="badge-tag">Finding F6</span>
+        </div>
+        <div class="controls-card inline-controls">
+          <div class="control-group">
+            <label class="control-label" for="tab3-ur-year">Survey Year</label>
+            <select id="tab3-ur-year" class="form-select small-select"></select>
+          </div>
+        </div>
+        <div id="tab3-ur-chart" class="chart-container"></div>
+        <div class="methodology-banner" id="tab3-ur-method-banner">
+          <strong>Extreme Graduate Friction:</strong> While open unemployment is negligible for uneducated women, graduate female unemployment was 23.3% in 2023 (more than double the male graduate rate of 10.7%).
+        </div>
+      </div>
+
+      <!-- Sub-section C: Rural-Urban Divergence -->
+      <div class="card-section">
+        <div class="section-title-bar">
+          <h3>C. Rural-Urban Divergence (2017–2023)</h3>
+          <span class="badge-tag">Finding F4</span>
+        </div>
+        <div class="controls-card inline-controls">
+          <div class="control-group">
+            <label class="control-label">Indicator</label>
+            <div class="radio-pill-group" id="tab3-ru-indicator">
+              <label class="pill-option active"><input type="radio" name="tab3_ru_ind" value="LFPR" checked> LFPR</label>
+              <label class="pill-option"><input type="radio" name="tab3_ru_ind" value="WPR"> WPR</label>
+            </div>
+          </div>
+        </div>
+        <div id="tab3-ru-chart" class="chart-container"></div>
+        <div class="methodology-banner" id="tab3-ru-method-banner"></div>
+      </div>
+    </section>
+
+    <!-- TAB 4: Employment & Enterprise Structure -->
+    <section id="tab4" class="tab-pane">
+      <div class="pane-header">
+        <h2>Employment & Enterprise Structure</h2>
+        <p class="pane-desc">Dataset 2 non-agricultural enterprise distribution view with official source terminology and explicit handling of structural survey absence across All-India and States/UTs.</p>
+      </div>
+
+      <div class="controls-card">
+        <div class="control-row">
+          <div class="control-group">
+            <label class="control-label" for="tab4-geography">Geographic Level / State</label>
+            <select id="tab4-geography" class="form-select"></select>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="tab4-ind-cov">Industry Coverage</label>
+            <select id="tab4-ind-cov" class="form-select"></select>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="tab4-year">Survey Wave (Year)</label>
+            <select id="tab4-year" class="form-select"></select>
+          </div>
+          <div class="control-group">
+            <label class="control-label">Area Context</label>
+            <div class="radio-pill-group" id="tab4-area-radios">
+              <label class="pill-option active"><input type="radio" name="tab4_area" value="Rural + Urban" checked> Rural + Urban</label>
+              <label class="pill-option"><input type="radio" name="tab4_area" value="Rural"> Rural</label>
+              <label class="pill-option"><input type="radio" name="tab4_area" value="Urban"> Urban</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="tab4-notice-banner" style="display: none;"></div>
+      <div id="tab4-chart" class="chart-container"></div>
+
+      <div class="methodology-banner" id="tab4-methodology-banner" style="margin-top: 16px;">
+        <strong>Methodological Notice on Informal Enterprise:</strong> Enterprise classifications follow PLFS Dataset 7131 specifications. Proprietary and partnership units account for 56.6% of non-farm employment. Female workers depend significantly more on public/government sector jobs (24.9% vs 16.0% male) and private household employment (6.3% vs 0.8% male).
+      </div>
+    </section>
+
+    <!-- TAB 5: Empirical Evidence & Methodology -->
+    <section id="tab5" class="tab-pane">
+      <div class="pane-header">
+        <h2>Statistical Evidence, Predictive Limits & Methodology</h2>
+        <p class="pane-desc">Complete scientific traceability for all empirical claims in the diagnostic. Exposes inferential hypothesis test results from Phase 6, predictive machine-learning bounds from Phase 7, and essential methodological boundaries.</p>
+      </div>
+
+      <!-- 5.1 Phase 6 Tests -->
+      <div class="card-section">
+        <div class="section-title-bar">
+          <h3>5.1 Phase 6 Inferential Hypothesis Testing Matrix (Findings F1–F11)</h3>
+        </div>
+        <p class="section-subtext">Non-parametric statistical tests conducted on authoritative reusable analytical layers. Paired tests use matched within-state designs; omnibus multi-group tests use Friedman χ² with Bonferroni correction.</p>
+        <div class="table-responsive">
+          <table class="data-table" id="tab5-phase6-table">
+            <thead>
+              <tr>
+                <th>Finding</th>
+                <th>Analysis / Comparison</th>
+                <th>Test Applied</th>
+                <th>Test Statistic</th>
+                <th>p-value</th>
+                <th>Effect Size (r / ε²)</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- 5.2 Phase 7 ML Limits -->
+      <div class="card-section">
+        <div class="section-title-bar">
+          <h3>5.2 Phase 7 Predictive Modelling Benchmark & Out-of-Sample Limits</h3>
+        </div>
+        <p class="section-subtext">Leave-One-State-Out (LOSO) Cross-Validation performance across 36 folds. Demonstrates strict boundaries of cross-sectional machine-learning predictability without temporal leakage.</p>
+        <div class="table-responsive">
+          <table class="data-table" id="tab5-ml-table">
+            <thead>
+              <tr>
+                <th>Model</th>
+                <th>Validation Method</th>
+                <th>Total Folds</th>
+                <th>MAE (pp)</th>
+                <th>RMSE (pp)</th>
+                <th>R²</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+
+        <h4 style="margin: 20px 0 10px 0; color: #1e293b;">Feature Importance & Coefficient Weights</h4>
+        <div class="table-responsive">
+          <table class="data-table" id="tab5-imp-table">
+            <thead>
+              <tr>
+                <th>Feature Name</th>
+                <th>Ridge Coefficient</th>
+                <th>GBR Feature Importance</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- 5.3 Methodology Notes -->
+      <div class="card-section">
+        <div class="section-title-bar">
+          <h3>5.3 Essential Methodological Boundaries</h3>
+        </div>
+        <div class="methodology-grid">
+          <div class="method-card">
+            <h4>Observational & Associative Scope</h4>
+            <p>All metrics and models in this diagnostic reflect observational, associative patterns from annual PLFS repeated cross-sections (2017–2023). No causal relationships are claimed.</p>
+          </div>
+          <div class="method-card">
+            <h4>Analytical Unweighted Means</h4>
+            <p>National summary measures are unweighted analytical means across the 36 reporting States/UTs, ensuring equal state representation in sub-national diagnostics rather than population-dominated aggregation.</p>
+          </div>
+          <div class="method-card">
+            <h4>Structural Missingness Protocol</h4>
+            <p>Missing or unrecorded survey observations are never imputed as zero. Industry coverage divisions omitted in survey waves are explicitly flagged as structurally absent.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 6: Forecasting Outlook (1-Year Horizon) -->
+    <section id="tab6" class="tab-pane">
+      <div class="pane-header">
+        <h2 id="tab6-main-heading">Model-Based 1-Year Forecasting Outlook (Base: 2023 → Outlook: 2024)</h2>
+        <p class="pane-desc"><strong>Conditional time-series projections derived from annual Periodic Labour Force Survey (PLFS) data.</strong><br>
+        <em>Note: Projections reflect statistical trend and level momentum from historical observations up to 2023. They represent model-based conditional projections for 2024, NOT observed post-2023 figures or official policy targets.</em></p>
+      </div>
+
+      <!-- Controls matching Gradio Tab 6 -->
+      <div class="controls-card">
+        <div class="control-row">
+          <div class="control-group">
+            <label class="control-label" for="tab6-state">Geographic Level / State <span class="info-tag">Benchmark or individual State/UT</span></label>
+            <select id="tab6-state" class="form-select"></select>
+          </div>
+          <div class="control-group">
+            <label class="control-label">Labour Market Indicator <span class="info-tag">Dataset 1 Core Measures</span></label>
+            <div class="radio-pill-group" id="tab6-ind-radios">
+              <label class="pill-option active"><input type="radio" name="tab6_ind" value="LFPR" checked> LFPR</label>
+              <label class="pill-option"><input type="radio" name="tab6_ind" value="WPR"> WPR</label>
+              <label class="pill-option"><input type="radio" name="tab6_ind" value="Unemployment_Rate"> Unemployment Rate</label>
+            </div>
+          </div>
+        </div>
+        <div class="control-row secondary-row">
+          <div class="control-group">
+            <label class="control-label">Gender Dimension <span class="info-tag">Female vs. Male trajectory</span></label>
+            <div class="radio-pill-group" id="tab6-gender-radios">
+              <label class="pill-option active"><input type="radio" name="tab6_gen" value="Female" checked> Female</label>
+              <label class="pill-option"><input type="radio" name="tab6_gen" value="Male"> Male</label>
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label">Area Type <span class="info-tag">Spatial Disaggregation</span></label>
+            <div class="radio-pill-group" id="tab6-area-radios">
+              <label class="pill-option active"><input type="radio" name="tab6_area" value="Rural + Urban" checked> Rural + Urban</label>
+              <label class="pill-option"><input type="radio" name="tab6_area" value="Rural"> Rural</label>
+              <label class="pill-option"><input type="radio" name="tab6_area" value="Urban"> Urban</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dynamic KPI Status Ribbon -->
+      <div id="tab6-kpi-ribbon" class="kpi-grid"></div>
+
+      <!-- Main Forecast Chart -->
+      <div class="chart-container" id="tab6-chart" style="margin-bottom: 20px;"></div>
+
+      <!-- Validation Details & Eligibility Caution Box -->
+      <div class="narrative-card" id="tab6-explanatory-box"></div>
+
+      <!-- Mandatory 5-Year Disclosure Accordion -->
+      <div class="disclosure-box">
+        <h4>⚠️ Methodological Disclosure: Why is the outlook limited to one year?</h4>
+        <p>The available PLFS dataset contains seven annual observations, from 2017 to 2023. The forecasting models were evaluated using historical one-year-ahead validation. The available data do not provide sufficient independent historical periods to assess five-year-ahead forecast accuracy.</p>
+        <p>A separate feasibility assessment also found that some five-year trend projections produced implausible values, including labour-force participation rates above 100% and negative unemployment rates.</p>
+        <p><strong>For these reasons, the dashboard provides only eligible one-year-ahead forecasts.</strong> Longer-term projections are not displayed because their reliability cannot be established adequately with the available data.</p>
+        <p>The forecasting analysis can be reassessed when additional annual observations become available.</p>
+      </div>
+    </section>
+
+    <!-- Footer mirroring app.py -->
+    <footer class="app-footer">
+      <hr>
+      <div class="footer-text">
+        Women's Labour Market Diagnostic in India • Capstone Research Diagnostic • Data Sources: PLFS NDAP Datasets 7129 & 7131 (2017–2023)
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

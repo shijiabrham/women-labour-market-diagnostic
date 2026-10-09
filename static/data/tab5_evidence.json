@@ -1,0 +1,162 @@
+{
+  "phase6_tests": [
+    {
+      "Finding": "F1",
+      "Analysis": "LFPR 2017\u21922023",
+      "Test": "Wilcoxon",
+      "Statistic": 663.0,
+      "p_value": "< 0.001",
+      "Effect_Size": 0.86
+    },
+    {
+      "Finding": "F2",
+      "Analysis": "Female\u2212Male LFPR gap",
+      "Test": "Wilcoxon",
+      "Statistic": 0.0,
+      "p_value": "< 0.001",
+      "Effect_Size": -0.87
+    },
+    {
+      "Finding": "F3",
+      "Analysis": "Between-state variance",
+      "Test": "Permutation",
+      "Statistic": 137.36,
+      "p_value": "< 0.001",
+      "Effect_Size": null
+    },
+    {
+      "Finding": "F4",
+      "Analysis": "Rural\u2212Urban LFPR gap",
+      "Test": "Wilcoxon",
+      "Statistic": 29213.0,
+      "p_value": "< 0.001",
+      "Effect_Size": 0.73
+    },
+    {
+      "Finding": "F4",
+      "Analysis": "Rural\u2212Urban gap widening 2017\u21922023",
+      "Test": "Wilcoxon",
+      "Statistic": 625.0,
+      "p_value": "< 0.001",
+      "Effect_Size": 0.86
+    },
+    {
+      "Finding": "F5",
+      "Analysis": "Education groups",
+      "Test": "Friedman",
+      "Statistic": 958.79,
+      "p_value": "< 0.001",
+      "Effect_Size": 0.54
+    },
+    {
+      "Finding": "F6",
+      "Analysis": "Education groups (gender gap)",
+      "Test": "Friedman",
+      "Statistic": 467.27,
+      "p_value": "< 0.001",
+      "Effect_Size": 0.26
+    },
+    {
+      "Finding": "F8",
+      "Analysis": "Education groups (LFPR change)",
+      "Test": "Friedman",
+      "Statistic": 66.36,
+      "p_value": "< 0.001",
+      "Effect_Size": 0.24
+    },
+    {
+      "Finding": "F10",
+      "Analysis": "Enterprise composition change",
+      "Test": "Wilcoxon",
+      "Statistic": 666.0,
+      "p_value": "< 0.001",
+      "Effect_Size": 0.87
+    },
+    {
+      "Finding": "F11",
+      "Analysis": "Gender enterprise gap",
+      "Test": "Wilcoxon",
+      "Statistic": 31878.0,
+      "p_value": "< 0.001",
+      "Effect_Size": 0.87
+    }
+  ],
+  "phase7_ml_models": [
+    {
+      "Model": "Baseline (Training Mean)",
+      "Validation_Method": "Leave-One-State-Out (LOSO)",
+      "Total_Folds": 36,
+      "MAE": 18.05,
+      "RMSE": 24.33,
+      "R2": -0.01
+    },
+    {
+      "Model": "Ridge Regression",
+      "Validation_Method": "Leave-One-State-Out (LOSO)",
+      "Total_Folds": 36,
+      "MAE": 15.98,
+      "RMSE": 22.48,
+      "R2": 0.14
+    },
+    {
+      "Model": "Gradient Boosting Regressor",
+      "Validation_Method": "Leave-One-State-Out (LOSO)",
+      "Total_Folds": 36,
+      "MAE": 15.7,
+      "RMSE": 22.27,
+      "R2": 0.15
+    }
+  ],
+  "phase7_feature_importance": [
+    {
+      "Feature": "Year_Standardized",
+      "Ridge_Coefficient": 3.72,
+      "GBR_Feature_Importance": 0.187
+    },
+    {
+      "Feature": "Education_Literate & Upto Primary",
+      "Ridge_Coefficient": -23.97,
+      "GBR_Feature_Importance": 0.1859
+    },
+    {
+      "Feature": "Area_Type_Urban",
+      "Ridge_Coefficient": -6.57,
+      "GBR_Feature_Importance": 0.1756
+    },
+    {
+      "Feature": "Education_Middle",
+      "Ridge_Coefficient": -24.93,
+      "GBR_Feature_Importance": 0.1695
+    },
+    {
+      "Feature": "Education_Post Graduate & Above",
+      "Ridge_Coefficient": -3.94,
+      "GBR_Feature_Importance": 0.0955
+    },
+    {
+      "Feature": "Education_Secondary",
+      "Ridge_Coefficient": -17.25,
+      "GBR_Feature_Importance": 0.0651
+    },
+    {
+      "Feature": "Education_Not Literate",
+      "Ridge_Coefficient": -12.79,
+      "GBR_Feature_Importance": 0.0432
+    },
+    {
+      "Feature": "Education_Graduate",
+      "Ridge_Coefficient": -15.63,
+      "GBR_Feature_Importance": 0.042
+    },
+    {
+      "Feature": "Education_Higher Secondary",
+      "Ridge_Coefficient": -15.14,
+      "GBR_Feature_Importance": 0.0362
+    }
+  ],
+  "methodology": {
+    "design": "Repeated cross-sectional state-level analytical synthesis using annual PLFS NDAP datasets 7129 & 7131 (2017\u20132023).",
+    "non_causal_disclosure": "All reported statistics reflect observational, associative patterns across 36 Indian States and Union Territories. No causal claims are asserted.",
+    "unweighted_mean_disclosure": "National summary indicators reflect unweighted state analytical means across 36 reporting jurisdictions rather than population-weighted national aggregates, ensuring equal state representation in diagnostic profiling."
+  }
+}

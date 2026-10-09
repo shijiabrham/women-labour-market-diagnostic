@@ -1,0 +1,249 @@
+{
+  "years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "indicators": {
+    "LFPR": {
+      "female": [
+        25.78,
+        27.97,
+        33.83,
+        35.87,
+        35.38,
+        41.18,
+        45.01
+      ],
+      "male": [
+        75.28,
+        75.11,
+        76.46,
+        75.79,
+        76.29,
+        76.98,
+        78.09
+      ],
+      "gap": [
+        -49.5,
+        -47.13,
+        -42.64,
+        -39.92,
+        -40.91,
+        -35.79,
+        -33.07
+      ],
+      "kpis": {
+        "female_2023": 45.01,
+        "female_2017": 25.78,
+        "delta_female": 19.23,
+        "male_2023": 78.09,
+        "male_2017": 75.28,
+        "delta_male": 2.81,
+        "gap_2023": -33.07,
+        "gap_2017": -49.5,
+        "delta_gap": 16.43
+      }
+    },
+    "WPR": {
+      "female": [
+        23.03,
+        25.45,
+        31.54,
+        33.83,
+        33.34,
+        39.21,
+        42.47
+      ],
+      "male": [
+        70.46,
+        70.22,
+        71.94,
+        71.93,
+        72.42,
+        74.02,
+        75.15
+      ],
+      "gap": [
+        -47.44,
+        -44.77,
+        -40.4,
+        -38.1,
+        -39.07,
+        -34.82,
+        -32.68
+      ],
+      "kpis": {
+        "female_2023": 42.47,
+        "female_2017": 23.03,
+        "delta_female": 19.44,
+        "male_2023": 75.15,
+        "male_2017": 70.46,
+        "delta_male": 4.69,
+        "gap_2023": -32.68,
+        "gap_2017": -47.44,
+        "delta_gap": 14.76
+      }
+    },
+    "Unemployment_Rate": {
+      "female": [
+        11.65,
+        10.02,
+        7.19,
+        6.22,
+        6.56,
+        4.87,
+        6.15
+      ],
+      "male": [
+        6.51,
+        6.6,
+        5.96,
+        5.15,
+        5.17,
+        3.91,
+        3.76
+      ],
+      "gap": [
+        5.14,
+        3.42,
+        1.23,
+        1.07,
+        1.39,
+        0.96,
+        2.39
+      ],
+      "kpis": {
+        "female_2023": 6.15,
+        "female_2017": 11.65,
+        "delta_female": -5.5,
+        "male_2023": 3.76,
+        "male_2017": 6.51,
+        "delta_male": -2.75,
+        "gap_2023": 2.39,
+        "gap_2017": 5.14,
+        "delta_gap": -2.75
+      }
+    }
+  },
+  "narratives": {
+    "LFPR": [
+      {
+        "narrative_type": "trend",
+        "insight_ref": 0,
+        "indicator": "LFPR",
+        "context_summary": "LFPR",
+        "context_metadata": {
+          "area_type": "Rural + Urban",
+          "education": "All",
+          "gender": "Female",
+          "indicator": "LFPR",
+          "dimensions": [
+            "Year"
+          ],
+          "analysis_type": "trend",
+          "aggregation_note": "",
+          "endpoint_years": [
+            2017,
+            2023
+          ]
+        },
+        "headline": "LFPR increased between 2017 and 2023 in the selected view",
+        "key_finding": "In the selected view (LFPR), LFPR was 25.8% in 2017 and 45.0% in 2023, across 7 observed years.",
+        "supporting_evidence": null,
+        "comparison": null,
+        "change_statement": "This represents a 19.2 percentage-point increase over the period (74.6% change).",
+        "methodological_note": "National dashboard indicators represent unweighted analytical means across 36 States/UTs (equal State/UT weighting), distinct from official population-weighted MoSPI estimates."
+      }
+    ],
+    "WPR": [
+      {
+        "narrative_type": "trend",
+        "insight_ref": 0,
+        "indicator": "WPR",
+        "context_summary": "WPR",
+        "context_metadata": {
+          "area_type": "Rural + Urban",
+          "education": "All",
+          "gender": "Female",
+          "indicator": "WPR",
+          "dimensions": [
+            "Year"
+          ],
+          "analysis_type": "trend",
+          "aggregation_note": "",
+          "endpoint_years": [
+            2017,
+            2023
+          ]
+        },
+        "headline": "WPR increased between 2017 and 2023 in the selected view",
+        "key_finding": "In the selected view (WPR), WPR was 23.0% in 2017 and 42.5% in 2023, across 7 observed years.",
+        "supporting_evidence": null,
+        "comparison": null,
+        "change_statement": "This represents a 19.4 percentage-point increase over the period (84.4% change).",
+        "methodological_note": "National dashboard indicators represent unweighted analytical means across 36 States/UTs (equal State/UT weighting), distinct from official population-weighted MoSPI estimates."
+      }
+    ],
+    "Unemployment_Rate": [
+      {
+        "narrative_type": "trend",
+        "insight_ref": 0,
+        "indicator": "Unemployment_Rate",
+        "context_summary": "Unemployment_Rate",
+        "context_metadata": {
+          "area_type": "Rural + Urban",
+          "education": "All",
+          "gender": "Female",
+          "indicator": "Unemployment_Rate",
+          "dimensions": [
+            "Year"
+          ],
+          "analysis_type": "trend",
+          "aggregation_note": "",
+          "endpoint_years": [
+            2017,
+            2023
+          ]
+        },
+        "headline": "Unemployment_Rate decreased between 2017 and 2023 in the selected view",
+        "key_finding": "In the selected view (Unemployment_Rate), Unemployment_Rate was 11.6% in 2017 and 6.1% in 2023, across 7 observed years.",
+        "supporting_evidence": null,
+        "comparison": null,
+        "change_statement": "This represents a 5.5 percentage-point decrease over the period (47.2% change).",
+        "methodological_note": "National dashboard indicators represent unweighted analytical means across 36 States/UTs (equal State/UT weighting), distinct from official population-weighted MoSPI estimates."
+      }
+    ]
+  },
+  "themes": [
+    {
+      "id": "theme1",
+      "title": "Theme 1: Universal Gender Participation Gap with Temporal Narrowing",
+      "text": "Female LFPR rose systematically from 25.8% (2017) to 45.0% (2023) across Indian States (Finding F1: Wilcoxon W = 663.0, p < 0.001, r = 0.864). Yet, female participation remained strictly lower than male participation across all 251 matched State \u00d7 Year observations (Finding F2: Wilcoxon W = 0.0, p < 0.001, r = -0.867), with a persistent national gap of -33.1 pp in 2023."
+    },
+    {
+      "id": "theme2",
+      "title": "Theme 2: Rural-Urban Divergence in Female Labour-Force Participation",
+      "text": "Female labour-force expansion was concentrated primarily in rural areas (+24.6 percentage points across the unweighted State/UT analytical means). Urban female participation also increased, from 21.7% in 2017 to 31.2% in 2023 across the unweighted State/UT analytical means. By comparison, official population-weighted MoSPI estimates show rural female LFPR rising from 24.6% to 43.7%, and urban female LFPR from 20.4% to 25.4%. In the unweighted analytical dataset, the rural–urban female participation gap widened from 4.7 percentage points in 2017 to 19.8 percentage points in 2023 (Finding F4: Wilcoxon level p < 0.001, r = 0.735; gap widening W = 625.0, p < 0.001, r = 0.858)."
+    },
+    {
+      "id": "theme3",
+      "title": "Theme 3: Non-Monotonic Education-Participation Pattern",
+      "text": "Female participation displays a statistically validated non-monotone U-curve with formal education (Finding F5: Friedman \u03c7\u00b2 = 958.79, p < 0.001, \u03b5\u00b2 = 0.542). Participation dips to a trough among women with middle (30.2%) and secondary schooling (23.7%), and rises only at technical diploma (56.6%) and postgraduate levels (59.1%). The 2017\u20132023 expansion accrued disproportionately to women with lower educational attainment (Finding F8)."
+    },
+    {
+      "id": "theme4",
+      "title": "Theme 4: Higher Educated Women's Unemployment Gap",
+      "text": "While open unemployment is near zero for uneducated women, women with tertiary education face extreme labour-market friction. Graduate female unemployment was 23.3% in 2023 compared to 10.7% for male graduates\u2014a gender gap that widens systematically with education (Finding F6: Friedman \u03c7\u00b2 = 467.27, p < 0.001, \u03b5\u00b2 = 0.262)."
+    },
+    {
+      "id": "theme5",
+      "title": "Theme 5: Gendered Enterprise Structure of Employment",
+      "text": "Non-agricultural employment is heavily informal (56.6% in proprietary/partnership units). However, female employment is significantly more reliant on public sector/government jobs (24.9% vs. 16.0% for men) and domestic work in employer households (6.3% vs. 0.8% for men) (Findings F10 & F11: Wilcoxon p < 0.001). Corporate companies absorb only 8.3% of female non-farm workers."
+    }
+  ]
+}
