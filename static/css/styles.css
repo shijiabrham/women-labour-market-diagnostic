@@ -389,42 +389,289 @@ body {
   margin-bottom: 6px;
 }
 
-/* Card Section for Tabs 3, 5 */
-.card-section {
+/* Theme Cards for Tab 1 Redesign */
+.theme-card {
   background: var(--white);
   border: 1px solid var(--slate-200);
   border-radius: var(--radius-md);
-  padding: 24px;
-  box-shadow: var(--shadow-sm);
   margin-bottom: 24px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow 0.2s ease;
 }
 
-.section-title-bar {
+.theme-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.theme-card-header {
+  padding: 16px 20px 14px;
+  background: #fcfdfe;
+  border-bottom: 1px solid var(--slate-200);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.theme-badge {
+  display: inline-block;
+  align-self: flex-start;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--primary-blue);
+  background: var(--primary-blue-light);
+  padding: 3px 10px;
+  border-radius: 12px;
+}
+
+.theme-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--slate-900);
+  margin: 0;
+}
+
+.theme-evidence-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: 24px;
+  padding: 24px;
+  align-items: start;
+}
+
+@media (max-width: 1040px) {
+  .theme-evidence-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 18px;
+  }
+}
+
+.theme-chart-column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 0;
+  width: 100%;
+}
+
+.theme-chart-controls {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
+  background: var(--slate-50);
+  padding: 8px 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--slate-200);
+}
+
+.mini-pills .pill-option {
+  padding: 4px 10px;
+  font-size: 12px;
+}
+
+.theme-narrative-column {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  width: 100%;
+}
+
+.narrative-content h4 {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--slate-900);
   margin-bottom: 8px;
 }
 
-.section-title-bar h3 {
-  font-size: 17px;
+.narrative-content p {
+  font-size: 13.5px;
+  color: var(--slate-700);
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.evidence-box {
+  background: var(--slate-50);
+  border: 1px solid var(--slate-200);
+  border-radius: var(--radius-sm);
+  padding: 12px 16px;
+  font-size: 13px;
+  color: var(--slate-800);
+  margin-bottom: 10px;
+  line-height: 1.55;
+}
+
+.evidence-box strong {
+  color: var(--slate-900);
+  font-size: 13px;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.evidence-box li:last-child {
+  margin-bottom: 0;
+}
+
+/* Compact Key Finding Cards for Theme 5 */
+.theme-scope-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.scope-tag {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--slate-600);
+  background: var(--slate-100);
+  border: 1px solid var(--slate-200);
+  border-radius: 4px;
+  padding: 2px 8px;
+}
+
+.composition-clarification-banner {
+  background: #f8fafc;
+  border-left: 3px solid #3b82f6;
+  padding: 10px 14px;
+  font-size: 12.5px;
+  color: var(--slate-700);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  margin-top: 14px;
+  margin-bottom: 12px;
+  line-height: 1.45;
+}
+
+.finding-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+  margin-top: 10px;
+  margin-bottom: 14px;
+}
+
+.finding-card {
+  background: var(--slate-50);
+  border: 1px solid var(--slate-200);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.finding-card:hover {
+  background: #ffffff;
+  box-shadow: var(--shadow-sm);
+}
+
+.finding-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.finding-card-title {
+  font-size: 13px;
   font-weight: 700;
+  color: var(--slate-800);
+}
+
+.finding-card-badge {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 10px;
+  background: var(--slate-200);
+  color: var(--slate-700);
+}
+
+.finding-card-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: 2px;
+}
+
+.finding-card-metric {
+  display: flex;
+  flex-direction: column;
+}
+
+.finding-card-metric-label {
+  font-size: 10.5px;
+  color: var(--slate-500);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.finding-card-metric-val {
+  font-size: 18px;
+  font-weight: 800;
   color: var(--slate-900);
 }
 
-.badge-tag {
-  background: var(--primary-blue-light);
-  color: var(--primary-blue);
-  padding: 2px 8px;
-  border-radius: 12px;
-  font-size: 11px;
+.finding-card-diff {
+  font-size: 11.5px;
   font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 4px;
 }
 
-.section-subtext {
-  font-size: 13px;
+.diff-positive {
+  background: #ecfdf5;
+  color: #047857;
+  border: 1px solid #a7f3d0;
+}
+
+.diff-negative {
+  background: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+}
+
+.finding-card-statement {
+  font-size: 12px;
   color: var(--slate-600);
+  line-height: 1.45;
+  margin-top: 4px;
+  border-top: 1px dashed var(--slate-200);
+  padding-top: 6px;
+}
+
+.enterprise-interpretation-box {
+  background: #ffffff;
+  border: 1px solid var(--slate-200);
+  border-radius: var(--radius-sm);
+  padding: 16px 20px;
+  margin-top: 16px;
   margin-bottom: 16px;
+}
+
+.enterprise-interpretation-box h4 {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--slate-900);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.enterprise-interpretation-box p {
+  font-size: 13.5px;
+  color: var(--slate-700);
+  line-height: 1.55;
+  margin-bottom: 10px;
+}
+
+.enterprise-interpretation-box p:last-child {
+  margin-bottom: 0;
 }
 
 /* Accordions for Phase 8 Themes */

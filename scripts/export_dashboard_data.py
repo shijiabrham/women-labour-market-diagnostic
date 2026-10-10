@@ -136,6 +136,150 @@ def export_tab1_national():
         except Exception:
             data["narratives"][ind] = []
 
+    # --------------------------------------------------------------------------
+    # Five Diagnostic Themes Data Architecture
+    # --------------------------------------------------------------------------
+    education_levels = [
+        "Not Literate",
+        "Literate & Upto Primary",
+        "Middle",
+        "Secondary",
+        "Higher Secondary",
+        "Diploma/ Certificate Course",
+        "Graduate",
+        "Post Graduate & Above"
+    ]
+
+    # Theme 1: Overall Trajectories (already in indicators['LFPR', 'WPR', 'Unemployment_Rate'])
+    theme1_data = {
+        "years": years,
+        "indicators": {
+            ind: {
+                "female": data["indicators"][ind]["female"],
+                "male": data["indicators"][ind]["male"],
+                "gap": data["indicators"][ind]["gap"]
+            } for ind in indicators
+        },
+        "kpis": data["indicators"]["LFPR"]["kpis"]
+    }
+
+    # Theme 2: Rural-Urban Divergence in LFPR & WPR
+    ru_sub = df[(df.Education == "All") & (df.Area_Type.isin(["Rural", "Urban"]))]
+    theme2_data = {"years": years}
+    for ind in ["LFPR", "WPR"]:
+        f_rural_raw = [ru_sub[(ru_sub.Year == yr) & (ru_sub.Area_Type == "Rural") & (ru_sub.Gender == "Female")][ind].mean() for yr in years]
+        f_urban_raw = [ru_sub[(ru_sub.Year == yr) & (ru_sub.Area_Type == "Urban") & (ru_sub.Gender == "Female")][ind].mean() for yr in years]
+        m_rural_raw = [ru_sub[(ru_sub.Year == yr) & (ru_sub.Area_Type == "Rural") & (ru_sub.Gender == "Male")][ind].mean() for yr in years]
+        m_urban_raw = [ru_sub[(ru_sub.Year == yr) & (ru_sub.Area_Type == "Urban") & (ru_sub.Gender == "Male")][ind].mean() for yr in years]
+        ru_gaps = [safe_float(r - u) if r is not None and u is not None else None for r, u in zip(f_rural_raw, f_urban_raw)]
+        f_rural = [safe_float(r) for r in f_rural_raw]
+        f_urban = [safe_float(u) for u in f_urban_raw]
+        m_rural = [safe_float(r) for r in m_rural_raw]
+        m_urban = [safe_float(u) for u in m_urban_raw]
+        theme2_data[ind] = {
+            "female_rural": f_rural,
+            "female_urban": f_urban,
+            "male_rural": m_rural,
+            "male_urban": m_urban,
+            "female_ru_gap": ru_gaps
+        }
+
+    # Theme 3: Education Gradient U-Curve (Single Year 2023 vs Pooled 2017-2023) & F8 Gains
+    edu_sub = df[(df.Area_Type == "Rural + Urban") & (df.Education.isin(education_levels))]
+    edu_2023 = edu_sub[edu_sub.Year == 2023]
+    edu_2017 = edu_sub[edu_sub.Year == 2017]
+
+    t3_f_2023_raw = [edu_2023[(edu_2023.Education == lvl) & (edu_2023.Gender == "Female")]["LFPR"].mean() for lvl in education_levels]
+    t3_m_2023_raw = [edu_2023[(edu_2023.Education == lvl) & (edu_2023.Gender == "Male")]["LFPR"].mean() for lvl in education_levels]
+    t3_f_pooled_raw = [edu_sub[(edu_sub.Education == lvl) & (edu_sub.Gender == "Female")]["LFPR"].mean() for lvl in education_levels]
+    t3_m_pooled_raw = [edu_sub[(edu_sub.Education == lvl) & (edu_sub.Gender == "Male")]["LFPR"].mean() for lvl in education_levels]
+    t3_f_2017_raw = [edu_2017[(edu_2017.Education == lvl) & (edu_2017.Gender == "Female")]["LFPR"].mean() for lvl in education_levels]
+    t3_delta_f = [safe_float(y23 - y17) if y23 is not None and y17 is not None else None for y23, y17 in zip(t3_f_2023_raw, t3_f_2017_raw)]
+
+    t3_f_2023 = [safe_float(v) for v in t3_f_2023_raw]
+    t3_m_2023 = [safe_float(v) for v in t3_m_2023_raw]
+    t3_f_pooled = [safe_float(v) for v in t3_f_pooled_raw]
+    t3_m_pooled = [safe_float(v) for v in t3_m_pooled_raw]
+    t3_f_2017 = [safe_float(v) for v in t3_f_2017_raw]
+
+    theme3_data = {
+        "education_levels": education_levels,
+        "female_2023": t3_f_2023,
+        "male_2023": t3_m_2023,
+        "female_pooled": t3_f_pooled,
+        "male_pooled": t3_m_pooled,
+        "female_2017": t3_f_2017,
+        "female_delta_f8": t3_delta_f
+    }
+
+    # Theme 4: Educated Unemployment Penalty (Multi-Year 2017-2023 Rural + Urban)
+    t4_data_by_year = {}
+    for yr in years:
+        edu_yr = edu_sub[edu_sub.Year == yr]
+        f_ur = [safe_float(edu_yr[(edu_yr.Education == lvl) & (edu_yr.Gender == "Female")]["Unemployment_Rate"].mean()) for lvl in education_levels]
+        m_ur = [safe_float(edu_yr[(edu_yr.Education == lvl) & (edu_yr.Gender == "Male")]["Unemployment_Rate"].mean()) for lvl in education_levels]
+        g_ur = [safe_float(f - m) if f is not None and m is not None else None for f, m in zip(f_ur, m_ur)]
+        t4_data_by_year[str(yr)] = {
+            "female": f_ur,
+            "male": m_ur,
+            "gender_gap": g_ur
+        }
+
+    theme4_data = {
+        "education_levels": education_levels,
+        "years": years,
+        "default_year": 2023,
+        "female_2023": t4_data_by_year["2023"]["female"],
+        "male_2023": t4_data_by_year["2023"]["male"],
+        "gender_gap_2023": t4_data_by_year["2023"]["gender_gap"],
+        "data_by_year": t4_data_by_year
+    }
+
+    # Theme 5: Enterprise Structure of Employment (Multi-Year 2017-2023 Dataset 2: Non-Agriculture 05-99 Rural + Urban)
+    df2 = d2_analytics.load()
+    ent_sub_all = df2[(df2.Industry_Division_Type == "(05-99)") & (df2.Area_Type == "Rural + Urban")]
+    ent_types = sorted(ent_sub_all.Enterprise_Type.unique().tolist())
+    t5_data_by_year = {}
+    for yr in years:
+        ent_yr = ent_sub_all[ent_sub_all.Year == yr]
+        f_shares = [safe_float(ent_yr[(ent_yr.Enterprise_Type == et) & (ent_yr.Gender == "Female")]["Percentage_Engaged"].mean()) for et in ent_types]
+        m_shares = [safe_float(ent_yr[(ent_yr.Enterprise_Type == et) & (ent_yr.Gender == "Male")]["Percentage_Engaged"].mean()) for et in ent_types]
+        diff_shares = [safe_float(f - m) if f is not None and m is not None else None for f, m in zip(f_shares, m_shares)]
+        t5_data_by_year[str(yr)] = {
+            "female_shares": f_shares,
+            "male_shares": m_shares,
+            "gender_difference": diff_shares
+        }
+
+    theme5_data = {
+        "enterprise_types": ent_types,
+        "years": years,
+        "default_year": 2023,
+        "female_shares": t5_data_by_year["2023"]["female_shares"],
+        "male_shares": t5_data_by_year["2023"]["male_shares"],
+        "gender_difference": t5_data_by_year["2023"]["gender_difference"],
+        "data_by_year": t5_data_by_year,
+        "industry_coverage": "(05-99) Non-Agriculture",
+        "area_type": "Rural + Urban"
+    }
+
+    data["theme_evidence"] = {
+        "theme1": theme1_data,
+        "theme2": theme2_data,
+        "theme3": theme3_data,
+        "theme4": theme4_data,
+        "theme5": theme5_data
+    }
+
+    # Narrative text updates for Theme 2 to ensure audited unrounded delta accuracy (+24.5 pp and +9.4 pp)
+    data["themes"][1]["text"] = (
+        "Female labour-force expansion was concentrated primarily in rural areas (+24.5 percentage points across the unweighted State/UT analytical means, rising from 26.5% in 2017 to 51.0% in 2023). "
+        "Urban female participation increased much more sluggishly, from 21.7% in 2017 to 31.2% in 2023 (+9.4 percentage points across the unweighted State/UT analytical means). "
+        "By comparison, official population-weighted MoSPI estimates show rural female LFPR rising from 24.6% to 43.7%, and urban female LFPR from 20.4% to 25.4%. "
+        "In the unweighted analytical dataset, the rural–urban female participation gap widened from 4.7 percentage points in 2017 to 19.8 percentage points in 2023 "
+        "(Finding F4: Wilcoxon level p < 0.001, r = 0.735; gap widening W = 625.0, p < 0.001, r = 0.858)."
+    )
+
     out_file = os.path.join(OUTPUT_DIR, "tab1_national.json")
     with open(out_file, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)

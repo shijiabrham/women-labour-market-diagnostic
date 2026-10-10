@@ -34,142 +34,588 @@ function renderKpiCard(title, value, subtext = '', badge = '') {
 }
 
 // ------------------------------------------------------------------------------
-// TAB 1: National Diagnostic Overview
+// TAB 1: National Diagnostic Overview (5 Integrated Evidence Themes)
 // ------------------------------------------------------------------------------
 function initTab1() {
   if (!STATE.tab1) return;
   const data = STATE.tab1;
+  const te = data.theme_evidence || {};
 
-  // Render Phase 8 Themes Accordion
-  const themesContainer = document.getElementById('tab1-themes-container');
-  if (themesContainer && themesContainer.children.length === 0) {
-    data.themes.forEach(theme => {
-      const item = document.createElement('div');
-      item.className = 'accordion-item';
-      item.innerHTML = `
-        <button class="accordion-trigger">${theme.title}</button>
-        <div class="accordion-content">${theme.text}</div>
-      `;
-      item.querySelector('.accordion-trigger').addEventListener('click', () => {
-        item.classList.toggle('open');
+  // Render Executive Metric Ribbon (4 Verified High-Value Metrics)
+  renderTab1ExecutiveRibbon();
+
+  // Setup Theme 1 (Macro Participation Divide)
+  const t1IndRadios = document.querySelectorAll('input[name="tab1_t1_ind"]');
+  function updateTheme1() {
+    const selInd = document.querySelector('input[name="tab1_t1_ind"]:checked').value;
+    t1IndRadios.forEach(r => r.parentElement.classList.toggle('active', r.checked));
+    renderTab1ChartTheme1(selInd);
+  }
+  t1IndRadios.forEach(r => r.addEventListener('change', updateTheme1));
+  updateTheme1();
+
+  // Setup Theme 2 (Spatial Segmentation)
+  const t2IndRadios = document.querySelectorAll('input[name="tab1_t2_ind"]');
+  function updateTheme2() {
+    const selInd = document.querySelector('input[name="tab1_t2_ind"]:checked').value;
+    t2IndRadios.forEach(r => r.parentElement.classList.toggle('active', r.checked));
+    renderTab1ChartTheme2(selInd);
+  }
+  t2IndRadios.forEach(r => r.addEventListener('change', updateTheme2));
+  updateTheme2();
+
+  // Setup Theme 3 (Educational U-Curve)
+  const t3ViewRadios = document.querySelectorAll('input[name="tab1_t3_view"]');
+  function updateTheme3() {
+    const selView = document.querySelector('input[name="tab1_t3_view"]:checked').value;
+    t3ViewRadios.forEach(r => r.parentElement.classList.toggle('active', r.checked));
+    renderTab1ChartTheme3(selView);
+  }
+  t3ViewRadios.forEach(r => r.addEventListener('change', updateTheme3));
+  updateTheme3();
+
+  // Setup Theme 4 (Educated Unemployment by Year)
+  const t4YearRadios = document.querySelectorAll('input[name="tab1_t4_year"]');
+  function updateTheme4() {
+    const selYear = document.querySelector('input[name="tab1_t4_year"]:checked').value;
+    t4YearRadios.forEach(r => r.parentElement.classList.toggle('active', r.checked));
+    renderTab1Theme4(selYear);
+  }
+  t4YearRadios.forEach(r => r.addEventListener('change', updateTheme4));
+  updateTheme4();
+
+  // Setup Theme 5 (Enterprise Structure by Year)
+  const t5YearRadios = document.querySelectorAll('input[name="tab1_t5_year"]');
+  function updateTheme5() {
+    const selYear = document.querySelector('input[name="tab1_t5_year"]:checked').value;
+    t5YearRadios.forEach(r => r.parentElement.classList.toggle('active', r.checked));
+    renderTab1Theme5(selYear);
+  }
+  t5YearRadios.forEach(r => r.addEventListener('change', updateTheme5));
+
+  // Setup Collapsible Statistical Evidence in Theme 5
+  const statAccordion = document.getElementById('tab1-t5-stat-accordion');
+  if (statAccordion) {
+    const trigger = statAccordion.querySelector('.accordion-trigger');
+    if (trigger && !trigger.hasAttribute('data-bound')) {
+      trigger.setAttribute('data-bound', 'true');
+      trigger.addEventListener('click', () => {
+        statAccordion.classList.toggle('open');
       });
-      themesContainer.appendChild(item);
-    });
+    }
   }
 
-  // Setup Radio Listeners
-  const indRadios = document.querySelectorAll('input[name="tab1_ind"]');
-  const gviewRadios = document.querySelectorAll('input[name="tab1_gview"]');
-
-  function update() {
-    const selectedInd = document.querySelector('input[name="tab1_ind"]:checked').value;
-    const selectedGview = document.querySelector('input[name="tab1_gview"]:checked').value;
-
-    // Update Pill Styles
-    indRadios.forEach(r => r.parentElement.classList.toggle('active', r.checked));
-    gviewRadios.forEach(r => r.parentElement.classList.toggle('active', r.checked));
-
-    renderTab1Kpis(selectedInd);
-    renderTab1Chart(selectedInd, selectedGview);
-    renderTab1Narrative(selectedInd);
-  }
-
-  indRadios.forEach(r => r.addEventListener('change', update));
-  gviewRadios.forEach(r => r.addEventListener('change', update));
-
-  update();
+  updateTheme5();
 }
 
-function renderTab1Kpis(indicator) {
-  const indData = STATE.tab1.indicators[indicator];
-  if (!indData) return;
-  const k = indData.kpis;
+function renderTab1ExecutiveRibbon() {
+  const d = STATE.tab1;
+  if (!d) return;
+
+  const lfprKpis = d.indicators?.LFPR?.kpis || {};
+  const f23 = lfprKpis.female_2023 !== undefined ? `${lfprKpis.female_2023.toFixed(1)}%` : '45.0%';
+  const m23 = lfprKpis.male_2023 !== undefined ? `${lfprKpis.male_2023.toFixed(1)}%` : '78.1%';
+  const gap23 = lfprKpis.gap_2023 !== undefined ? `${lfprKpis.gap_2023.toFixed(1)} pp` : '-33.1 pp';
 
   const c1 = renderKpiCard(
-    `2023 National Female ${indicator}`,
-    `${k.female_2023.toFixed(1)}%`,
-    `${k.delta_female >= 0 ? '+' : ''}${k.delta_female.toFixed(1)} pp since 2017 (${k.female_2017.toFixed(1)}% in 2017)`,
+    'Gender Gap in LFPR (2023)',
+    gap23,
+    `Female: ${f23} vs. Male: ${m23} (Narrowed by +16.4 pp since 2017)`,
     'Unweighted Mean'
   );
+
   const c2 = renderKpiCard(
-    `2023 National Male ${indicator}`,
-    `${k.male_2023.toFixed(1)}%`,
-    `${k.delta_male >= 0 ? '+' : ''}${k.delta_male.toFixed(1)} pp since 2017 (${k.male_2017.toFixed(1)}% in 2017)`,
-    'Benchmark'
-  );
-  const c3 = renderKpiCard(
-    '2023 Gender Gap (F − M)',
-    `${k.gap_2023 >= 0 ? '+' : ''}${k.gap_2023.toFixed(1)} pp`,
-    `Narrowed from ${k.gap_2017.toFixed(1)} pp in 2017 (Net: ${k.delta_gap >= 0 ? '+' : ''}${k.delta_gap.toFixed(1)} pp)`,
-    'Persistent Disadvantage'
+    'Rural–Urban Female LFPR Change',
+    '+24.5 pp vs. +9.4 pp',
+    'Rural rose to 51.0% | Urban rose to 31.2% (Gap widened to 19.8 pp)',
+    'Finding F4'
   );
 
-  document.getElementById('tab1-kpi-ribbon').innerHTML = `${c1}${c2}${c3}`;
+  const c3 = renderKpiCard(
+    'Graduate Unemployment Gap (2023)',
+    '+12.6 pp',
+    'Female Graduates: 23.3% vs. Male Graduates: 10.7% (2.2× male rate)',
+    'Finding F6'
+  );
+
+  const c4 = renderKpiCard(
+    'Non-Farm Enterprise Distribution (2023)',
+    '56.6% Proprietary',
+    'Public Sector: 24.9% F vs 16.0% M | Domestic Work: 6.3% F vs 0.8% M',
+    'Dataset 7131'
+  );
+
+  const ribbonEl = document.getElementById('tab1-kpi-ribbon');
+  if (ribbonEl) ribbonEl.innerHTML = `${c1}${c2}${c3}${c4}`;
 }
 
-function renderTab1Chart(indicator, genderView) {
-  const indData = STATE.tab1.indicators[indicator];
-  const years = STATE.tab1.years;
+function renderTab1ChartTheme1(indicator) {
+  const te = STATE.tab1.theme_evidence?.theme1;
+  const indData = te?.indicators?.[indicator] || STATE.tab1.indicators?.[indicator];
+  const years = te?.years || STATE.tab1.years;
   if (!indData) return;
 
-  const traces = [];
-
-  if (genderView === 'Both' || genderView === 'Female Only') {
-    traces.push({
+  const traces = [
+    {
       x: years,
       y: indData.female,
       name: `Female ${indicator}`,
       mode: 'lines+markers+text',
       line: { color: '#2563eb', width: 3 },
       marker: { size: 8, color: '#2563eb' },
-      text: indData.female.map(v => `${v.toFixed(1)}%`),
+      text: indData.female.map(v => v !== null ? `${v.toFixed(1)}%` : 'N/A'),
       textposition: 'top center'
-    });
-  }
-
-  if (genderView === 'Both' || genderView === 'Male Only') {
-    traces.push({
+    },
+    {
       x: years,
       y: indData.male,
       name: `Male ${indicator}`,
       mode: 'lines+markers+text',
       line: { color: '#64748b', width: 2, dash: 'dot' },
       marker: { size: 6, color: '#64748b' },
-      text: indData.male.map(v => `${v.toFixed(1)}%`),
+      text: indData.male.map(v => v !== null ? `${v.toFixed(1)}%` : 'N/A'),
       textposition: 'top center'
-    });
-  }
+    }
+  ];
 
-  const yRange = indicator === 'Unemployment_Rate' ? [0, 25] : [0, 100];
-
+  const yRange = indicator === 'Unemployment_Rate' ? [0, 20] : [0, 100];
   const layout = {
     title: `National Trajectory: ${indicator} (2017–2023, Unweighted Analytical Mean)`,
     xaxis: { title: 'Survey Wave', dtick: 1 },
-    yaxis: { title: `${indicator} (%)`, range: yRange },
+    yaxis: { title: `${indicator} (%) [Unweighted Mean]`, range: yRange },
     template: 'plotly_white',
     legend: { orientation: 'h', yanchor: 'bottom', y: 1.02, xanchor: 'right', x: 1 },
-    margin: { l: 40, r: 40, t: 60, b: 40 },
-    height: 400
+    margin: { l: 45, r: 30, t: 50, b: 40 },
+    height: 380
   };
 
-  Plotly.newPlot('tab1-chart', traces, layout, { responsive: true, displayModeBar: false });
+  Plotly.newPlot('tab1-chart-theme1', traces, layout, { responsive: true, displayModeBar: false });
 }
 
-function renderTab1Narrative(indicator) {
-  const narr = STATE.tab1.narratives[indicator] || [];
-  let html = '<h3>📌 Deterministic Analytical Summary</h3>';
-  if (narr.length > 0) {
-    narr.forEach(n => {
-      html += `<p><strong>${n.headline || ''}</strong></p>`;
-      html += `<p>${n.key_finding || ''}</p>`;
-      if (n.change_statement) html += `<p>• <em>Change:</em> ${n.change_statement}</p>`;
-      if (n.supporting_evidence) html += `<p>• <em>Evidence:</em> ${n.supporting_evidence}</p>`;
-      if (n.methodological_note) html += `<p>• <em>Note:</em> ${n.methodological_note}</p>`;
-    });
-  } else {
-    html += `<p>Between 2017 and 2023, national female ${indicator} exhibited substantial expansion across 36 reporting States/UTs.</p>`;
+function renderTab1ChartTheme2(indicator) {
+  const te2 = STATE.tab1.theme_evidence?.theme2;
+  if (!te2) return;
+  const indData = te2[indicator];
+  const years = te2.years;
+  if (!indData) return;
+
+  const traces = [
+    {
+      x: years,
+      y: indData.female_rural,
+      name: `Female Rural ${indicator}`,
+      mode: 'lines+markers+text',
+      line: { color: '#16a34a', width: 3 },
+      marker: { size: 8, color: '#16a34a' },
+      text: indData.female_rural.map(v => v !== null ? `${v.toFixed(1)}%` : 'N/A'),
+      textposition: 'top center'
+    },
+    {
+      x: years,
+      y: indData.female_urban,
+      name: `Female Urban ${indicator}`,
+      mode: 'lines+markers+text',
+      line: { color: '#2563eb', width: 3, dash: 'dot' },
+      marker: { size: 8, color: '#2563eb' },
+      text: indData.female_urban.map(v => v !== null ? `${v.toFixed(1)}%` : 'N/A'),
+      textposition: 'bottom center'
+    }
+  ];
+
+  const layout = {
+    title: `Rural–Urban Divergence in Female ${indicator} (2017–2023)`,
+    xaxis: { title: 'Survey Wave', dtick: 1 },
+    yaxis: { title: `${indicator} (%) [Unweighted Mean]`, range: [0, 70] },
+    template: 'plotly_white',
+    legend: { orientation: 'h', yanchor: 'bottom', y: 1.02, xanchor: 'right', x: 1 },
+    margin: { l: 45, r: 30, t: 50, b: 40 },
+    height: 380
+  };
+
+  Plotly.newPlot('tab1-chart-theme2', traces, layout, { responsive: true, displayModeBar: false });
+}
+
+function formatEduLabel(label) {
+  if (label === 'Diploma/ Certificate Course') return 'Diploma / Certificate';
+  if (label === 'Post Graduate & Above') return 'Post Graduate & Above';
+  if (label === 'Literate & Upto Primary') return 'Literate & Primary';
+  return label;
+}
+
+function renderTab1ChartTheme3(viewMode) {
+  const te3 = STATE.tab1.theme_evidence?.theme3;
+  if (!te3) return;
+
+  const displayEduLevels = te3.education_levels.map(formatEduLabel);
+  let traces = [];
+  let titleStr = '';
+  let yAxisTitle = 'LFPR (%)';
+
+  if (viewMode === '2023') {
+    titleStr = 'The Education Gradient: LFPR by Attainment Tier (2023 Single-Year)';
+    traces = [
+      {
+        x: displayEduLevels,
+        y: te3.female_2023,
+        name: 'Female LFPR (2023)',
+        type: 'bar',
+        marker: { color: '#2563eb' },
+        text: te3.female_2023.map(v => v !== null ? `${v.toFixed(1)}%` : 'N/A'),
+        textposition: 'outside'
+      },
+      {
+        x: displayEduLevels,
+        y: te3.male_2023,
+        name: 'Male LFPR (2023)',
+        type: 'bar',
+        marker: { color: '#94a3b8' },
+        text: te3.male_2023.map(v => v !== null ? `${v.toFixed(1)}%` : 'N/A'),
+        textposition: 'outside'
+      }
+    ];
+  } else if (viewMode === 'pooled') {
+    titleStr = 'Multi-Year Baseline U-Curve: Education Gradient (2017–2023 Pooled Means)';
+    traces = [
+      {
+        x: displayEduLevels,
+        y: te3.female_pooled,
+        name: 'Female LFPR (2017–2023 Pooled)',
+        type: 'bar',
+        marker: { color: '#1d4ed8' },
+        text: te3.female_pooled.map(v => v !== null ? `${v.toFixed(1)}%` : 'N/A'),
+        textposition: 'outside'
+      },
+      {
+        x: displayEduLevels,
+        y: te3.male_pooled,
+        name: 'Male LFPR (2017–2023 Pooled)',
+        type: 'bar',
+        marker: { color: '#94a3b8' },
+        text: te3.male_pooled.map(v => v !== null ? `${v.toFixed(1)}%` : 'N/A'),
+        textposition: 'outside'
+      }
+    ];
+  } else if (viewMode === 'gains') {
+    titleStr = 'Disproportionate Low-Education LFPR Expansion (2017 → 2023 Net Gains, Finding F8)';
+    yAxisTitle = 'Net Change (pp)';
+    traces = [
+      {
+        x: displayEduLevels,
+        y: te3.female_delta_f8,
+        name: 'Female LFPR Net Gain (pp)',
+        type: 'bar',
+        marker: { color: '#16a34a' },
+        text: te3.female_delta_f8.map(v => v !== null ? `+${v.toFixed(1)} pp` : 'N/A'),
+        textposition: 'outside'
+      }
+    ];
   }
-  document.getElementById('tab1-narrative').innerHTML = html;
+
+  const layout = {
+    title: {
+      text: titleStr,
+      font: { size: 14 }
+    },
+    xaxis: {
+      title: 'Educational Attainment',
+      tickangle: -25,
+      automargin: true
+    },
+    yaxis: {
+      title: `${yAxisTitle} [Unweighted Mean]`,
+      range: viewMode === 'gains' ? [0, 32] : [0, 100]
+    },
+    barmode: 'group',
+    template: 'plotly_white',
+    legend: {
+      orientation: 'h',
+      yanchor: 'bottom',
+      y: 1.05,
+      xanchor: 'right',
+      x: 1
+    },
+    margin: { l: 50, r: 30, t: 75, b: 90 },
+    height: 410
+  };
+
+  Plotly.newPlot('tab1-chart-theme3', traces, layout, { responsive: true, displayModeBar: false });
+}
+
+function renderTab1Theme4(year) {
+  const te4 = STATE.tab1.theme_evidence?.theme4;
+  if (!te4) return;
+
+  const yrStr = String(year);
+  const yrData = te4.data_by_year?.[yrStr] || {
+    female: te4.female_2023,
+    male: te4.male_2023,
+    gender_gap: te4.gender_gap_2023
+  };
+
+  const displayEduLevels = te4.education_levels.map(formatEduLabel);
+  const traces = [
+    {
+      x: displayEduLevels,
+      y: yrData.female,
+      name: `Female Unemployment Rate (${year})`,
+      type: 'bar',
+      marker: { color: '#e11d48' },
+      text: yrData.female.map(v => v !== null ? `${v.toFixed(1)}%` : 'N/A'),
+      textposition: 'outside'
+    },
+    {
+      x: displayEduLevels,
+      y: yrData.male,
+      name: `Male Unemployment Rate (${year})`,
+      type: 'bar',
+      marker: { color: '#94a3b8' },
+      text: yrData.male.map(v => v !== null ? `${v.toFixed(1)}%` : 'N/A'),
+      textposition: 'outside'
+    }
+  ];
+
+  const layout = {
+    title: {
+      text: `Educated Unemployment Penalty by Tier (${year}, Rural + Urban)`,
+      font: { size: 14 }
+    },
+    xaxis: {
+      title: 'Educational Attainment',
+      tickangle: -25,
+      automargin: true
+    },
+    yaxis: {
+      title: 'Unemployment Rate (%) [Unweighted Mean]',
+      range: [0, 36]
+    },
+    barmode: 'group',
+    template: 'plotly_white',
+    legend: {
+      orientation: 'h',
+      yanchor: 'bottom',
+      y: 1.05,
+      xanchor: 'right',
+      x: 1
+    },
+    margin: { l: 50, r: 30, t: 75, b: 90 },
+    height: 410
+  };
+
+  Plotly.newPlot('tab1-chart-theme4', traces, layout, { responsive: true, displayModeBar: false });
+
+  // Update dynamic year-specific narrative figures
+  const headerEl = document.getElementById('tab1-t4-evidence-header');
+  const listEl = document.getElementById('tab1-t4-evidence-list');
+  if (headerEl) headerEl.innerText = `Empirical Evidence & Statistical Support (${year}):`;
+
+  if (listEl) {
+    const fNotLit = yrData.female[0] !== null ? `${yrData.female[0].toFixed(1)}%` : 'N/A';
+    const fPrim = yrData.female[1] !== null ? `${yrData.female[1].toFixed(1)}%` : 'N/A';
+    const mNotLit = yrData.male[0] !== null ? `${yrData.male[0].toFixed(1)}%` : 'N/A';
+    const mPrim = yrData.male[1] !== null ? `${yrData.male[1].toFixed(1)}%` : 'N/A';
+
+    const fGrad = yrData.female[6] !== null ? `${yrData.female[6].toFixed(1)}%` : 'N/A';
+    const mGrad = yrData.male[6] !== null ? `${yrData.male[6].toFixed(1)}%` : 'N/A';
+    const gapGrad = yrData.gender_gap[6] !== null ? `${yrData.gender_gap[6] >= 0 ? '+' : ''}${yrData.gender_gap[6].toFixed(1)} percentage points` : 'N/A';
+    const ratioGrad = (yrData.female[6] !== null && yrData.male[6] && yrData.male[6] > 0) ? ` (${(yrData.female[6] / yrData.male[6]).toFixed(1)}× male rate)` : '';
+
+    const fPg = yrData.female[7] !== null ? `${yrData.female[7].toFixed(1)}%` : 'N/A';
+    const mPg = yrData.male[7] !== null ? `${yrData.male[7].toFixed(1)}%` : 'N/A';
+    const gapPg = yrData.gender_gap[7] !== null ? `${yrData.gender_gap[7] >= 0 ? '+' : ''}${yrData.gender_gap[7].toFixed(1)} percentage points` : 'N/A';
+
+    listEl.innerHTML = `
+      <li><strong>Low-Tier Unemployment:</strong> Open unemployment in ${year} was ${fNotLit} for non-literate women and ${fPrim} for primary-educated women, closely mirroring male rates of ${mNotLit} and ${mPrim}.</li>
+      <li><strong>Graduate Friction:</strong> Female graduate unemployment was <strong>${fGrad}</strong> compared to <strong>${mGrad}</strong> for male graduates—representing a gender penalty of <strong>${gapGrad}</strong>${ratioGrad}.</li>
+      <li><strong>Postgraduate Penalty:</strong> Postgraduate female unemployment reached <strong>${fPg}</strong> (vs. ${mPg} for men; gender penalty: <strong>${gapPg}</strong>).</li>
+    `;
+  }
+}
+
+function renderTab1Theme5(year) {
+  const te5 = STATE.tab1.theme_evidence?.theme5;
+  if (!te5) return;
+
+  const yrStr = String(year);
+  const yrData = te5.data_by_year?.[yrStr] || {
+    female_shares: te5.female_shares,
+    male_shares: te5.male_shares,
+    gender_difference: te5.gender_difference
+  };
+
+  const traces = [
+    {
+      y: te5.enterprise_types,
+      x: yrData.female_shares,
+      orientation: 'h',
+      name: `Female (% of Non-Farm Workers, ${year})`,
+      type: 'bar',
+      marker: { color: '#2563eb' },
+      text: yrData.female_shares.map(v => v !== null ? `${v.toFixed(1)}%` : 'N/A'),
+      textposition: 'outside',
+      cliponaxis: false
+    },
+    {
+      y: te5.enterprise_types,
+      x: yrData.male_shares,
+      orientation: 'h',
+      name: `Male (% of Non-Farm Workers, ${year})`,
+      type: 'bar',
+      marker: { color: '#94a3b8' },
+      text: yrData.male_shares.map(v => v !== null ? `${v.toFixed(1)}%` : 'N/A'),
+      textposition: 'outside',
+      cliponaxis: false
+    }
+  ];
+
+  const layout = {
+    title: {
+      text: `Non-Agricultural Enterprise Distribution: NIC 05–99 (${year}, Rural + Urban)`,
+      font: { size: 15, color: '#0f172a' },
+      x: 0,
+      xanchor: 'left'
+    },
+    xaxis: {
+      title: 'Gender-Specific Distribution Across Enterprise Categories (%) [Unweighted Analytical Mean across 36 States/UTs, N=36]',
+      range: [0, 80],
+      automargin: true
+    },
+    yaxis: {
+      title: '',
+      automargin: true
+    },
+    barmode: 'group',
+    template: 'plotly_white',
+    legend: {
+      orientation: 'h',
+      yanchor: 'bottom',
+      y: 1.08,
+      xanchor: 'right',
+      x: 1
+    },
+    margin: { l: 250, r: 40, t: 80, b: 65 },
+    height: 440
+  };
+
+  Plotly.newPlot('tab1-chart-theme5', traces, layout, { responsive: true, displayModeBar: false });
+
+  // Render Compact Key Finding Cards below chart
+  renderTab1Theme5Cards(te5.enterprise_types, yrData, year);
+}
+
+function renderTab1Theme5Cards(entTypes, yrData, year) {
+  const container = document.getElementById('tab1-t5-finding-cards');
+  if (!container) return;
+
+  const getVals = (name) => {
+    const idx = entTypes.findIndex(t => t.toLowerCase().includes(name.toLowerCase()));
+    if (idx === -1) return { f: 'N/A', m: 'N/A', diff: 'N/A', diffVal: 0 };
+    const fVal = yrData.female_shares[idx];
+    const mVal = yrData.male_shares[idx];
+    const diffVal = yrData.gender_difference[idx];
+    return {
+      f: fVal !== null ? `${fVal.toFixed(1)}%` : 'N/A',
+      m: mVal !== null ? `${mVal.toFixed(1)}%` : 'N/A',
+      diff: diffVal !== null ? `${diffVal >= 0 ? '+' : ''}${diffVal.toFixed(1)} pp` : 'N/A',
+      diffVal: diffVal !== null ? diffVal : 0
+    };
+  };
+
+  const prop = getVals('proprietary');
+  const govt = getVals('govt');
+  const dom = getVals('household');
+  const corp = getVals('limited company');
+
+  container.innerHTML = `
+    <div class="finding-card">
+      <div class="finding-card-header">
+        <span class="finding-card-title">Proprietary &amp; Partnership</span>
+        <span class="finding-card-badge">${year}</span>
+      </div>
+      <div class="finding-card-row">
+        <div class="finding-card-metric">
+          <span class="finding-card-metric-label">Female</span>
+          <span class="finding-card-metric-val">${prop.f}</span>
+        </div>
+        <div class="finding-card-metric">
+          <span class="finding-card-metric-label">Male</span>
+          <span class="finding-card-metric-val" style="color: #64748b;">${prop.m}</span>
+        </div>
+        <span class="finding-card-diff ${prop.diffVal >= 0 ? 'diff-positive' : 'diff-negative'}">${prop.diff}</span>
+      </div>
+      <div class="finding-card-statement">Primary non-farm absorber for both genders; men show a ${Math.abs(prop.diffVal).toFixed(1)} pp higher concentration.</div>
+    </div>
+    <div class="finding-card">
+      <div class="finding-card-header">
+        <span class="finding-card-title">Public Sector / Government</span>
+        <span class="finding-card-badge">${year}</span>
+      </div>
+      <div class="finding-card-row">
+        <div class="finding-card-metric">
+          <span class="finding-card-metric-label">Female</span>
+          <span class="finding-card-metric-val" style="color: #16a34a;">${govt.f}</span>
+        </div>
+        <div class="finding-card-metric">
+          <span class="finding-card-metric-label">Male</span>
+          <span class="finding-card-metric-val" style="color: #64748b;">${govt.m}</span>
+        </div>
+        <span class="finding-card-diff ${govt.diffVal >= 0 ? 'diff-positive' : 'diff-negative'}">${govt.diff}</span>
+      </div>
+      <div class="finding-card-statement">Female non-farm workers show a ${Math.abs(govt.diffVal).toFixed(1)} pp higher reliance on public sector jobs than men.</div>
+    </div>
+    <div class="finding-card">
+      <div class="finding-card-header">
+        <span class="finding-card-title">Employer Households (Domestic)</span>
+        <span class="finding-card-badge">${year}</span>
+      </div>
+      <div class="finding-card-row">
+        <div class="finding-card-metric">
+          <span class="finding-card-metric-label">Female</span>
+          <span class="finding-card-metric-val" style="color: #d97706;">${dom.f}</span>
+        </div>
+        <div class="finding-card-metric">
+          <span class="finding-card-metric-label">Male</span>
+          <span class="finding-card-metric-val" style="color: #64748b;">${dom.m}</span>
+        </div>
+        <span class="finding-card-diff ${dom.diffVal >= 0 ? 'diff-positive' : 'diff-negative'}">${dom.diff}</span>
+      </div>
+      <div class="finding-card-statement">Absorbs ${dom.f} of female non-farm workers, but is virtually absent (${dom.m}) among working men.</div>
+    </div>
+    <div class="finding-card">
+      <div class="finding-card-header">
+        <span class="finding-card-title">Corporate Limited Companies</span>
+        <span class="finding-card-badge">${year}</span>
+      </div>
+      <div class="finding-card-row">
+        <div class="finding-card-metric">
+          <span class="finding-card-metric-label">Female</span>
+          <span class="finding-card-metric-val" style="color: #475569;">${corp.f}</span>
+        </div>
+        <div class="finding-card-metric">
+          <span class="finding-card-metric-label">Male</span>
+          <span class="finding-card-metric-val" style="color: #64748b;">${corp.m}</span>
+        </div>
+        <span class="finding-card-diff ${corp.diffVal >= 0 ? 'diff-positive' : 'diff-negative'}">${corp.diff}</span>
+      </div>
+      <div class="finding-card-statement">Corporate enterprises absorb only a minor share; female employment lags male participation by ${Math.abs(corp.diffVal).toFixed(1)} pp.</div>
+    </div>
+  `;
+
+  // Render Enterprise Structure Interpretation Section below cards
+  const interpEl = document.getElementById('tab1-t5-interpretation');
+  if (interpEl) {
+    const propDiffText = prop.diffVal < 0 ? `${Math.abs(prop.diffVal).toFixed(1)} percentage points higher for men` : `${prop.diffVal.toFixed(1)} pp`;
+    const govtDiffText = govt.diffVal > 0 ? `${govt.diffVal.toFixed(1)} percentage points higher for women` : `${govt.diffVal.toFixed(1)} pp`;
+    const domDiffText = dom.diffVal > 0 ? `${dom.diffVal.toFixed(1)} percentage points higher for women` : `${dom.diffVal.toFixed(1)} pp`;
+    const corpDiffText = corp.diffVal < 0 ? `${Math.abs(corp.diffVal).toFixed(1)} percentage points lower for women` : `${corp.diffVal.toFixed(1)} pp`;
+
+    interpEl.innerHTML = `
+      <h4>🏢 Enterprise Structure Interpretation (${year})</h4>
+      <p><strong>Informal Concentration in Proprietary Enterprises:</strong> In ${year}, proprietary and partnership units constituted the primary non-agricultural employer for both genders, absorbing ${prop.f} of working women and ${prop.m} of working men. While predominant across both groups, concentration in proprietary units was ${propDiffText}, leaving the remaining female workforce structured around alternative destinations.</p>
+      <p><strong>Disproportionate Public-Sector Anchor:</strong> Female non-agricultural employment exhibits a substantial relative reliance on government, local body, and public-sector enterprises (${govt.f} for women vs. ${govt.m} for men; ${govtDiffText}). The public sector operates as the foremost formal institution providing stable wage employment for non-farm women.</p>
+      <p><strong>Contrasting Margins: Domestic Work vs. Corporate Absorption:</strong> Divergence is particularly marked across peripheral enterprise segments. Private employer households (domestic service) absorbed ${dom.f} of female non-farm workers compared to just ${dom.m} of men (${domDiffText}). In contrast, corporate structures (public and private limited companies) employed only ${corp.f} of working women compared to ${corp.m} of working men (${corpDiffText}), confirming limited female absorption into the formal corporate economy.</p>
+      <p style="font-size: 12px; color: var(--slate-600); margin-top: 10px; border-top: 1px solid var(--slate-200); padding-top: 8px;"><em>Descriptive Analytical Boundary:</em> These cross-sectional findings capture observational distributions of employment across enterprise categories in the ${year} PLFS survey round (N = 36 States/UTs). They document structural compositional contrasts and do not establish causation or supply-side versus demand-side drivers.</p>
+    `;
+  }
 }
 
 // ------------------------------------------------------------------------------

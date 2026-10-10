@@ -37,45 +37,246 @@
     <section id="tab1" class="tab-pane active">
       <div class="pane-header">
         <h2>National Labour Market Overview (2017–2023)</h2>
-        <p class="pane-desc">An executive summary of macro-level trends in labour force participation, workforce engagement, and unemployment across 36 Indian States and Union Territories (unweighted analytical means across States/UTs, distinct from official population-weighted national estimates).</p>
+        <p class="pane-desc">An integrated evidence dashboard synthesizing national labour market outcomes across 36 Indian States and Union Territories. All national analytical summaries represent the <strong>All-India Analytical Mean (Unweighted across 36 States/UTs)</strong> from PLFS Datasets 7129 &amp; 7131, distinct from official population-weighted national estimates. For state-specific breakdowns and sub-national variation, explore Tabs 2 through 4.</p>
       </div>
 
-      <div class="controls-card">
-        <div class="control-group">
-          <label class="control-label">Primary Indicator <span class="info-tag">Dataset 1 Core Measures</span></label>
-          <div class="radio-pill-group" id="tab1-indicator-radios">
-            <label class="pill-option active"><input type="radio" name="tab1_ind" value="LFPR" checked> LFPR</label>
-            <label class="pill-option"><input type="radio" name="tab1_ind" value="WPR"> WPR</label>
-            <label class="pill-option"><input type="radio" name="tab1_ind" value="Unemployment_Rate"> Unemployment Rate</label>
-          </div>
-        </div>
-        <div class="control-group">
-          <label class="control-label">Gender Trajectory View <span class="info-tag">Compare temporal paths</span></label>
-          <div class="radio-pill-group" id="tab1-gender-radios">
-            <label class="pill-option active"><input type="radio" name="tab1_gview" value="Both" checked> Both</label>
-            <label class="pill-option"><input type="radio" name="tab1_gview" value="Female Only"> Female Only</label>
-            <label class="pill-option"><input type="radio" name="tab1_gview" value="Male Only"> Male Only</label>
-          </div>
-        </div>
-      </div>
-
-      <!-- KPI Ribbon -->
+      <!-- Executive Metrics Ribbon -->
       <div id="tab1-kpi-ribbon" class="kpi-grid"></div>
 
-      <!-- Main Visual & Narrative Grid -->
-      <div class="two-column-layout">
-        <div class="column-primary">
-          <div id="tab1-chart" class="chart-container"></div>
+      <!-- THEME 1 CARD -->
+      <div class="theme-card" id="tab1-theme-1">
+        <div class="theme-card-header">
+          <div class="theme-badge">Theme 1: Macro Participation Divide</div>
+          <h3 class="theme-title">Universal Gender Participation Gap with Temporal Narrowing</h3>
         </div>
-        <div class="column-secondary">
-          <div class="narrative-card" id="tab1-narrative"></div>
+        <div class="theme-evidence-grid">
+          <div class="theme-chart-column">
+            <div class="theme-chart-controls">
+              <label class="control-label" style="font-size: 12px; margin-bottom: 0;">Indicator:</label>
+              <div class="radio-pill-group mini-pills" id="tab1-t1-ind-radios">
+                <label class="pill-option active"><input type="radio" name="tab1_t1_ind" value="LFPR" checked> LFPR</label>
+                <label class="pill-option"><input type="radio" name="tab1_t1_ind" value="WPR"> WPR</label>
+                <label class="pill-option"><input type="radio" name="tab1_t1_ind" value="Unemployment_Rate"> Unemployment Rate</label>
+              </div>
+            </div>
+            <div id="tab1-chart-theme1" class="chart-container" style="min-height: 380px;"></div>
+          </div>
+          <div class="theme-narrative-column">
+            <div class="narrative-content">
+              <h4>📌 Core Labour-Market Finding</h4>
+              <p>Across every state, union territory, and year, women participate in the labour force at rates substantially below men. While national female LFPR experienced a robust upward trajectory from 2017 to 2023, reducing the absolute gender gap, the gap remains the single largest structural divide in the Indian economy.</p>
+              
+              <div class="evidence-box">
+                <strong>Empirical Evidence &amp; Statistical Support:</strong>
+                <ul>
+                  <li><strong>National Temporal Rise (Finding F1):</strong> Wilcoxon signed-rank test confirmed systematic female LFPR expansion from 25.8% (2017) to 45.0% (2023) across Indian States (<em>W = 663.0, p &lt; 0.001, r = 0.864</em>; mean increase +19.2 percentage points).</li>
+                  <li><strong>Universal Gender Deficit (Finding F2):</strong> Female participation was strictly lower than male participation across all 251 matched State × Year observations (<em>W = 0.0, p &lt; 0.001, r = -0.867</em>; mean paired deficit -41.3 percentage points).</li>
+                  <li><strong>Persistent 2023 Deficit:</strong> In 2023, the national unweighted gender participation gap remained wide at <strong>-33.1 percentage points</strong> (Female: 45.0% vs. Male: 78.1%).</li>
+                </ul>
+              </div>
+
+              <div class="methodology-banner" style="margin-top: 10px;">
+                <strong>Methodological Boundary:</strong> Activity status in PLFS includes distress-driven unpaid family labour. Rising female LFPR cannot be uncritically equated with enhanced economic empowerment or formal job quality.
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
-      <!-- Phase 8 Themes Accordions -->
-      <div class="accordion-section">
-        <h3>Core Diagnostic Themes (Phase 8 Synthesis)</h3>
-        <div id="tab1-themes-container" class="accordion-list"></div>
+      <!-- THEME 2 CARD -->
+      <div class="theme-card" id="tab1-theme-2">
+        <div class="theme-card-header">
+          <div class="theme-badge">Theme 2: Spatial Segmentation</div>
+          <h3 class="theme-title">Rural–Urban Divergence in Female Labour-Force Participation</h3>
+        </div>
+        <div class="theme-evidence-grid">
+          <div class="theme-chart-column">
+            <div class="theme-chart-controls">
+              <label class="control-label" style="font-size: 12px; margin-bottom: 0;">Indicator:</label>
+              <div class="radio-pill-group mini-pills" id="tab1-t2-ind-radios">
+                <label class="pill-option active"><input type="radio" name="tab1_t2_ind" value="LFPR" checked> LFPR</label>
+                <label class="pill-option"><input type="radio" name="tab1_t2_ind" value="WPR"> WPR</label>
+              </div>
+            </div>
+            <div id="tab1-chart-theme2" class="chart-container" style="min-height: 380px;"></div>
+          </div>
+          <div class="theme-narrative-column">
+            <div class="narrative-content">
+              <h4>📌 Core Labour-Market Finding</h4>
+              <p>The national expansion of female labour force participation between 2017 and 2023 was overwhelmingly a rural phenomenon. Rural female LFPR consistently exceeded urban female LFPR in every survey wave, and this spatial divergence widened dramatically over time.</p>
+              
+              <div class="evidence-box">
+                <strong>Empirical Evidence &amp; Statistical Support:</strong>
+                <ul>
+                  <li><strong>Rural Expansion Surge:</strong> Unweighted rural female LFPR rose by <strong>+24.5 percentage points</strong> (from 26.5% in 2017 to 51.0% in 2023).</li>
+                  <li><strong>Urban Stagnation / Sluggish Growth:</strong> Unweighted urban female LFPR rose by only <strong>+9.4 percentage points</strong> (from 21.7% in 2017 to 31.2% in 2023).</li>
+                  <li><strong>Spatial Gap Widening (Finding F4):</strong> The rural–urban female participation gap quadrupled from <strong>4.7 percentage points</strong> in 2017 to <strong>19.8 percentage points</strong> in 2023. Confirmed by Wilcoxon signed-rank level test (<em>p &lt; 0.001, r = 0.735</em>) and gap-widening test (<em>W = 625.0, p &lt; 0.001, r = 0.858</em>).</li>
+                </ul>
+              </div>
+
+              <div class="disclosure-box" style="margin-top: 10px; padding: 12px 16px;">
+                <h4 style="font-size: 13px; margin-bottom: 4px;">Official MoSPI Population-Weighted Benchmark Comparison</h4>
+                <p style="font-size: 12px; margin-bottom: 0;">In official MoSPI published population-weighted estimates, rural female LFPR rose from 24.6% (2017–18) to 43.7% (2022–23), and urban female LFPR from 20.4% to 25.4%. While levels differ due to demographic weighting, both series independently confirm that post-2017 female labour force expansion was rural-led.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- THEME 3 CARD -->
+      <div class="theme-card" id="tab1-theme-3">
+        <div class="theme-card-header">
+          <div class="theme-badge">Theme 3: Educational Fault Lines</div>
+          <h3 class="theme-title">Non-Monotonic Education–Participation Pattern (The U-Curve)</h3>
+        </div>
+        <div class="theme-evidence-grid">
+          <div class="theme-chart-column">
+            <div class="theme-chart-controls">
+              <label class="control-label" style="font-size: 12px; margin-bottom: 0;">Temporal View:</label>
+              <div class="radio-pill-group mini-pills" id="tab1-t3-view-radios">
+                <label class="pill-option active"><input type="radio" name="tab1_t3_view" value="2023" checked> 2023 Single-Year</label>
+                <label class="pill-option"><input type="radio" name="tab1_t3_view" value="pooled"> 2017–2023 Multi-Year Pooled</label>
+                <label class="pill-option"><input type="radio" name="tab1_t3_view" value="gains"> 2017–2023 Net Gains (F8)</label>
+              </div>
+            </div>
+            <div id="tab1-chart-theme3" class="chart-container" style="min-height: 400px;"></div>
+          </div>
+          <div class="theme-narrative-column">
+            <div class="narrative-content">
+              <h4>📌 Core Labour-Market Finding</h4>
+              <p>The relationship between educational attainment and female labour force participation is non-linear and U-shaped. Participation is moderate among women with no schooling, drops to an acute trough among women with middle and secondary schooling, and recovers only at tertiary technical (Diploma) and postgraduate levels.</p>
+              
+              <div class="evidence-box">
+                <strong>Empirical Evidence &amp; Statistical Support:</strong>
+                <ul>
+                  <li><strong>Statistically Validated U-Curve (Finding F5):</strong> Friedman omnibus test confirmed systematic non-monotone participation differences across educational tiers (<em>χ² = 958.79, p &lt; 0.001, ε² = 0.542</em>). In pooled multi-year means, participation troughs at middle (30.2%) and secondary (23.7%) schooling, before rising for technical diplomas (56.6%) and postgraduates (59.1%).</li>
+                  <li><strong>Disproportionate Low-Education Gains (Finding F8):</strong> The 2017–2023 expansion accrued overwhelmingly to women with lower educational attainment (<em>Friedman χ² = 66.36, p &lt; 0.001, ε² = 0.236</em>). Gains were largest for literate &amp; primary (+24.6 pp), middle (+21.6 pp), and non-literate (+20.5 pp), compared to graduates (+9.9 pp) and postgraduates (+6.1 pp).</li>
+                </ul>
+              </div>
+
+              <div class="methodology-banner" style="margin-top: 10px;">
+                <strong>Analytical Distinction:</strong> Multi-year pooled figures reflect the full 2017–2023 sample, whereas 2023 figures capture the post-expansion cross-section where the secondary-school trough persisted at 31.3%.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- THEME 4 CARD -->
+      <div class="theme-card" id="tab1-theme-4">
+        <div class="theme-card-header">
+          <div class="theme-badge">Theme 4: Labour-Market Friction</div>
+          <h3 class="theme-title">Higher-Educated Women's Unemployment Penalty</h3>
+        </div>
+        <div class="theme-evidence-grid">
+          <div class="theme-chart-column">
+            <div class="theme-chart-controls">
+              <label class="control-label" style="font-size: 12px; margin-bottom: 0;">Survey Year:</label>
+              <div class="radio-pill-group mini-pills" id="tab1-t4-year-radios">
+                <label class="pill-option"><input type="radio" name="tab1_t4_year" value="2017"> 2017</label>
+                <label class="pill-option"><input type="radio" name="tab1_t4_year" value="2018"> 2018</label>
+                <label class="pill-option"><input type="radio" name="tab1_t4_year" value="2019"> 2019</label>
+                <label class="pill-option"><input type="radio" name="tab1_t4_year" value="2020"> 2020</label>
+                <label class="pill-option"><input type="radio" name="tab1_t4_year" value="2021"> 2021</label>
+                <label class="pill-option"><input type="radio" name="tab1_t4_year" value="2022"> 2022</label>
+                <label class="pill-option active"><input type="radio" name="tab1_t4_year" value="2023" checked> 2023</label>
+              </div>
+            </div>
+            <div id="tab1-chart-theme4" class="chart-container" style="min-height: 400px;"></div>
+          </div>
+          <div class="theme-narrative-column">
+            <div class="narrative-content">
+              <h4>📌 Core Labour-Market Finding</h4>
+              <p>While open unemployment is near zero for uneducated women, women with tertiary education face extreme labour-market friction. The gender gap in unemployment is heavily concentrated among graduates and postgraduates, whereas gender differences remain negligible among workers with lower educational attainment.</p>
+              
+              <div class="evidence-box">
+                <strong id="tab1-t4-evidence-header">Empirical Evidence &amp; Statistical Support (2023):</strong>
+                <ul id="tab1-t4-evidence-list">
+                  <li><strong>Low-Tier Unemployment:</strong> Open unemployment was 0.4% for non-literate women and 0.7% for primary-educated women, closely mirroring male rates of 0.2% and 0.7%.</li>
+                  <li><strong>Graduate Friction:</strong> Female graduate unemployment was <strong>23.3%</strong> compared to <strong>10.7%</strong> for male graduates—representing a gender penalty of <strong>+12.6 percentage points</strong> (2.2× male rate).</li>
+                  <li><strong>Postgraduate Penalty:</strong> Postgraduate female unemployment reached <strong>22.2%</strong> (vs. 8.6% for men; gender penalty: <strong>+13.7 percentage points</strong>).</li>
+                </ul>
+                <div style="margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--slate-200); font-size: 12.5px; color: var(--slate-700);">
+                  <strong>Multi-Year Inferential Baseline (Finding F6):</strong> Friedman omnibus test on the paired gender unemployment difference across education tiers confirmed that the gender penalty widens systematically with educational attainment across survey waves (<em>χ² = 467.27, p &lt; 0.001, ε² = 0.262</em>).
+                </div>
+              </div>
+
+              <div class="methodology-banner" style="margin-top: 10px;">
+                <strong>Non-Causal Interpretation:</strong> Observational PLFS data cannot distinguish whether high graduate unemployment is driven by credential queuing for formal white-collar jobs, lack of local employer demand, or household reservation wages.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- THEME 5 CARD (Enterprise-Composition Analysis Layout) -->
+      <div class="theme-card" id="tab1-theme-5">
+        <div class="theme-card-header">
+          <div class="theme-badge">Theme 5: Enterprise Segmentation</div>
+          <h3 class="theme-title">Gendered Enterprise Structure of Employment</h3>
+          <div class="theme-scope-tags">
+            <span class="scope-tag">PLFS Dataset 7131</span>
+            <span class="scope-tag">Non-Agricultural (NIC 05–99)</span>
+            <span class="scope-tag">Rural + Urban Combined</span>
+            <span class="scope-tag">8 Enterprise Categories</span>
+            <span class="scope-tag">All 36 States/UTs (Unweighted Mean)</span>
+          </div>
+        </div>
+        
+        <div class="theme-fullwidth-container" style="padding: 20px 24px;">
+          <!-- Controls Bar -->
+          <div class="theme-chart-controls" style="margin-bottom: 16px;">
+            <label class="control-label" style="font-size: 12px; margin-bottom: 0;">Survey Year:</label>
+            <div class="radio-pill-group mini-pills" id="tab1-t5-year-radios">
+              <label class="pill-option"><input type="radio" name="tab1_t5_year" value="2017"> 2017</label>
+              <label class="pill-option"><input type="radio" name="tab1_t5_year" value="2018"> 2018</label>
+              <label class="pill-option"><input type="radio" name="tab1_t5_year" value="2019"> 2019</label>
+              <label class="pill-option"><input type="radio" name="tab1_t5_year" value="2020"> 2020</label>
+              <label class="pill-option"><input type="radio" name="tab1_t5_year" value="2021"> 2021</label>
+              <label class="pill-option"><input type="radio" name="tab1_t5_year" value="2022"> 2022</label>
+              <label class="pill-option active"><input type="radio" name="tab1_t5_year" value="2023" checked> 2023</label>
+            </div>
+          </div>
+
+          <!-- Full Width Enterprise Composition Chart -->
+          <div id="tab1-chart-theme5" class="chart-container" style="min-height: 440px; margin-bottom: 14px;"></div>
+
+          <!-- Gender Distribution Clarification Banner -->
+          <div class="composition-clarification-banner">
+            <strong>Methodological Note on Gender Distributions:</strong> Percentages indicate how each gender's non-agricultural workforce is distributed across enterprise categories (each gender's total across all 8 enterprise types sums to 100%). They do not represent the gender share or proportion of women within each enterprise type.
+          </div>
+
+          <!-- Key Findings: 4 Compact Metric Cards -->
+          <div class="finding-cards-grid" id="tab1-t5-finding-cards"></div>
+
+          <!-- Enterprise Structure Interpretation Section -->
+          <div class="enterprise-interpretation-box" id="tab1-t5-interpretation"></div>
+
+          <!-- Collapsible Statistical Evidence and Methodology -->
+          <div class="accordion-item" id="tab1-t5-stat-accordion" style="margin-top: 18px;">
+            <button class="accordion-trigger" style="background: var(--slate-50); border: 1px solid var(--slate-200); border-radius: var(--radius-sm); font-size: 13.5px;">
+              📊 Statistical Evidence and Methodology (Findings F10 &amp; F11)
+            </button>
+            <div class="accordion-content" style="background: #ffffff; border: 1px solid var(--slate-200); border-top: none;">
+              <ul style="padding-left: 18px; margin-bottom: 8px;">
+                <li style="margin-bottom: 8px;">
+                  <strong>Structural Gender Divergence (Finding F11):</strong> Wilcoxon signed-rank test on matched State × Year enterprise composition vectors confirmed systematic divergence between female and male distributions across 252 matched observations across survey waves (<em>W = 31,878.0, p &lt; 0.001, r = 0.867</em>; mean Euclidean norm = 25.03, N = 252 matched State × Year pairs). This inferential test establishes that gender enterprise segmentation is statistically robust nationwide.
+                </li>
+                <li>
+                  <strong>Temporal Compositional Shift (Finding F10):</strong> Wilcoxon signed-rank test confirmed a statistically significant structural reallocation in non-agricultural enterprise composition between 2017 and 2023 across 36 matched states (<em>W = 666.0, p &lt; 0.001, r = 0.872</em>; mean Euclidean distance = 14.96, N = 36 matched states).
+                </li>
+              </ul>
+              <div class="methodology-note" style="margin-top: 10px; font-size: 12px; color: var(--slate-600); line-height: 1.45;">
+                <strong>Note on Inferential Scope:</strong> Findings F10 and F11 represent multi-year inferential hypothesis tests across matched panel observations (N = 36 matched states for F10; N = 252 matched State × Year pairs for F11). They evaluate longitudinal and cross-sectional structural consistency across survey rounds, distinct from the single-year descriptive cross-sectional metrics displayed above.
+              </div>
+            </div>
+          </div>
+
+          <!-- Coverage Notice below evidence section -->
+          <div class="methodology-banner" style="margin-top: 14px; margin-bottom: 0;">
+            <strong>Data Coverage &amp; Survey Notice:</strong> Percentages represent each gender's distribution across enterprise categories within non-agricultural divisions NIC 05–99 (Rural + Urban combined, PLFS Dataset 7131, unweighted state analytical means across 36 States/UTs). They do not measure female composition within enterprises. By survey design, enterprise types are unrecorded for agricultural activities.
+          </div>
+        </div>
       </div>
     </section>
 
