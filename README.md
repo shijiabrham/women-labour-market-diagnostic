@@ -141,3 +141,8 @@ Detailed methodology, validation and findings are documented in the `outputs/` d
 ## Project output
 
 A publicly accessible interactive labour-market diagnostic intended to support evidence-informed exploration by analysts and social-sector practitioners. It is designed to help users identify patterns and frame better questions—not to replace local research, programme monitoring or impact evaluation.
+
+## Capstone documents
+
+- [One-page Project Memo](PROJECT_MEMO.md) — a concise summary of the research question, findings, relevance and limitations.
+- [Project Story](PROJECT_STORY.md) — the project narrative, analytical approach, key findings and methodological boundaries.
